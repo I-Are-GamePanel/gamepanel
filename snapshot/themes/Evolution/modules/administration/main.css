@@ -1,0 +1,141 @@
+.administration-buttons div{
+	padding:15px 10px 5px 20px;
+	transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+	min-width:125px;
+	min-height:100px;
+}
+
+.administration-buttons div:hover {
+	transition:all 0.1s;
+	-webkit-transition:all 0.1s;
+	background-color:#379BB9;
+	border-radius:3px;
+	text-decoration:none;
+	cursor:pointer;
+	box-shadow:3px 3px 3px 3px #373737, inset 0px 0px 0px 0px #49d400;
+	-webkit-box-shadow:3px 3px 3px 3px #373737, inset 0px 0px 0px 0px #49d400;
+}
+
+.administration-buttons div:active {
+	background-color:#379BB9;
+	box-shadow:1px 1px 1px 1px #373737, inset 0px 0px 0px 0px #49d400;
+	-webkit-box-shadow:1px 1px 1px 1px #373737, inset 0px 0px 0px 0px #49d400;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	color:#555;
+	text-shadow:0.1em 0.1em #FFF;
+}
+
+.administration-buttons div:active  img{
+	position:relative;
+	top:0.5px;
+	left:0.5px;
+}
+
+.administration-buttons, .administration-buttons:hover, .administration-buttons :active {
+	color:#d8d8d8 !important;
+	text-decoration:none;
+}
+
+.administration-buttons-hmargin{
+	width:40px;
+}
+
+.administration-buttons-vmargin{
+	height:40px;
+}
+
+#file {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+table.administration-table > tbody > tr > td > form > button {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+table.center > tbody > tr > td > form > input[value="Add it!"] {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+table.center > tbody > tr > td > input[value="Change buttons order"] {
+	margin-top:10px;
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+#refresh-manual a {
+/*	display:none !important; */
+}
+
+#refresh-manual {
+    color:#333;
+    height:23px;
+    background:none repeat scroll 0% 0% #484848;
+    padding-top:5px;
+    padding-left:5px;
+    padding-right:5px;
+    text-align:center;
+    font-family:"Trebuchet MS";
+    font-size:12px;
+    border-radius:0px 0px 3px 3px;
+    right:5%;
+    position:absolute;
+}
+
+.main-content {
+    background:none repeat scroll 0% 0% #505050;
+    border-radius:3px;
+	-moz-border-radius:3px;
+    border:1px solid #484848;
+    overflow:auto;
+    padding-right:1%;
+    padding-bottom:1%;
+    padding-left:1%;
+}
+
+#content {
+    border-radius:3px;
+	-moz-border-radius:3px;
+    background:#505050;
+    margin:0px auto;
+    text-align:left;
+}

@@ -1,0 +1,29 @@
+.main-content {
+    background:none repeat scroll 0% 0% #505050;
+    border-radius:3px;
+	-moz-border-radius:3px;
+    border:1px solid #484848;
+    overflow:auto;
+    padding-right:1%;
+    padding-bottom:1%;
+    padding-left:1%;
+}
+
+#content {
+	background:#505050;
+    border-radius:3px;
+	-moz-border-radius:3px;
+    margin:0px auto;
+    text-align:left;
+}
+
+input[type="submit"] {
+    border:1px solid #373737;
+	background:#373737;
+    padding:2px 8px;
+    margin-bottom:10px;
+	color:#fff;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}

@@ -1,0 +1,254 @@
+#main {
+	background:#d3d3d3 !important;
+}
+
+body {
+	background:#686868 !important;
+	color:#fff !important;
+}
+
+#BrowseForm > table > tbody > tr > td > span {
+	color:#000;
+}
+
+#main > div {
+	color:#000;
+}
+
+.page > table > tbody > tr > td > a:link {
+	color:#fff !important;
+}
+
+.header,.page .label {
+	background:none !important;
+}
+
+.page > table {
+	background-image:none !important;
+	border:none !important;
+}
+
+.page > table > tbody > tr > td > h1{
+	font-size:125%;
+    color:#FFF !important;
+    background:none repeat scroll 0% 0% #505050 !important;
+    padding-top:10px !important;
+    padding-bottom:10px !important;
+    margin-left:-2px !important;
+    margin-right:-2px !important;
+}
+
+.label {
+	display:none !important;
+}
+
+.header > input {
+	border:1px solid #373737 !important;
+	background:none repeat scroll 0% 0% #373737 !important;
+	color:#FFF !important;
+	margin-top:15px !important;
+	margin-bottom:15px !important;
+	margin-right:-500px !important;
+	cursor:pointer !important;
+	-moz-border-radius:3px !important;
+	border-radius:3px !important;
+	text-transform:uppercase !important;
+}
+
+.header {
+	color:#686868 !important;
+	cursor:default !important;
+}
+
+#p_561b57_installationProgress {
+	display:none !important;
+}
+
+.progressBar {
+	display:none !important;
+}
+
+#main > div {
+	font-size:90% !important;
+	margin-top:10px !important;
+	margin-left:auto !important;
+	margin-right:auto !important;
+}
+
+.browse_rows_actions > td > table > tbody > tr > td {
+	padding:10px !important;
+}
+
+#StatusbarForm > span {
+	margin-top:20px !important;
+	margin-right:20px !important;
+}
+
+.browse_rows_actions > td > table > tbody > tr > td > input {
+	color:#fff !important;
+	background:none repeat scroll 0% 0% #373737 !important;
+	border:1px solid #373737 !important;
+	padding:3px !important;
+	cursor:pointer !important;
+	-moz-border-radius:3px !important;
+	border-radius:3px !important;
+	text-transform:uppercase !important;
+}
+
+.browse_rows_actions > td > table > tbody > tr > td > div > input {
+	color:#fff !important;
+	background:none repeat scroll 0% 0% #373737 !important;
+	border:1px solid #373737 !important;
+	padding:3px !important;
+	cursor:pointer !important;
+	-moz-border-radius:3px !important;
+	border-radius:3px !important;
+	text-transform:uppercase !important;
+}
+
+tr.browse_rows_odd {
+	background-color:#dedede !important;
+}
+
+tr.browse_rows_even {
+	background-color:#dedede !important;
+}
+
+.browse_rows_actions > td > table > tbody > tr > td {
+	font-size:small !important;
+}
+
+.browse_rows_heading > td {
+	padding-top:10px !important;
+	padding-bottom:10px !important;
+	background-color:#c8c8c8 !important;
+}
+
+.browse_rows_actions > td {
+	background-color:#c8c8c8 !important;
+}
+
+#main > img {
+	float:left !important;
+}
+
+.page > table > tbody > tr > td > form > input {
+	color:#fff !important;
+	border:1px solid #373737 !important;
+	background:#373737 !important;
+	padding-top:5px !important;
+	padding-bottom:5px !important;
+	padding-left:10px !important;
+	padding-right:10px !important;
+	cursor:pointer !important;
+	-moz-border-radius:3px !important;
+	border-radius:3px !important;
+	text-transform:uppercase !important;
+}
+
+#CopyMoveDeleteForm > table {
+	margin-top:20px !important;
+	margin-bottom:20px !important;
+	border:1px solid #c8c8c8 !important;
+	margin-left:auto !important; 
+    margin-right:auto !important;
+	background:#c8c8c8 !important;
+	border:1px solid #787878 !important;
+}
+
+#CopyMoveDeleteForm > table > tbody > tr > td > div {
+	font-size:10px !important;
+	color:#000 !important;
+}
+
+#CopyMoveDeleteForm > table > tbody > tr > td {
+	color:#000 !important;
+}
+
+#CopyMoveDeleteForm {
+	margin-top:30px !important;
+	padding-top:10px !important;
+	padding-bottom:10px !important;
+	color:#000 !important;
+	background:#c8c8c8 !important;
+	border:1px solid #787878 !important;
+}
+
+#RenameForm {
+	margin-top:30px !important;
+	padding-top:10px !important;
+	padding-bottom:10px !important;
+	color:#000 !important;
+	background:#c8c8c8 !important;
+	border:1px solid #787878 !important;
+}
+
+#ChmodForm > table {
+	margin-top:20px !important;
+	margin-bottom:20px !important;
+	padding-top:10px !important;
+	padding-bottom:10px !important;
+	border:1px solid #787878 !important;
+	margin-left:auto !important; 
+    margin-right:auto !important;
+	background:#c8c8c8 !important;
+	color:#000 !important;
+}
+
+#ZipForm > div {
+	margin-top:20px !important;
+	margin-bottom:20px !important;
+	padding-top:10px !important;
+	padding-bottom:10px !important;
+	border:1px solid #787878 !important;
+	margin-left:auto !important; 
+    margin-right:auto !important;
+	background:#c8c8c8 !important;
+	color:#000 !important;
+}
+
+#UnzipForm > table {
+	margin-top:20px !important;
+	margin-bottom:20px !important;
+	padding-top:10px !important;
+	padding-bottom:10px !important;
+	border:1px solid #787878 !important;
+	margin-left:auto !important; 
+    margin-right:auto !important;
+	background:#c8c8c8 !important;
+	color:#000 !important;
+}
+
+#FindstringForm {
+	margin-top:20px !important;
+	margin-bottom:20px !important;
+	border:1px solid #c8c8c8 !important;
+	margin-left:auto !important; 
+    margin-right:auto !important;
+	background:#c8c8c8 !important;
+	color:#000 !important;
+}
+
+#UploadForm > table {
+	margin-top:20px !important;
+	margin-bottom:20px !important;
+	border:1px solid #c8c8c8 !important;
+	margin-left:auto !important; 
+    margin-right:auto !important;
+	background:#c8c8c8 !important;
+	color:#000 !important;
+}
+
+#CalculateSizeForm {
+	margin-top:20px !important;
+	border:1px solid #c8c8c8 !important;
+	margin-left:auto !important; 
+    margin-right:auto !important;
+	background:#c8c8c8 !important;
+	color:#000 !important;
+}
+
+#UploadForm > table > tbody > tr > td {
+	padding:10px !important;
+	border:1px solid #787878 !important;
+}

@@ -1,0 +1,96 @@
+<game_config>
+  <game_key>arma3_linux32</game_key>
+  <protocol>lgsl</protocol>
+  <lgsl_query_name>arma3</lgsl_query_name>
+  <installer>steamcmd</installer>
+  <game_name>Arma 3</game_name>
+  <server_exec_name>arma3server</server_exec_name>
+  <cli_template>%CONFIG% %CFG% %PROFILES% %NAME% %IP% %PORT% %PLAYERS% %MODLIST% %SERVERMODLIST% %AUTOINIT%</cli_template>
+  <cli_params>
+   <cli_param cli_string="-ip=" id="IP"/>
+   <cli_param cli_string="-port=" id="PORT"/>
+   <cli_param cli_string="-maxplayers=" id="PLAYERS"/>
+  </cli_params>
+  <cli_allow_chars>@</cli_allow_chars> <!-- escaped by default: \ " ' | & ; > < ` $ ( ) [ ] -->
+  <max_user_amount>64</max_user_amount>
+  <control_protocol>rcon</control_protocol>
+  <mods>
+   <mod key='Arma3'>
+    <name>none</name>
+    <installer_name>233780</installer_name>
+   </mod>
+  </mods>
+  <replace_texts>
+   <text key="home_name">
+    <default>(hostname\s*=\s*")(.*)(";)</default>
+    <var>hostname = "%key%";</var>
+    <filepath>cfg/server.cfg</filepath>
+    <options>key-regex</options>
+   </text>
+   <text key="max_players">
+    <default>(maxPlayers\s*=\s*)(.*)(;)</default>
+    <var>maxPlayers = %key%;</var>
+    <filepath>cfg/server.cfg</filepath>
+    <options>key-regex</options>
+   </text>
+   <text key="control_password">
+    <default>(passwordAdmin\s*=\s*")(.*)(";)</default>
+    <var>passwordAdmin = "%key%";</var>
+    <filepath>cfg/server.cfg</filepath>
+    <options>key-regex</options>
+   </text>
+   <text key="control_password">
+    <default>(RconPassword\s*=\s*")(.*)(";)</default>
+    <var>RconPassword = "%key%";</var>
+    <filepath>cfg/beserver/beserver.cfg</filepath>
+    <options>key-regex</options>
+   </text>
+  </replace_texts>
+
+<server_params>
+
+ <param id="CONFIG" key="-config=" type="text">
+<default>cfg/server.cfg</default>
+<option>ns</option>
+ <caption>Config file to load</caption>
+ <desc>Selects the Server Config File. Config file for server specific settings like admin password and mission selection</desc>
+ </param>
+
+ <param id="CFG" key="-cfg=" type="text">
+<default>cfg/basic.cfg</default>
+<option>ns</option>
+ <caption>Arma Basic settings file to load</caption>
+ <desc>Selects the Server Basic Config file. Config file for server specific settings like network performance tuning</desc>
+ </param>
+
+ <param id="NAME" key="-name=" type="text">
+<default>player</default>
+<option>ns</option>
+ <caption>Name of User-Profile</caption>
+ <desc> </desc>
+ </param>
+
+ <param id="MODLIST" key="-mod=" type="text">
+<option>ns</option>
+ <caption>Mods ex: @A-Map;@AI;@Moreguns;@TurboCars</caption>
+ <desc>Semicolon after each mod and you MUST copy the KEY into your keys folder.  </desc>
+ </param>
+
+
+<param id="SERVERMODLIST" key="-servermod=" type="text">
+<option>ns</option>
+ <caption>SERVER SIDE Mods ex: @A-Map;@AI;@Moreguns;@TurboCars</caption>
+ <desc>Semicolon after each mod.  A SERVERMOD is a mod that is ONLY required on the server. Clients do not need to download this mod. If its a SERVERSIDE mod, it will probably tell you so. Otherwise assume its a MOD</desc>
+   </param>
+
+  <param key="-autoinit" type="checkbox_key_value" id="AUTOINIT">
+<caption>Automatically initialize mission just like first client does</caption>
+      <desc>Server config file (server.cfg) must contain "Persistent=1;", if it's 0 autoInit skips</desc>
+    </param>
+</server_params>
+
+<configuration_files>
+ <file description="Server settings">cfg/server.cfg</file>
+ <file description="Basic Network settings" >cfg/basic.cfg</file>
+ </configuration_files>
+</game_config>

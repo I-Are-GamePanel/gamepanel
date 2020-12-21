@@ -1,0 +1,16 @@
+<navigation>
+  <!-- User Side -->
+  <page key="rs_assign_server" file="assign_server.php" access="user,admin" />
+  <page key="rs_packs_shop" file="shop.php" access="user,admin" />
+  <page key="cart" file="cart.php" access="user,admin" />
+  <page key="add_to_cart" file="add_to_cart.php" access="user,admin" />
+  <page key="paypal" file="paypal.php" access="user,admin" /> 
+  <!-- Admin Side -->
+  <page key="rs_settings" file="settings.php" access="admin" />
+  <page key="rs_services" file="services.php" access="admin" />
+  <page key="rs_accounts" file="accounts.php" access="admin" />
+  <!-- Billing -->
+  <page key="account_details" file="account_details.php" access="user,admin" />
+  <page key="paid" file="paid.php" access="user,admin" />
+  <page key="bill" file="bill.php" access="user,admin" /> 
+</navigation>

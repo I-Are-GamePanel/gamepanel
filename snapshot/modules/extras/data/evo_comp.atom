@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/frank/evo_comp/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/frank/evo_comp/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/frank/evo_comp/commits/master.atom"/>
+  <title>Recent Commits to evo_comp:master</title>
+  <updated>2018-12-24T15:44:06Z</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/bf123ff30d5e67a78abeeb55036956ed78886860</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/evo_comp/commit/bf123ff30d5e67a78abeeb55036956ed78886860"/>
+    <title>
+        Update README.md
+    </title>
+    <updated>2018-12-24T15:44:06Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Update README.md&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/ba48d549dda24cf42fd31d07143d9650abe74431</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/evo_comp/commit/ba48d549dda24cf42fd31d07143d9650abe74431"/>
+    <title>
+        Added report to repository
+    </title>
+    <updated>2018-12-24T14:36:20Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Added report to repository&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/dcd62e3dc9a67d73a90bfe4caec1eadfb6ec48d2</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/evo_comp/commit/dcd62e3dc9a67d73a90bfe4caec1eadfb6ec48d2"/>
+    <title>
+        Merge branch &#39;master&#39; of https://github.com/frank/evo_comp
+    </title>
+    <updated>2018-10-21T14:29:07Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge branch &amp;#39;master&amp;#39; of https://github.com/frank/evo_comp&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/0f74b4acdd8356c20a81ad8fa3c23355d6b50f31</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/evo_comp/commit/0f74b4acdd8356c20a81ad8fa3c23355d6b50f31"/>
+    <title>
+        merge error solved
+    </title>
+    <updated>2018-10-21T14:28:32Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;merge error solved&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/b6e94cd58a33b958bdb667cd3180003f3631a460</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/evo_comp/commit/b6e94cd58a33b958bdb667cd3180003f3631a460"/>
+    <title>
+        Update README.md
+    </title>
+    <updated>2018-10-21T14:12:03Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Update README.md&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/8e77de467d1ffa9d74276a84dc8f819773172a43</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/evo_comp/commit/8e77de467d1ffa9d74276a84dc8f819773172a43"/>
+    <title>
+        Update README.md
+    </title>
+    <updated>2018-10-21T14:11:34Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Update README.md&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/291095378dc2a68577bd226f6624936e717d3d72</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/evo_comp/commit/291095378dc2a68577bd226f6624936e717d3d72"/>
+    <title>
+        Merge branch &#39;joseph&#39;
+    </title>
+    <updated>2018-10-21T14:07:17Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge branch &amp;#39;joseph&amp;#39;&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/938d9930d60fd2ba7367f2c0b8b0116a305634b3</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/evo_comp/commit/938d9930d60fd2ba7367f2c0b8b0116a305634b3"/>
+    <title>
+        merges from pull request to master
+    </title>
+    <updated>2018-10-21T14:05:30Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;merges from pull request to master&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/72a2d925439e3d1d41f3f07c9f3e25b2f0cb5165</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/evo_comp/commit/72a2d925439e3d1d41f3f07c9f3e25b2f0cb5165"/>
+    <title>
+        Merge branch &#39;joseph&#39; of https://github.com/frank/evo_comp into joseph
+    </title>
+    <updated>2018-10-21T13:54:36Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge branch &amp;#39;joseph&amp;#39; of https://github.com/frank/evo_comp into joseph&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/eeb7cab9a53c0414515fd4b21b6032864f6a2bb1</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/evo_comp/commit/eeb7cab9a53c0414515fd4b21b6032864f6a2bb1"/>
+    <title>
+        Final changes to params
+    </title>
+    <updated>2018-10-21T13:54:32Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Final changes to params&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/c38d69ed4ae9e26357f79e240d75ad301eee916c</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/evo_comp/commit/c38d69ed4ae9e26357f79e240d75ad301eee916c"/>
+    <title>
+        fixed results
+    </title>
+    <updated>2018-10-20T09:06:51Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;fixed results&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/3bdce450542687d85102bfd68fff011050814ae9</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/evo_comp/commit/3bdce450542687d85102bfd68fff011050814ae9"/>
+    <title>
+        merges
+    </title>
+    <updated>2018-10-20T00:25:11Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;merges&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/993abae7f3ad9c5893eab4c748ab117e88807d8a</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/evo_comp/commit/993abae7f3ad9c5893eab4c748ab117e88807d8a"/>
+    <title>
+        final combined data
+    </title>
+    <updated>2018-10-20T00:18:36Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;final combined data&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/ae2804ff3b51077fab4033958413ecae51753e0b</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/evo_comp/commit/ae2804ff3b51077fab4033958413ecae51753e0b"/>
+    <title>
+        fixed result name
+    </title>
+    <updated>2018-10-19T22:13:41Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;fixed result name&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/4549f5364d3bb0f4ef4ca3e6c56360a71764a5bc</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/evo_comp/commit/4549f5364d3bb0f4ef4ca3e6c56360a71764a5bc"/>
+    <title>
+        Merge branch &#39;joseph&#39; of github.com:frank/evo_comp into joseph
+    </title>
+    <updated>2018-10-19T22:12:16Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge branch &amp;#39;joseph&amp;#39; of github.com:frank/evo_comp into joseph&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/5255a86a66df6d13410aab09d0301625626663e1</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/evo_comp/commit/5255a86a66df6d13410aab09d0301625626663e1"/>
+    <title>
+        added cr variable data
+    </title>
+    <updated>2018-10-19T22:12:08Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;added cr variable data&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/0cc079301020f708db110afeb7f1bdc65065077f</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/evo_comp/commit/0cc079301020f708db110afeb7f1bdc65065077f"/>
+    <title>
+        Merge branch &#39;joseph&#39; of https://github.com/frank/evo_comp into joseph
+    </title>
+    <updated>2018-10-19T22:07:21Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge branch &amp;#39;joseph&amp;#39; of https://github.com/frank/evo_comp into joseph&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/49bfe6c06cdeba3723841b538e5157baf5896463</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/evo_comp/commit/49bfe6c06cdeba3723841b538e5157baf5896463"/>
+    <title>
+        Added CR_dyn results
+    </title>
+    <updated>2018-10-19T22:07:13Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Added CR_dyn results&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/83aefb80e4e3d6c4ce852f6c47964c7e2804a95f</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/evo_comp/commit/83aefb80e4e3d6c4ce852f6c47964c7e2804a95f"/>
+    <title>
+        fixed data
+    </title>
+    <updated>2018-10-19T22:05:16Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;fixed data&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/f3939efccd77434b3ac3147440d9c0131d78f752</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/evo_comp/commit/f3939efccd77434b3ac3147440d9c0131d78f752"/>
+    <title>
+        fixed merge
+    </title>
+    <updated>2018-10-19T21:38:51Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;fixed merge&lt;/pre&gt;
+    </content>
+  </entry>
+</feed>

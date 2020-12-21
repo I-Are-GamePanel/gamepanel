@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/frank/oxylus/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/frank/oxylus/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/frank/oxylus/commits/master.atom"/>
+  <title>Recent Commits to oxylus:master</title>
+  <updated>2018-01-25T18:21:14Z</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/8926733744914ba59a50c321c62f8b645daec417</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/oxylus/commit/8926733744914ba59a50c321c62f8b645daec417"/>
+    <title>
+        Added final report pdf to the project. Also changed the executable to…
+    </title>
+    <updated>2018-01-25T18:21:14Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Added final report pdf to the project. Also changed the executable to reflect the final version of the program.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/405244be983a09d06dd3183a4f252f5ee468c436</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/oxylus/commit/405244be983a09d06dd3183a4f252f5ee468c436"/>
+    <title>
+        added log32.ico icon as executable&#39;s icon. Added ico as program icon …
+    </title>
+    <updated>2018-01-25T17:59:57Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;added log32.ico icon as executable&amp;#39;s icon. Added ico as program icon as well.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/9efe10fc944a5fcb5f8174cb69aeb299b77e6136</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/oxylus/commit/9efe10fc944a5fcb5f8174cb69aeb299b77e6136"/>
+    <title>
+        One of the rules for non-type projects was wrong
+    </title>
+    <updated>2018-01-23T22:00:24Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;One of the rules for non-type projects was wrong&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/afef9f974b1f9bb8d279034671d2dd38eb44d46a</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/oxylus/commit/afef9f974b1f9bb8d279034671d2dd38eb44d46a"/>
+    <title>
+        last try attempting to push exe
+    </title>
+    <updated>2018-01-15T02:15:06Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;last try attempting to push exe&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/a2e3913fb2d936d14b3339c12551a85a2e5f6d46</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/oxylus/commit/a2e3913fb2d936d14b3339c12551a85a2e5f6d46"/>
+    <title>
+        Fixed font, removed exe
+    </title>
+    <updated>2018-01-15T02:13:32Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Fixed font, removed exe&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/2049fdc6ec870c0df40475f51a9d3ef245edfc5f</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/oxylus/commit/2049fdc6ec870c0df40475f51a9d3ef245edfc5f"/>
+    <title>
+        removed print statement
+    </title>
+    <updated>2018-01-14T23:34:25Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;removed print statement&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/0d7b677e75fdf9ea0b168827ccbc3fa26b8838d3</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/oxylus/commit/0d7b677e75fdf9ea0b168827ccbc3fa26b8838d3"/>
+    <title>
+        Moved Data,Rules,Facts,Questions csv files into model folder. Changed…
+    </title>
+    <updated>2018-01-14T23:11:44Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Moved Data,Rules,Facts,Questions csv files into model folder. Changed paths accordingly&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/1c779dc8c6590f0e511bd3a6bc8b0cf26e40d12a</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/oxylus/commit/1c779dc8c6590f0e511bd3a6bc8b0cf26e40d12a"/>
+    <title>
+        Deleted Anton&#39;s Skype archive from our project
+    </title>
+    <updated>2018-01-14T20:16:21Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Deleted Anton&amp;#39;s Skype archive from our project&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/53da79a8a1b646ed184eb07919fa39261a826113</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/oxylus/commit/53da79a8a1b646ed184eb07919fa39261a826113"/>
+    <title>
+        Added script to make executable
+    </title>
+    <updated>2018-01-14T18:57:45Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars1.githubusercontent.com/u/19983153?s=30&amp;v=4"/>
+    <author>
+      <name>NotNANtoN</name>
+      <uri>https://github.com/NotNANtoN</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Added script to make executable&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/9f49057693e67fa7d3e4eaf07ba201722c1ad01e</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/oxylus/commit/9f49057693e67fa7d3e4eaf07ba201722c1ad01e"/>
+    <title>
+        Fixed dat nasty paint bug in our logic. I think we are donzo, boyos
+    </title>
+    <updated>2018-01-14T17:37:38Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Fixed dat nasty paint bug in our logic. I think we are donzo, boyos&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/8765164a5dd3e838bccb3517d66cb0b840ff48aa</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/oxylus/commit/8765164a5dd3e838bccb3517d66cb0b840ff48aa"/>
+    <title>
+        Fixed rules, facts and questions to better fit expert&#39;s knowledge. Ad…
+    </title>
+    <updated>2018-01-14T17:27:18Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Fixed rules, facts and questions to better fit expert&amp;#39;s knowledge. Added descriptions to questions. There is a bug where painting will still be asked after saying yes to bethell process&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/aad8a203c788d5d6f0736842b8f61cf67cf67433</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/oxylus/commit/aad8a203c788d5d6f0736842b8f61cf67cf67433"/>
+    <title>
+        Removed print statements in view
+    </title>
+    <updated>2018-01-14T13:19:21Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Removed print statements in view&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/0dd4f92e2a83620d9752640e1ecdac1311f5f9b1</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/oxylus/commit/0dd4f92e2a83620d9752640e1ecdac1311f5f9b1"/>
+    <title>
+        Fixed the sideBar bug. It had to do with reseting thelist of listerne…
+    </title>
+    <updated>2018-01-14T13:14:39Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Fixed the sideBar bug. It had to do with reseting thelist of listerners to the model. So model stopped notifying the view of anythin after initial reset&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/3e1d7c67ea6157a894311bfe9e54c39080cf3fb5</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/oxylus/commit/3e1d7c67ea6157a894311bfe9e54c39080cf3fb5"/>
+    <title>
+        Merge branch &#39;master&#39; of https://github.com/frank/oxylus
+    </title>
+    <updated>2018-01-14T13:02:38Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge branch &amp;#39;master&amp;#39; of https://github.com/frank/oxylus&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/b32eefb022f5e40d9175ec4cc0793c9fe90d1e34</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/oxylus/commit/b32eefb022f5e40d9175ec4cc0793c9fe90d1e34"/>
+    <title>
+        Trying to fix still the same pesky view bug
+    </title>
+    <updated>2018-01-14T13:02:32Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Trying to fix still the same pesky view bug&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/4b9d93daed5559f6094d8696344c066d7fb602cc</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/oxylus/commit/4b9d93daed5559f6094d8696344c066d7fb602cc"/>
+    <title>
+        Fixed merge
+    </title>
+    <updated>2018-01-14T13:02:17Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Fixed merge&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/d648f96d3fa85f2421db97ec1e5048b8c61b68a0</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/oxylus/commit/d648f96d3fa85f2421db97ec1e5048b8c61b68a0"/>
+    <title>
+        Commented out all non-error print statements
+    </title>
+    <updated>2018-01-14T12:58:11Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Commented out all non-error print statements&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/aff793e886bda65e5a4b24138348dea6aa9c8ede</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/oxylus/commit/aff793e886bda65e5a4b24138348dea6aa9c8ede"/>
+    <title>
+        merges
+    </title>
+    <updated>2018-01-14T12:52:50Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;merges&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/c37eb702633861d1d04fbad80f47b2ca731e2832</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/oxylus/commit/c37eb702633861d1d04fbad80f47b2ca731e2832"/>
+    <title>
+        trying to fix sidebar Labels not resetting problem
+    </title>
+    <updated>2018-01-14T12:52:00Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/27855970?s=30&amp;v=4"/>
+    <author>
+      <name>NILOIDE</name>
+      <uri>https://github.com/NILOIDE</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;trying to fix sidebar Labels not resetting problem&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/1aa0f4e7a63682cc5f3a3578a55ea06d6b22deef</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/oxylus/commit/1aa0f4e7a63682cc5f3a3578a55ea06d6b22deef"/>
+    <title>
+        Added a call to a reset function in the view when the reset button is…
+    </title>
+    <updated>2018-01-14T12:33:13Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Added a call to a reset function in the view when the reset button is pressed&lt;/pre&gt;
+    </content>
+  </entry>
+</feed>

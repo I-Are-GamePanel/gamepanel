@@ -1,0 +1,22 @@
+.no_tickets {
+    padding: 12px;
+    background-color: pink;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ticketOptionLinks {
+	padding: 4px;
+	border-bottom: 1px solid #e3e3e3;
+}
+
+.ticketListTable {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.ticketListTable th {
+	text-align: left;
+}
+
+.ticketPagination {}

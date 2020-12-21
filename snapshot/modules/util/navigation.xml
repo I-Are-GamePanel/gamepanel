@@ -1,0 +1,8 @@
+<navigation>
+  <page key="default" file="util.php" access="user,admin,subuser" />
+  <page key="agents" file="agents.php" access="user,admin,subuser" />
+  <page key="addadmin_helper" file="addadmin_helper.php" access="user,admin,subuser" />
+  <page key="amx_addadmin_helper" file="amx_addadmin_helper.php" access="user,admin,subuser" />
+  <page key="steamid_converter" file="steamid_converter.php" access="user,admin,subuser" />
+  <page key="network_tools" file="network_tools.php" access="user,admin,subuser" />
+</navigation>

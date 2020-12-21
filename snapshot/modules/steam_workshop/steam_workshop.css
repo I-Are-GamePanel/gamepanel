@@ -1,0 +1,17 @@
+#scrolling_checkbox{ 
+	border:2px solid #ccc;
+	width:500px;
+	display: inline-block;
+	height: 80px;
+	overflow-y: scroll;
+	text-align:left;
+}
+
+#uninstall_scrolling_checkbox{ 
+	border:2px solid #ccc;
+	width:500px;
+	display: inline-block;
+	height: 80px;
+	overflow-y: scroll;
+	text-align:left;
+}

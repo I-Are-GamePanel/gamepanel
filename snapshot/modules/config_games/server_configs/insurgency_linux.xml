@@ -1,0 +1,58 @@
+<game_config>
+  <game_key>ins_linux32</game_key>
+  <protocol>lgsl</protocol>
+  <lgsl_query_name>source</lgsl_query_name>
+  <installer>steamcmd</installer>
+  <game_name>Insurgency</game_name>
+  <server_exec_name>srcds_linux</server_exec_name>
+  <cli_template>-nohltv %GAME_TYPE% %PID_FILE% %MAP% %IP% %PORT% %PLAYERS%</cli_template>
+  <cli_params>
+    <cli_param id="PID_FILE" cli_string="-pidfile" options="s" />
+    <cli_param id="MAP" cli_string="+map" options="s" />
+    <cli_param id="IP" cli_string="+ip" options="s" />
+    <cli_param id="PORT" cli_string="+port" options="s" />
+    <cli_param id="PLAYERS" cli_string="-maxplayers" options="s" />
+    <cli_param id="GAME_TYPE" cli_string="-game" options="s" />
+  </cli_params>
+  <maps_location>insurgency/maps</maps_location>
+  <map_list>insurgency/maplist.txt</map_list>
+  <max_user_amount>32</max_user_amount>
+  <control_protocol>rcon2</control_protocol>
+  <mods>
+    <mod key="insurgency">
+      <name>none</name>
+      <installer_name>237410</installer_name>
+      <installer_login>anonymous</installer_login>
+    </mod>
+  </mods>
+  <server_params>
+    <param key="-insecure" type="checkbox_key_value">
+      <caption>Disable Valve Anti-Cheat</caption>
+      <desc>Will start the server without Valve Anti-Cheat technology.</desc>
+    </param>
+    <param key="-nomaster" type="checkbox_key_value">
+      <caption>Disable master server communication</caption>
+    </param>
+    <param key="-nobots" type="checkbox_key_value">
+      <caption>Disable bots</caption>
+    </param>
+  </server_params>
+
+<post_install>
+mv insurgency/cfg/server.cfg.example insurgency/cfg/server.cfg
+mv insurgency/mapcycle.txt.example insurgency/mapcycle.txt
+</post_install>
+<pre_start>
+</pre_start>
+
+  <environment_variables>
+	export LD_LIBRARY_PATH={OGP_HOME_DIR}:{OGP_HOME_DIR}/bin:{$LD_LIBRARY_PATH}
+  </environment_variables>
+<configuration_files>
+ <file description="Server settings">insurgency/cfg/server.cfg</file>
+ <file description="Map Cycle">insurgency/mapcycle.txt</file>
+
+</configuration_files>
+
+
+</game_config>

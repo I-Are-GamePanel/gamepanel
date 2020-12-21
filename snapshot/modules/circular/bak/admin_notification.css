@@ -1,0 +1,10 @@
+h2>i{
+	text-align:right;
+	display:block;
+	float:right;
+	margin-right:5px;
+}
+
+h2>i>a{
+	background:black;padding:5px;
+}

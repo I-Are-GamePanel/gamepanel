@@ -1,0 +1,79 @@
+table.center > tbody > tr > td > input[value="Add FTP account"] {
+    margin-top:15px;
+    background-color:#373737;
+    border:1px solid #373737;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left:10px;
+    padding-right:10px;
+    color:#ffffff;
+    cursor:pointer;
+    font-weight:bold;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    text-transform:uppercase;
+    margin-bottom:10px;
+}
+
+table.center > tbody > tr > td > input {
+	margin-left:2px;
+}
+
+#servermonitor > thead > tr {
+	color:#fff;
+}
+
+.main-content {
+    background:none repeat scroll 0% 0% #505050;
+    border-radius:3px;
+	-moz-border-radius:3px;
+    border:1px solid #484848;
+    overflow:auto;
+    padding-right:1%;
+    padding-bottom:1%;
+    padding-left:1%;
+}
+
+#content {
+    border-radius:3px;
+	-moz-border-radius:3px;
+    background:#505050;
+    margin:0px auto;
+    text-align:left;
+}
+
+tr.maintr.odd {
+    border-bottom:0px solid #373737 !important;
+}
+
+tr.maintr.even {
+    border-bottom:0px solid #373737 !important;
+}
+
+tr.expand-child.odd {
+    border-bottom:0px solid #373737 !important;
+}
+
+tr.expand-child.even {
+    border-bottom:0px solid #373737 !important;
+}
+
+table.tablesorter tbody td {
+    color:#d3d3d3;
+    padding-top:10px;
+	padding-bottom:10px;
+	padding-left:5px;
+    background-color:#373737;
+    vertical-align:top;
+}
+
+table.tablesorter tbody tr.odd td {
+    background-color:#585858;
+}
+
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+    background-color:#373737;
+    font-size:10pt;
+    padding-top:10px;
+    padding-bottom:10px;
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/OpenGamePanel/Theme-Metro/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Theme-Metro/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/OpenGamePanel/Theme-Metro/commits/master.atom"/>
+  <title>Recent Commits to Theme-Metro:master</title>
+  <updated>2018-08-05T20:26:15Z</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/ab2aa5e5b3d347e8b1bf4d7186dc51ac930ead08</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Theme-Metro/commit/ab2aa5e5b3d347e8b1bf4d7186dc51ac930ead08"/>
+    <title>
+        Fixed the overflow of pre tags.
+    </title>
+    <updated>2018-08-05T20:26:15Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars1.githubusercontent.com/u/6736736?s=30&amp;v=4"/>
+    <author>
+      <name>DieFeM</name>
+      <uri>https://github.com/DieFeM</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Fixed the overflow of pre tags.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/b1576537d055c5405ac60c880d315b2c64b96069</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Theme-Metro/commit/b1576537d055c5405ac60c880d315b2c64b96069"/>
+    <title>
+        Fixed a bug that was making the window to show up an horizontal scrol…
+    </title>
+    <updated>2018-08-03T06:38:09Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars1.githubusercontent.com/u/6736736?s=30&amp;v=4"/>
+    <author>
+      <name>DieFeM</name>
+      <uri>https://github.com/DieFeM</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Fixed a bug that was making the window to show up an horizontal scrollbar.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/b8c1abb41d46e48b7aaac0c28dab0a13da65bd01</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Theme-Metro/commit/b8c1abb41d46e48b7aaac0c28dab0a13da65bd01"/>
+    <title>
+        Fixed Monitor button
+    </title>
+    <updated>2018-08-02T14:55:17Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars1.githubusercontent.com/u/6736736?s=30&amp;v=4"/>
+    <author>
+      <name>DieFeM</name>
+      <uri>https://github.com/DieFeM</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Fixed Monitor button&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/faea129fbf0af74b8ddf5c1d177f9a0a2e2e571c</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Theme-Metro/commit/faea129fbf0af74b8ddf5c1d177f9a0a2e2e571c"/>
+    <title>
+        Initial
+    </title>
+    <updated>2018-08-02T02:32:19Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Initial&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/128576cdfde4957fb13b23c861cff92faec0867a</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Theme-Metro/commit/128576cdfde4957fb13b23c861cff92faec0867a"/>
+    <title>
+        Initial commit
+    </title>
+    <updated>2018-08-02T02:28:14Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Initial commit&lt;/pre&gt;
+    </content>
+  </entry>
+</feed>

@@ -1,0 +1,86 @@
+table#circular{
+	width:100%;
+}
+
+table#circular>tbody>tr>td>input[type="text"], 
+table#circular>tbody>tr>td>select,
+table#circular>tbody>tr>td>textarea{
+	width:100%;
+}
+
+#circular > tbody > tr:nth-child(1) > td:nth-child(1),
+#circular > tbody > tr:nth-child(3) > td:nth-child(1){
+	width:90px !important;
+	word-wrap:break-word;
+}
+
+.ql-editor>h0, .ql-editor>h1, .ql-editor>h1, 
+.ql-editor>h2, .ql-editor>h3, .ql-editor>h4, 
+.ql-editor>h5, .ql-editor>h6, .ql-editor>legend, 
+#circular_message>h0, #circular_message>h1, #circular_message>h1, 
+#circular_message>h2, #circular_message>h3, #circular_message>h4, 
+#circular_message>h5, #circular_message>h6, #circular_message>legend {
+	all: initial;
+}
+
+#circular_message{
+	padding:20px;
+}
+
+.ql-toolbar{
+	background:white;
+}
+
+#editor{
+	height:400px;
+	background:white;
+	color:black;
+	text-shadow:none;
+}
+
+.status_0{
+	content:url(../../images/online.png);
+}
+
+.status_1{
+	content:url(../../images/offline.png);
+}
+
+table#circular_admin_list,
+table#circular_list{
+	width:100%;
+}
+
+table#circular_list > tbody > tr > td:first-child,
+table#circular_admin_list > tbody > tr > td:first-child{
+	width:10px;
+	text-align:center;
+}
+
+table#circular_list > tbody > tr > td:last-child,
+table#circular_list > thead > tr > th:last-child,
+table#circular_admin_list > tbody > tr > td:last-child,
+table#circular_admin_list > thead > tr > th:last-child{
+	width:150px;
+	text-align:center;
+}
+
+table#circular_list > tbody > tr > td{
+	padding:5px;
+}
+
+table#circular_admin_list>thead>tr>th,
+table#circular_list>thead>tr>th{
+	background:black;
+	color:white;
+}
+
+table#circular_admin_list,
+table#circular_list{
+	border:1px solid black;
+}
+
+table#circular_admin_list>tbody>tr>td,
+table#circular_list>tbody>tr>td{
+	border:1px solid gray;
+}

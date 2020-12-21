@@ -1,0 +1,43 @@
+table.center > tbody > tr > td > input[value="Add Service"] {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+tr.tr0 > td > input[value="Edit"] {
+	margin-left:10px;
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+table.center > tbody > tr > td > form > input[value="Remove Service"] {
+	margin-left:10px;
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}

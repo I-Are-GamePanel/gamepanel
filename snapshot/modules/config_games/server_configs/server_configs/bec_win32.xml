@@ -1,0 +1,37 @@
+<game_config>
+  <game_key>bec_win32</game_key>
+  <installer>rsync</installer>
+  <game_name>BEC</game_name>
+  <server_exec_name>bec.exe</server_exec_name>
+  <cli_template>--dsc --dec -f config.cfg</cli_template>
+  <console_log>bec.log</console_log>                  
+
+  <mods>
+    <mod key='bec'>
+      <name>None</name>
+    </mod>
+  </mods>
+
+<server_params>
+ <param id="NOTE" key="NOTE" type="text">
+ <default>
+</default>
+<option>ns</option>
+ <caption>
+Read the &lt;a href=http://wiki.iaregamer.com/doku.php?id=bec target=_blank&gt;Wiki&lt;/a&gt; first.
+The BEC runs WITH your Arma/Dayz server. If your Arma/Dayz server will be off for more than short time, PLEASE stop this server also!
+You need to RESTART the BEC server if you make any changes to the configuration files.
+</caption>
+ </param>
+</server_params>
+
+
+<configuration_files>
+<file description="Configuration File">config/config.cfg</file>
+<file description="Scheduled Messages and Shutdown">config/scheduler.xml</file>
+<file description="List of Admins">config/admins.xml</file>
+<file description="Names forbidden for players">config/badnames.xml</file>
+<file description="Bad Words List">config/badwords.xml</file>
+<file description="Command definitions">config/commands.xml</file>
+</configuration_files>
+</game_config>

@@ -1,0 +1,9 @@
+<navigation>
+	<page key="default" file="supportTickets.php" access="admin,user,subuser" />
+	<page key="ticket_settings" file="ticketSettings.php" access="admin" />
+	<page key="submitticket" file="submitTicket.php" access="admin,user,subuser" />
+	<page key="viewticket" file="viewTicket.php" access="admin,user,subuser" />
+	<page key="rate" file="rating.php" access="admin,user,subuser" />
+	<page key="download" file="downloadAttachment.php" access="admin,user,subuser" />
+	<page key="notifications" file="notificationCount.php" access="admin,user,subuser" />
+</navigation>

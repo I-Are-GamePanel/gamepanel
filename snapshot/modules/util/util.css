@@ -1,0 +1,101 @@
+input[type=text], input[type=number], select {
+    width:100%;
+    padding:6px 10px;
+    margin:8px 0;
+    display:inline-block;
+    border:1px solid #ccc;
+    border-radius:4px;
+    box-sizing:border-box;
+}
+
+.main-content{
+	text-align:left;
+}
+
+.show{display:block;}
+.hide{display:none;}
+
+#tabs {
+	background:transparent;
+	border:none;
+}
+
+#tabs .ui-widget-header{
+	background:transparent;
+	border:none;
+	border-bottom:1px solid #c0c0c0;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	border-radius:0px;
+}
+
+#tabs .ui-tabs-nav .ui-state-default{
+	background:transparent;
+	border:none;
+}
+
+#tabs .ui-tabs-nav .ui-state-active{
+	background:transparent url('img/uiTabsArrow.png') no-repeat bottom center;
+	border:none;
+}
+
+#tabs .ui-tabs-nav .ui-state-default a{
+	color:#c0c0c0;
+}
+
+#tabs .ui-tabs-nav .ui-state-active a{
+	color:#459e00;
+}
+
+#your-address{
+	cursor:pointer;
+	color:#2780e3;
+	font-weight:bold;
+}
+
+#select_agent{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#loading{
+	border:16px solid #f3f3f3;
+	border-radius:50%;
+	border-top:16px solid #3498db;
+	width:64px;
+	height:64px;
+	-webkit-animation:spin 2s linear infinite;
+	animation:spin 2s linear infinite;
+	margin:auto;
+}
+
+@-webkit-keyframes spin{
+	0%{-webkit-transform: rotate(0deg);}
+	100%{-webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin{
+	0%{transform:rotate(0deg);}
+	100%{transform:rotate(360deg);}
+}
+
+/* IDs for messages. Customize their style output here. */
+#loading_agents{}
+#loading_failed{}
+#no_commands{}
+#agents_offline{}
+
+#no_servers{}
+#invalid_server{}
+#invalid_steamid_admin{}
+#invalid_response_admin{}
+#invalid_immunity{}
+#all_servers_offline{}
+#addadmin_response{}
+
+#invalid_steamid{}
+#invalid_response{}
+
+/* IDs for the command output and network tools tab here. Customize their style here. */
+#options{}
+#output{}

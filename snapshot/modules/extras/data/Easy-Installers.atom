@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/OpenGamePanel/Easy-Installers/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Easy-Installers/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/OpenGamePanel/Easy-Installers/commits/master.atom"/>
+  <title>Recent Commits to Easy-Installers:master</title>
+  <updated>2020-07-27T23:43:05Z</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/eaa4e7748304de42f2ce1dec5e97d34e2955f7c1</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Easy-Installers/commit/eaa4e7748304de42f2ce1dec5e97d34e2955f7c1"/>
+    <title>
+        Updated CentOS Packages
+    </title>
+    <updated>2020-07-27T23:43:05Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Updated CentOS Packages&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/7f80eb2d9c5afe086b12070775f69117694e2d22</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Easy-Installers/commit/7f80eb2d9c5afe086b12070775f69117694e2d22"/>
+    <title>
+        Updated CentOS Packages
+    </title>
+    <updated>2020-07-27T23:28:34Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Updated CentOS Packages&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/332c8c3b29b0d02a1046a9909241989f30a035d3</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Easy-Installers/commit/332c8c3b29b0d02a1046a9909241989f30a035d3"/>
+    <title>
+        Updated CentOS Packages
+    </title>
+    <updated>2020-07-27T23:20:54Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Updated CentOS Packages&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/85993d594fa596db8c24c7e54139b7ca3e98fb70</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Easy-Installers/commit/85993d594fa596db8c24c7e54139b7ca3e98fb70"/>
+    <title>
+        Updated CentOS Packages
+    </title>
+    <updated>2020-07-27T22:45:21Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Updated CentOS Packages&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/838f53ff93a8957a97f5ef98cdbaff205a0605fd</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Easy-Installers/commit/838f53ff93a8957a97f5ef98cdbaff205a0605fd"/>
+    <title>
+        Updated Agent Builds - Better Start and Stop Agent Scripts
+    </title>
+    <updated>2020-04-02T02:03:11Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Updated Agent Builds - Better Start and Stop Agent Scripts&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/167ded696927e2d9b2217c5471244b27d3a56c50</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Easy-Installers/commit/167ded696927e2d9b2217c5471244b27d3a56c50"/>
+    <title>
+        Added mod_ssl to Panel Installer - Updated Builds
+    </title>
+    <updated>2020-04-01T15:33:27Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Added mod_ssl to Panel Installer - Updated Builds&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/7316e05d14266747e606ef1d2d885091168e1330</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Easy-Installers/commit/7316e05d14266747e606ef1d2d885091168e1330"/>
+    <title>
+        Updated Linux Build for MySQL Issue
+    </title>
+    <updated>2020-02-21T04:56:52Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Updated Linux Build for MySQL Issue&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/2acdff80468ea905185ca1d8d70966f332589033</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Easy-Installers/commit/2acdff80468ea905185ca1d8d70966f332589033"/>
+    <title>
+        Updated Windows Agent Builds to Address Task Scheduler 3 Day Issue
+    </title>
+    <updated>2019-12-20T03:34:31Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Updated Windows Agent Builds to Address Task Scheduler 3 Day Issue&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/e8a4b1365d8cbe8da17d1eb0b848023fbf0970d4</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Easy-Installers/commit/e8a4b1365d8cbe8da17d1eb0b848023fbf0970d4"/>
+    <title>
+        Updated Builds
+    </title>
+    <updated>2019-10-08T04:30:29Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Updated Builds&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/000784310c0c3dd05c03efcd2e219f416e0bc5db</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Easy-Installers/commit/000784310c0c3dd05c03efcd2e219f416e0bc5db"/>
+    <title>
+        Updated Builds for Windows
+    </title>
+    <updated>2019-10-08T02:38:47Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Updated Builds for Windows&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/5c04ff0edbe654e9fb8f532a6d9ae6b6bd082237</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Easy-Installers/commit/5c04ff0edbe654e9fb8f532a6d9ae6b6bd082237"/>
+    <title>
+        Fix for issue noted here:
+    </title>
+    <updated>2018-06-21T03:57:03Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Fix for issue noted here:
+
+https://opengamepanel.org/forum/viewthread.php?thread_id=4696&amp;amp;rowstart=60&amp;amp;showlast=true#post_32825&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/761faf31b63ec9e02f841e476d81686a3f0cabc9</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Easy-Installers/commit/761faf31b63ec9e02f841e476d81686a3f0cabc9"/>
+    <title>
+        Updated Windows Easy Installers
+    </title>
+    <updated>2018-05-01T22:42:56Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Updated Windows Easy Installers&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/6b3480c889f54f8ac3ea360415c7abc4cf632bce</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Easy-Installers/commit/6b3480c889f54f8ac3ea360415c7abc4cf632bce"/>
+    <title>
+        Updated Windows PANEL Installers
+    </title>
+    <updated>2017-12-20T17:48:34Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Updated Windows PANEL Installers&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/910187ab27d80af0c90db59dc412db87d658f2d5</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Easy-Installers/commit/910187ab27d80af0c90db59dc412db87d658f2d5"/>
+    <title>
+        Merge branch &#39;master&#39; of github.com:OpenGamePanel/Easy-Installers
+    </title>
+    <updated>2017-09-20T00:30:30Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge branch &amp;#39;master&amp;#39; of github.com:OpenGamePanel/Easy-Installers&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/ca1d2e49525a5dfdcd9d46cd1d765c2c7e6b3b07</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Easy-Installers/commit/ca1d2e49525a5dfdcd9d46cd1d765c2c7e6b3b07"/>
+    <title>
+        Minor Change - Default to /bin/bash Shell for OGP User
+    </title>
+    <updated>2017-09-20T00:30:06Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Minor Change - Default to /bin/bash Shell for OGP User&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/cdf9b6b07acb3c4e732a89c5b205fcef607f4cb5</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Easy-Installers/commit/cdf9b6b07acb3c4e732a89c5b205fcef607f4cb5"/>
+    <title>
+        Fix for MariaDB Download
+    </title>
+    <updated>2017-09-07T03:56:28Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Fix for MariaDB Download&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/87f7fa343b279e2f0fc35dc6edee59d7e794ffe1</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Easy-Installers/commit/87f7fa343b279e2f0fc35dc6edee59d7e794ffe1"/>
+    <title>
+        Updated CentOS ogp_agent EZ Installer
+    </title>
+    <updated>2017-02-21T04:53:04Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Updated CentOS ogp_agent EZ Installer&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/9fd92b2a440b2a542b100138b914de9ba68a7f50</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Easy-Installers/commit/9fd92b2a440b2a542b100138b914de9ba68a7f50"/>
+    <title>
+        Updated Agent EZ Installers
+    </title>
+    <updated>2017-02-17T07:24:52Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Updated Agent EZ Installers&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/adab58aa0d692ecd9f0ed7e922d1d6d6dd368b64</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Easy-Installers/commit/adab58aa0d692ecd9f0ed7e922d1d6d6dd368b64"/>
+    <title>
+        Updated Agent EZ Installers
+    </title>
+    <updated>2017-02-17T07:02:40Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Updated Agent EZ Installers&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/0dc188b6c4ba0aac132bdf038dad3afc9103d56f</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Easy-Installers/commit/0dc188b6c4ba0aac132bdf038dad3afc9103d56f"/>
+    <title>
+        Updated Agent EZ Installers
+    </title>
+    <updated>2017-02-17T06:55:21Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Updated Agent EZ Installers&lt;/pre&gt;
+    </content>
+  </entry>
+</feed>

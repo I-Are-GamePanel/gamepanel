@@ -1,0 +1,151 @@
+<game_config>
+  <game_key>dayz_win64</game_key>
+  <protocol>lgsl</protocol>
+  <lgsl_query_name>dayz</lgsl_query_name>
+  <installer>steamcmd</installer>
+  <game_name>DayZ</game_name>
+  <server_exec_name>dzsalmodserver.exe</server_exec_name>
+ <query_port type="add">1</query_port>
+  <cli_template>%MODLIST% %IGNOREMOD% %IP% %PORT% %ADMINLOG% %DOLOGS% %CONFIG% -profiles=profile %FC% %NFP% %SERVERMODLIST%</cli_template>
+  <cli_params>
+    <cli_param id="IP" cli_string="-ip=" />
+    <cli_param id="PORT" cli_string="-port=" />
+    <cli_param id="HOME_PATH" cli_string="" />
+  </cli_params>
+  <cli_allow_chars>;[]-_.</cli_allow_chars>
+
+<console_log>profile/DAYZ_</console_log>
+  <max_user_amount>127</max_user_amount>
+  <control_protocol>armabe</control_protocol>
+  <mods>
+    <mod key="default">
+      <name>None</name>
+      <installer_name>223350</installer_name>
+    </mod>
+  </mods>
+  <replace_texts>
+    <text key="query_port">
+      <default>(steamQueryPort\s*=\s*)(.*)(;)</default>
+      <var>steamQueryPort = %key%;</var>
+      <filepath>serverDZ.cfg</filepath>
+      <options>key-regex</options>
+    </text>
+    <text key="max_players">
+      <default>(maxPlayers\s*=\s*)(.*)(;)</default>
+      <var>maxPlayers = %key%;</var>
+      <filepath>serverDZ.cfg</filepath>
+      <options>key-regex</options>
+    </text>
+    <text key="control_password">
+      <default>(passwordAdmin\s*=\s*")(.*)(";)</default>
+      <var>passwordAdmin = "%key%";</var>
+      <filepath>serverDZ.cfg</filepath>
+      <options>key-regex</options>
+    </text>
+
+
+<text key="control_password">
+   <default>RConPassword.*</default>
+   <var>RConPassword </var>
+      <filepath>profile/BattlEye/BEServer_x64.cfg</filepath>
+    <options>s</options>
+  </text>
+
+    <text key="home_name">
+      <default>(hostname\s*=\s*")(.*)(";)</default>
+      <var>hostname = "%key%";</var>
+      <filepath>serverDZ.cfg</filepath>
+      <options>key-regex</options>
+    </text>
+
+
+ <text key="port">
+    <default>Port =.*</default>
+    <var>Port = %key% </var>
+    <filepath>bec/config/config.cfg</filepath>
+    <options>key-regex</options>
+   </text>
+ <text key="ip">
+    <default>Ip =.*</default>
+    <var>Ip = %key% </var>
+    <filepath>bec/config/config.cfg</filepath>
+    <options>key-regex</options>
+   </text>
+<text key="home_path">
+    <default>BePath =.*</default>
+    <var>BePath = %key%/profile/Battleye</var>
+    <filepath>bec/config/config.cfg</filepath>
+    <options>key-regex</options>
+   </text>
+<text >
+    <default>Timeout =.*</default>
+    <var>Timeout = 62</var>
+    <filepath>bec/config/config.cfg</filepath>
+    <options>key-regex</options>
+   </text>
+  </replace_texts>
+  <server_params>
+    <param key="-freezecheck" type="checkbox_key_value" id="FC">
+      <desc>Stops the server when frozen for more than 5 min and create a dump file.</desc>
+    </param>
+  
+  <param key="-noFilePatching" type="checkbox_key_value" id="NFP">
+      <desc>Ensures that only PBOs are loaded and NO unpacked data.</desc>
+    </param>
+
+ <param key="-adminlog" type="checkbox_key_value" id="ADMINLOG">
+      <desc>Create the Adminlog in Profiles Folder</desc>
+    </param>
+<param key="-dologs" type="checkbox_key_value" id="DOLOGS">
+      <desc> Enables all log messages in the server RPT file</desc>
+    </param>
+<param id="CONFIG" key="-config=" type="text">
+<default>serverDZ.cfg</default>
+<option>ns</option>
+ <caption>Config file to load</caption>
+ <desc></desc>
+ </param>
+
+<param id="MODLIST" key="-mod=" type="text">
+<option>ns</option>
+ <caption>Mods ex: @A-Map;@AI;@Moreguns;@TurboCars</caption>
+ <desc>Semicolon after each mod and you MUST copy the KEY into your keys folder</desc>
+ </param>
+
+<param id="SERVERMODLIST" key="-servermod=" type="text">
+<option>ns</option>
+ <caption>SERVER SIDE Mods ex: @A-Map;@AI;@Moreguns;@TurboCars</caption>
+ <desc>Semicolon after each mod.  A SERVERMOD is a mod that is ONLY required on the server. Clients do not need to download this mod. If its a SERVERSIDE mod, it will probably tell you so. Otherwise assume its a MOD and include it in the -mod list and make sure your clients download it.</desc>
+   </param>
+<param id="IGNOREMOD" key="-ignoremod=" type="text">
+<option>ns</option>
+ <caption>Mods you do NOT want clients to download</caption>
+ <desc>Any mods you want the mod server to ignore, make sure you use the same name/path as in the -mod parameter. (eg. @servermod1;@servermod2)</desc>
+ </param>
+  </server_params>
+
+
+
+<post_install>
+curl -O http://dayzsalauncher.com/releases/dzsalmodserver.zip
+unzip -o dzsalmodserver.zip
+rm dzsalmodserver.zip
+wget -r -np -nH --cut-dirs=2  -R "index.html*" http://files.iaregamer.com/rsync/dayz/
+</post_install>
+<pre_start>
+</pre_start>
+
+<lock_files>
+DZSALModServer.exe
+DayZServer_x64.exe
+</lock_files>
+
+<configuration_files>
+    <file description="Server Configurations">serverDZ.cfg</file>
+   <file description="Steam Workshop" >workshop_installed.txt</file>
+ <file description="BEC Scheduler">bec\config\scheduler.xml</file>
+ <file description="BEC Admins">bec\config\admins.xml</file>
+ <file description="BEC Whitelist">bec\config\whitelist.xml</file>
+ <file description="BEC Config">bec\config\config.cfg</file>
+ </configuration_files>
+</game_config>

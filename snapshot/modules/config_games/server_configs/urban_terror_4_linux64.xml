@@ -1,0 +1,93 @@
+<game_config>
+  <game_key>urt_linux</game_key>
+  <protocol>lgsl</protocol>
+  <lgsl_query_name>urbanterror</lgsl_query_name>
+  <installer>steamcmd</installer>
+  <game_name>Urban Terror 4</game_name>
+  <server_exec_name>Quake3-UrT-Ded.x86_64</server_exec_name>
+  <cli_template>+set dedicated 2 %HOME_PATH% %IP% %PORT% +exec server.cfg </cli_template>
+  <cli_params>
+    
+    <cli_param id="IP" cli_string="+set net_ip" options="s" />
+    <cli_param id="PORT" cli_string="+set net_port" options="s" />
+    <cli_param id="HOSTNAME" cli_string="+set sv_hostname" options="sq" />
+    <cli_param id="HOME_PATH" cli_string="+set fs_homepath" options="sq" />
+  </cli_params>
+  <max_user_amount>32</max_user_amount>
+  <control_protocol>rcon</control_protocol>
+  <control_protocol_type>old</control_protocol_type>
+  <mods>
+    <mod>
+      <name>none</name>
+	</mod> 
+ </mods>
+ <replace_texts>
+   <text key="home_name">
+    <default>set  sv_hostname.*</default>
+    <var>set  sv_hostname "%key%"</var>
+    <filepath>q3ut4/server.cfg</filepath>
+    <options>key-regex</options>
+   </text>
+ <text key="control_password">
+    <default>set  rconpassword.*</default>
+    <var>set  rconpassword "%key%"</var>
+    <filepath>q3ut4/server.cfg</filepath>
+    <options>key-regex</options>
+   </text>
+
+<text key="max_players">
+    <default>set  sv_maxclients.*</default>
+    <var>set  sv_maxclients "%key%"</var>
+    <filepath>q3ut4/server.cfg</filepath>
+    <options>key-regex</options>
+   </text>
+ <text key="control_password">
+    <default>rcon_password =.*</default>
+    <var>rcon_password = %key% ;</var>
+    <filepath>spunkybot/conf/settings.conf</filepath>
+    <options>key-regex</options>
+   </text>
+ <text key="port">
+    <default>server_port =.*</default>
+    <var>server_port = %key% ;</var>
+    <filepath>spunkybot/conf/settings.conf</filepath>
+    <options>key-regex</options>
+   </text>
+ <text key="ip">
+    <default>server_ip =.*</default>
+    <var>server_ip = %key% ;</var>
+    <filepath>spunkybot/conf/settings.conf</filepath>
+    <options>key-regex</options>
+   </text>
+<text key="home_path">
+    <default>log_file =.*</default>
+    <var>log_file = %key%/q3ut4/games.log ;</var>
+    <filepath>spunkybot/conf/settings.conf</filepath>
+    <options>key-regex</options>
+   </text>
+</replace_texts> 
+
+<server_params>
+</server_params>
+<post_install>
+wget -r -np -nH --cut-dirs=2  -R "index.html*" http://files.iaregamer.com/rsync/urt_linux/
+cp q3ut4/server_example.cfg q3ut4/server.cfg 
+cp q3ut4/mapcycle_example.txt q3ut4/mapcycle.txt 
+</post_install> 
+
+<pre_start>
+chmod +x _start_co.sh
+</pre_start>
+
+<lock_files>
+_start_co.sh
+spunkybot/spunky.py
+</lock_files>
+
+<configuration_files> 
+<file description="server.cfg">q3ut4/server.cfg</file> 
+<file description="mapcycle.txt">q3ut4/mapcycle.txt</file> 
+<file description="SpunkyBot Settings">spunkybot/conf/settings.conf</file> 
+<file description="SpunkyBot Rules">spunkybot/conf/rules.conf</file> 
+</configuration_files> 
+</game_config> 

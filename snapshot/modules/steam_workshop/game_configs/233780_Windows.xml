@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<workshop_settings>
+  <workshop_id>107410</workshop_id>
+  <download_method>steamcmd</download_method>
+  <anonymous_login>0</anonymous_login>
+  <mods_path/>
+  <mods>
+    <mod id="1827253429">
+      <name>EpochMod</name>
+      <description>TW9kIHBvdXIgcmVqb2luZHJlIGxlIHNlcnZldXIgRXBvY2ggKFZvdXMgbidhdmV6IGJlc29pbiBxdWUgZGUgY2VsdWktY2kgcG91ciBub3VzIHJlam9pbmRyZSk=</description>
+      <image_url>https://steamuserimages-a.akamaihd.net/ugc/785235174462043928/E1238202349DE4320D93F5E5E3E9CCA6086B9C1A/</image_url>
+      <download_url/>
+      <filename/>
+      <file_size>819515745</file_size>
+    </mod>
+    <mod id="421839251">
+      <name>Epoch</name>
+      <description>RXBvY2ggTW9kIDEuMy4yDQoNCkVwb2NoIGlzIHNldCBqdXN0IHR3byB5ZWFycyBhZnRlciBhIG1hc3NpdmUgd29ybGQgd2lkZSBleHRpbmN0aW9uLiBUaGUgZXhhY3QgY2F1c2UgaXMgdW5rbm93biBhbmQgdGhlIG9ubHkgcGVvcGxlIGxlZnQgYXJlIGNsb25lcyB3aXRoIG5vIG1lbW9yeSBvZiB0aGUgcGFzdC4gRG9jdW1lbnRzIGZvdW5kIGluIHRoZSB3b3JsZCB0ZWxsIGEgdXMgdGhhdCBiZWZvcmUgdGhlIG1hc3MgZXh0aW5jdGlvbiBldmVudCwgVGhlIGxhcmdlc3QgdGVjaG5vbG9neSBjb3Jwb3JhdGlvbiBoYWQgbWFkZSBncmVhdCBicmVha3Rocm91Z2hzLiBUaGlzIHRlY2hub2xvZ3kgY2hhbmdlZCB0aGUgd29ybGQgaW4gbWFueSB3YXlzIGFuZCBpcyB0aG91Z2h0IHRvIGJlIHRoZSBjYXVzZSBvZiB0aGUgZXh0aW5jdGlvbi4gVGhvc2UgdGhhdCByZW1haW4gYXJlIGxlZnQgd2l0aCByZW1uYW50cyBvZiBhIG9uY2UgdGVjaG5vbG9naWNhbCBzb2NpZXR5LiBUcnkgdG8gc3Vydml2ZSwgYnVpbGQsIG9yIGV4cGxvcmUgeW91ciB3YXkgdGhyb3VnaCB0aGUgaGFyc2ggZHluYW1pYyBlbnZpcm9ubWVudC4NCg0KRmVhdHVyZXMNClBvd2VyZnVsIHBlcnNpc3RlbmNlIGZyYW1ld29yayBmb3IgQXJtYSAzIHdpdGggbmF0aXZlIFdpbmRvd3MgYW5kIExpbnV4IGRlZGljYXRlZCBzZXJ2ZXIgc3VwcG9ydC4NCkZ1bGx5IGNvbmZpZ3VyYWJsZSBzY3JpcHQgYmFzZWQgc2VjdXJpdHkgY2hlY2tzLg0KQmFzZSBCdWlsZGluZyByZS1lbnZpc2lvbmVkIGZvciBBcm1hIDMgUGh5c1guIFBlcnNpc3RlbnQgc2VjdXJlIGFuZCBpbnNlY3VyZSBzdG9yYWdlIGRldmljZXMuIFVwZ3JhZGVhYmxlIGxvY2tpbmcgZG9vcnMuDQpCYXJ0ZXIgYmFzZWQgZWNvbm9teSBhbmQgdHJhZGluZyBzeXN0ZW1zIGJhY2tlZCBieSBhIHNpbmdsZSBkaWdpdGFsIGNyeXB0byBjdXJyZW5jeSDCpCBjYWxsZWQgIktyeXB0byIuDQpIb3N0aWxlIEVudmlyb25tZW50IHdpdGggc2V2ZXJhbCBkaWZmZXJlbnQgdHlwZXMgb2YgYW50YWdvbmlzdHMsIEFpciBhbmQgV2F0ZXIgdGVtcGVyYXR1cmUgZXh0cmVtZXMsIGFuZCBFYXJ0aHF1YWtlcy4NCkV4cGxvcmUsIEh1bnQgQW5pbWFscywgJiBMb290OiBXcmVja2VkIHNoaXBzLCBBYmFuZG9uZWQgdmVoaWNsZXMgYW5kIGJ1aWxkaW5ncy4gUGVyZm9ybSBkb2N1bWVudCBkZWxpdmVyeSBtaXNzaW9ucy4NCmFuZCBtdWNoIG1vcmUhDQoNCkNsYXNzIGxpc3QgKFdJUCk6IGh0dHA6Ly9lcG9jaG1vZC5jb20vYTNfZXBvY2hfY2xhc3Nlcy5waHANCg0KDQpFcG9jaCBTdXJ2aXZhbCBTZXJ2ZXIgRmlsZXMgYW5kIEdpdGh1YiBnYW1lbW9kZSBzb3VyY2UgY29kZTogaHR0cHM6Ly9naXRodWIuY29tL0Vwb2NoTW9kVGVhbS9FcG9jaA0KDQpUaGlzIG1vZHMgZ2l0aHViIGlzOiBodHRwczovL2dpdGh1Yi5jb20vRXBvY2hNb2RUZWFtL0Vwb2NoQ29yZQ0KDQpTZXJ2ZXIgRmlsZXM6DQpodHRwczovL2dpdGh1Yi5jb20vRXBvY2hNb2RUZWFtL0Vwb2NoL3JlbGVhc2VzDQoNCkdhbWVtb2RlIEZpbGUgQ2hhbmdlczoNCmh0dHBzOi8vZ2l0aHViLmNvbS9FcG9jaE1vZFRlYW0vRXBvY2gvcHVsbC85OTYvZmlsZXMNCg0KUmVsZWFzZSBOb3RlczoNCmh0dHBzOi8vZXBvY2htb2QuY29tL2ZvcnVtL3RvcGljLzQ2MjUzLWEzLWVwb2NoLXYxMzItdXBkYXRlLz90YWI9Y29tbWVudHMjY29tbWVudC0zMDc1NzMNCg0KRnVsbCBDaGFuZ2Vsb2c6DQpodHRwczovL2dpdGh1Yi5jb20vRXBvY2hNb2RUZWFtL0Vwb2NoL2Jsb2IvcmVsZWFzZS9jaGFuZ2Vsb2cubWQNCg0KDQpNb3JlIGluZm8gYXQ6IGh0dHA6Ly9lcG9jaG1vZC5jb20vDQoNCkRpc2N1c3Npb24gRm9ydW06IGh0dHBzOi8vZXBvY2htb2QuY29tL2ZvcnVtL2ZvcnVtLzQ0LWRpc2N1c3Npb24vIChzaWduaW4gdXNpbmcgc3RlYW0gYXV0aCk=</description>
+      <image_url>https://steamuserimages-a.akamaihd.net/ugc/39746009021235865/A792F5078A52C1E89823EE74520F715EB96905C5/</image_url>
+      <download_url/>
+      <filename/>
+      <file_size>3046440428</file_size>
+    </mod>
+  </mods>
+  <config>
+    <regex>(.*\n?)*</regex>
+    <mods_backreference_index>0</mods_backreference_index>
+    <variable/>
+    <place_after/>
+    <mod_string>%workshop_mod_id%</mod_string>
+    <string_separator>;</string_separator>
+    <filepath>workshop_installed.txt</filepath>
+  </config>
+  <post_install>modname=$( awk -F "=" '/name/ {print $2}' %mods_full_path%/steamapps/workshop/content/107410/%workshop_mod_id%/meta.cpp | tr -d [:punct:])&#xD;
+tempname="@${modname}"&#xD;
+modfolder="$(echo -e "${tempname}" | tr -d '[:space:]')"&#xD;
+cp -Rf "%mods_full_path%/steamapps/workshop/content/107410/%workshop_mod_id%" "%mods_full_path%/$modfolder"&#xD;
+touch "%mods_full_path%/$modfolder/%workshop_mod_id%"&#xD;
+cp -f %mods_full_path%/$modfolder/keys/*.bikey %mods_full_path%/keys/&#xD;
+rm -Rf "%mods_full_path%/steamapps/workshop/content/107410/%workshop_mod_id%"&#xD;
+&#xD;
+printf "\nDone!"</post_install>
+  <uninstall>a=%mods_full_path%&#xD;
+&#xD;
+modid=$(find $a -iname "%mod_string%")&#xD;
+&#xD;
+modfolder=$(dirname $modid)&#xD;
+echo $modfolder &#xD;
+rm -Rf $modfolder&#xD;
+printf "\n %mod_string% automatically uninstall. \n" </uninstall>
+</workshop_settings>

@@ -1,0 +1,66 @@
+<game_config>
+  <game_key>fivem_linux32</game_key>
+  <protocol>lgsl</protocol>
+  <lgsl_query_name>fivem</lgsl_query_name>
+  <installer>rsync</installer>
+  <game_name>FiveM</game_name>
+  <server_exec_name>../run.sh</server_exec_name>
+  <cli_template>+exec server.cfg</cli_template>
+<exe_location>fivem_resources</exe_location>
+  <max_user_amount>32</max_user_amount>
+  <mods>
+    <mod key="default">
+      <name>None</name>
+    </mod>
+  </mods>
+  <replace_texts>
+    <text key="home_name">
+      <default>sv_hostname.*</default>
+      <var>sv_hostname</var>
+      <filepath>server.cfg</filepath>
+      <options>sq</options>
+    </text>
+    <text key="control_password">
+      <default>rcon_password.*</default>
+      <var>rcon_password</var>
+      <filepath>server.cfg</filepath>
+      <options>sq</options>
+    </text>
+    <text key="max_players">
+      <default>sv_maxclients.*</default>
+      <var>sv_maxclients</var>
+      <filepath>server.cfg</filepath>
+      <options>s</options>
+    </text>
+    <text key="ip_port">
+      <default>endpoint_add_tcp.*</default>
+      <var>endpoint_add_tcp</var>
+      <filepath>server.cfg</filepath>
+      <options>sq</options>
+    </text>
+    <text key="ip_port">
+      <default>endpoint_add_udp.*</default>
+      <var>endpoint_add_udp</var>
+      <filepath>server.cfg</filepath>
+      <options>sq</options>
+    </text>
+  </replace_texts>
+  <custom_fields>
+    <field key="sv_licenseKey" type="text">
+      <default>sv_licenseKey.*</default>
+      <default_value></default_value>
+      <var>sv_licenseKey</var>
+      <filepath>server.cfg</filepath>
+      <options>s</options>
+      <desc>Sets the license key. A license can be generated at: &lt;a href="https://keymaster.fivem.net/"&gt;https://keymaster.fivem.net/&lt;/a&gt;</desc>
+    </field>
+  </custom_fields>
+  <post_install>
+tar -xzvf fivem.tar.gz
+rm fivem.tar.gz
+  </post_install>
+
+  <configuration_files>
+    <file description="Main Config File">server.cfg</file>
+  </configuration_files>
+</game_config>

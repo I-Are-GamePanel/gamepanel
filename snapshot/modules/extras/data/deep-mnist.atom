@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/frank/deep-mnist/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/frank/deep-mnist/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/frank/deep-mnist/commits/master.atom"/>
+  <title>Recent Commits to deep-mnist:master</title>
+  <updated>2017-07-23T17:34:56Z</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/dfccaec1903897f100c078b603448be0c9b4a4c7</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/deep-mnist/commit/dfccaec1903897f100c078b603448be0c9b4a4c7"/>
+    <title>
+        Edited README
+    </title>
+    <updated>2017-07-23T17:34:56Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Edited README&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/114c93ce64d11332207745bc2d6391b4c4dc84cd</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/deep-mnist/commit/114c93ce64d11332207745bc2d6391b4c4dc84cd"/>
+    <title>
+        Added script to the repository
+    </title>
+    <updated>2017-07-23T17:32:07Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Added script to the repository&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/8cbd6fb90b34f2bbc7c55113e02cd4b5e7fd5e8b</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/deep-mnist/commit/8cbd6fb90b34f2bbc7c55113e02cd4b5e7fd5e8b"/>
+    <title>
+        Initial commit
+    </title>
+    <updated>2017-07-23T17:29:38Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Initial commit&lt;/pre&gt;
+    </content>
+  </entry>
+</feed>

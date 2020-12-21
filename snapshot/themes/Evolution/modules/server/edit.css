@@ -1,0 +1,83 @@
+.main-content > div > form > p > input[value="Save Settings"] {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+.main-content > p > a {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff !important;	
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+.main-content > table > tbody > tr > td > form > input[value="Edit IP"] {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+.main-content > table > tbody > tr > td > form > input[value="Remove IP"] {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+.main-content > table > tbody > tr > td > form > input[value="Arrange ports"] {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+.main-content > div > form > p > input[value="Add IP"] {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}

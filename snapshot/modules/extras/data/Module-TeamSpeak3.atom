@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/OpenGamePanel/Module-TeamSpeak3/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-TeamSpeak3/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/OpenGamePanel/Module-TeamSpeak3/commits/master.atom"/>
+  <title>Recent Commits to Module-TeamSpeak3:master</title>
+  <updated>2018-11-07T23:32:56Z</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/9f69b4dbe4753991407d303733b47fb448c29a5b</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-TeamSpeak3/commit/9f69b4dbe4753991407d303733b47fb448c29a5b"/>
+    <title>
+        Merge pull request #3 from rocco27/master
+    </title>
+    <updated>2018-11-07T23:32:56Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5268244?s=30&amp;u=90b4643b2b74de909d90b0a3c7c3e4261ef652ee&amp;v=4"/>
+    <author>
+      <name>rocco27</name>
+      <uri>https://github.com/rocco27</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #3 from rocco27/master
+
+Added README.md&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/cfc257711eee142a7b950ac8fae2a35ecb15ec80</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-TeamSpeak3/commit/cfc257711eee142a7b950ac8fae2a35ecb15ec80"/>
+    <title>
+        Create README.md
+    </title>
+    <updated>2018-07-31T22:03:32Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5268244?s=30&amp;u=90b4643b2b74de909d90b0a3c7c3e4261ef652ee&amp;v=4"/>
+    <author>
+      <name>rocco27</name>
+      <uri>https://github.com/rocco27</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Create README.md
+
+Copied description from the forum. Link: https://opengamepanel.org/infusions/pro_download_panel/download.php?did=32&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/3e3f2ee9635a2bb62a2bddd113b8403e8fd2cf8d</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-TeamSpeak3/commit/3e3f2ee9635a2bb62a2bddd113b8403e8fd2cf8d"/>
+    <title>
+        Merge pull request #1 from OpenGamePanel/master
+    </title>
+    <updated>2018-05-17T20:58:50Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5268244?s=30&amp;u=90b4643b2b74de909d90b0a3c7c3e4261ef652ee&amp;v=4"/>
+    <author>
+      <name>rocco27</name>
+      <uri>https://github.com/rocco27</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #1 from OpenGamePanel/master
+
+Updating&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/b524047c33fadab8a7e8e61bdc4b887f6c60e0db</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-TeamSpeak3/commit/b524047c33fadab8a7e8e61bdc4b887f6c60e0db"/>
+    <title>
+        Maintenance update
+    </title>
+    <updated>2018-05-17T17:39:35Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5268244?s=30&amp;u=90b4643b2b74de909d90b0a3c7c3e4261ef652ee&amp;v=4"/>
+    <author>
+      <name>rocco27</name>
+      <uri>https://github.com/rocco27</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Maintenance update
+
+- Fixed copyright
+- Fixed module name
+- Fixed module version&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/b4a0b69a1ac6d75a2d69a1bb7dc25d3fa2c96ea4</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-TeamSpeak3/commit/b4a0b69a1ac6d75a2d69a1bb7dc25d3fa2c96ea4"/>
+    <title>
+        Merge pull request #2 from rocco27/master
+    </title>
+    <updated>2017-06-24T03:33:04Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #2 from rocco27/master
+
+Fixed Copyrights in the files&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/abead90be10ad480241792b3aaca05e45838d6e2</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-TeamSpeak3/commit/abead90be10ad480241792b3aaca05e45838d6e2"/>
+    <title>
+        Fixed Copyrights in the files
+    </title>
+    <updated>2017-06-23T23:00:50Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5268244?s=30&amp;u=90b4643b2b74de909d90b0a3c7c3e4261ef652ee&amp;v=4"/>
+    <author>
+      <name>rocco27</name>
+      <uri>https://github.com/rocco27</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Fixed Copyrights in the files&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/5c980e741d867d21c4946f30e6a75cc67be32c1a</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-TeamSpeak3/commit/5c980e741d867d21c4946f30e6a75cc67be32c1a"/>
+    <title>
+        Cleanup
+    </title>
+    <updated>2017-06-04T21:37:20Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Cleanup&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/b9a0795b97e1ba878e8f76307e38dbcf390012e4</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-TeamSpeak3/commit/b9a0795b97e1ba878e8f76307e38dbcf390012e4"/>
+    <title>
+        Transifex Language Updates - Generated by own3mall&#39;s auto script.
+    </title>
+    <updated>2017-06-04T11:31:25Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Transifex Language Updates - Generated by own3mall&amp;#39;s auto script.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/a79ed0a1747baa111c7bcbb7cac0f38324999e5b</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-TeamSpeak3/commit/a79ed0a1747baa111c7bcbb7cac0f38324999e5b"/>
+    <title>
+        Transifex Language Updates - Generated by own3mall&#39;s auto script.
+    </title>
+    <updated>2017-05-31T06:07:52Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Transifex Language Updates - Generated by own3mall&amp;#39;s auto script.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/d9b8cca38ef4c625dc45c1812b54b9200603cfd4</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-TeamSpeak3/commit/d9b8cca38ef4c625dc45c1812b54b9200603cfd4"/>
+    <title>
+        Transifex Language Updates - Generated by own3mall&#39;s auto script.
+    </title>
+    <updated>2017-05-28T16:12:34Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Transifex Language Updates - Generated by own3mall&amp;#39;s auto script.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/787f701ffdff0033050defe52da2dd211407439c</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-TeamSpeak3/commit/787f701ffdff0033050defe52da2dd211407439c"/>
+    <title>
+        Transifex Language Updates - Generated by own3mall&#39;s auto script.
+    </title>
+    <updated>2017-04-20T22:45:20Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Transifex Language Updates - Generated by own3mall&amp;#39;s auto script.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/1db5693105fdd7f61bccf3b9569b74de1b231aa7</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-TeamSpeak3/commit/1db5693105fdd7f61bccf3b9569b74de1b231aa7"/>
+    <title>
+        Migrated from sf.net
+    </title>
+    <updated>2016-11-10T12:42:22Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars1.githubusercontent.com/u/6736736?s=30&amp;v=4"/>
+    <author>
+      <name>DieFeM</name>
+      <uri>https://github.com/DieFeM</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Migrated from sf.net&lt;/pre&gt;
+    </content>
+  </entry>
+</feed>

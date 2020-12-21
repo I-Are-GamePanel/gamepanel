@@ -1,0 +1,128 @@
+<game_config>
+  <game_key>arma3_win64</game_key>
+  <protocol>lgsl</protocol>
+  <lgsl_query_name>arma3</lgsl_query_name>
+  <installer>steamcmd</installer>
+  <game_name>Arma 3</game_name>
+  <server_exec_name>arma3server_x64.exe</server_exec_name>
+  <cli_template>-profiles=profile -name=player -config=profile\server.cfg -cfg=profile\basic.cfg %PORT% %PLAYERS% %RANKING% %AUTOINIT% %DEBUG% %MODS% %SERVERMODS%</cli_template>
+  <cli_params>
+   <cli_param cli_string="-port=" id="PORT"/>
+   <cli_param cli_string="-maxplayers=" id="PLAYERS"/>
+  </cli_params>
+  <cli_allow_chars>;</cli_allow_chars> <!-- escaped by default: \ " ' | & ; > < ` $ ( ) [ ] -->
+  <console_log>profile\server_console.log</console_log>
+  <max_user_amount>64</max_user_amount>
+  <mods>
+   <mod key='Arma3'>
+    <name>none</name>
+    <installer_name>233780</installer_name>
+   </mod>
+  </mods>
+
+  <replace_texts>
+   <text key="max_players">
+    <default>(maxPlayers\s*=\s*)(.*)(;)</default>
+    <var>maxPlayers = %key%;</var>
+    <filepath>profile\server.cfg</filepath>
+    <options>key-regex</options>
+   </text>
+   <text key="control_password">
+    <default>(passwordAdmin\s*=\s*")(.*)(";)</default>
+    <var>passwordAdmin = "%key%";</var>
+    <filepath>profile\server.cfg</filepath>
+    <options>key-regex</options>
+   </text>
+
+<text key="control_password">
+   <default>RConPassword.*</default>
+   <var>RConPassword </var>
+  <filepath>profile\battlEye\beserver.cfg</filepath>
+    <options>s</options>
+  </text>
+
+ <text key="port">
+    <default>Port =.*</default>
+    <var>Port = %key% </var>
+    <filepath>bec/config/config.cfg</filepath>
+    <options>key-regex</options>
+   </text>
+ <text key="ip">
+    <default>Ip =.*</default>
+    <var>Ip = %key% </var>
+    <filepath>bec/config/config.cfg</filepath>
+    <options>key-regex</options>
+   </text>
+<text key="home_path">
+    <default>BePath =.*</default>
+    <var>BePath = %key%\profile\Battleye</var>
+    <filepath>bec\config\config.cfg</filepath>
+    <options>key-regex</options>
+   </text>
+
+<text >
+    <default>Timeout =.*</default>
+    <var>Timeout = 62</var>
+    <filepath>bec\config\config.cfg</filepath>
+    <options>key-regex</options>
+   </text>
+  </replace_texts>
+  <server_params>
+
+<param id="DEBUG" key="-debug" type="checkbox_key_value">
+ <caption>Extra logging info in RPT</caption>
+ <desc></desc>
+ </param>
+<param id="AUTOINIT" key="-autoInit" type="checkbox_key_value">
+ <caption>Start mission when server starts</caption>
+ <desc></desc>
+ </param>
+<param id="RANKING" key="-ranking=" type="text">
+<option>q</option>
+ <caption>Filename to save RANKING</caption>
+ <desc>such as ranking.txt</desc>
+ </param>
+
+<param id="MODS" key="-mod=" type="text">
+<option>q</option>
+ <caption>Mods ex: @A-Map;@AI;@Moreguns;@TurboCars</caption>
+ <desc>Semicolon after each mod and you MUST copy the KEY into your keys folder</desc>
+ </param>
+<param id="SERVERMODS" key="-serverMod=" type="text">
+<option>q</option>
+ <caption>Server Side ONLY Mods ex: @mod1;@mod2;</caption>
+ <desc>Semicolon after each mod</desc>
+ </param>
+ </server_params>
+
+
+<post_install>
+wget -r -np -nH --cut-dirs=2  -R "index.html*" http://files.iaregamer.com/rsync/arma3/
+chmod +x setup_db.sh
+./setup_db.sh
+rm setup_db.sh
+</post_install>
+
+<pre_start>
+find . -type f -name '*.log' -delete
+find . -type f -name '*.LOG' -delete
+find . -type f -name '*.rpt' -delete
+find . -type f -name '*.RPT' -delete
+</pre_start>
+
+<lock_files>
+Arma3Server.exe
+Arma3Server_x64.exe
+</lock_files>
+
+<configuration_files>
+ <file description="Server settings">profile\server.cfg</file>
+ <file description="Basic Network settings" >profile\basic.cfg</file>
+ <file description="Difficulty Settings">profile\player\player.arma3oaprofile</file>
+ <file description="BEC Scheduler">bec\config\scheduler.xml</file>
+ <file description="BEC Admins">bec\config\admins.xml</file>
+ <file description="BEC Whitelist">bec\config\whitelist.xml</file>
+ <file description="BEC Config">bec\config\config.cfg</file>
+</configuration_files>
+
+</game_config>

@@ -1,0 +1,386 @@
+.monitorbutton{
+        display: inline-block;
+        background-color: #373737;
+        text-align: center;
+        width: 150px;
+        height: 90px;
+        margin: 1%;
+        float: left;
+}
+.monitorbutton span {
+        display: block;
+        line-height: 13px;
+}
+.monitorbutton.size {
+        line-height: 80px;
+}
+.monitorbutton img {
+        height: 46px;
+        margin: 5px;
+}
+.monitorbutton:hover {
+        background-color: #379BB9;
+        text-decoration: none;
+	cursor: pointer;
+}
+
+#refresh-manual a {
+/*	display:none !important; */
+}
+
+#refresh-manual {
+    color:#333;
+    height:23px;
+    background:none repeat scroll 0% 0% #484848;
+    padding-top:5px;
+    padding-left:5px;
+    padding-right:5px;
+    text-align:center;
+    font-family:"Trebuchet MS";
+    font-size:12px;
+    border-radius:0px 0px 3px 3px;
+    right:5%;
+    position:absolute;
+}
+
+#content a:link, #content a:visited {
+    color:#d8d8d8;
+	font-weight:normal;
+}
+a:link, a:visited {
+    color:#000;
+	font-weight:normal;
+}
+
+tr {
+    display:table-row;
+    vertical-align:inherit;
+    border-color:inherit;
+}
+
+tr.maintr > td > img {
+	padding-top:1px !important;
+	padding-left:7px;
+}
+
+tr.maintr.odd td.collapsible {
+	padding-top:9px !important;
+	padding-bottom:5px !important;	
+}
+
+tr.maintr.even td.collapsible {
+	padding-top:9px !important;	
+	padding-bottom:10px !important;
+}
+
+.ts3-del-virtual.center {
+	display:none;
+}
+
+.ts3-add-virtual.center{
+	display:none; 
+}
+
+button:active, button[type="submit"]:active, input[type="submit"]:active, .monitorbutton tr td:active {
+	background-color:#379BB9 !important;
+	transition:background-color 0.25s;
+	-webkit-transition:background-color 0.25s;
+}
+
+button, button[type="submit"], input[type="submit"], .monitorbutton tr td {
+    background-color:#616161 !important;
+    transition:background-color 0.25s;
+    -webkit-transition:background-color 0.25s;
+}
+
+#server_icon{
+	display:block;
+	float:left;
+	overflow:hidden;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:2px;
+	margin-right:2px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:5px;
+	padding-right:8px;
+	color:#fff;
+	border:none;
+	background:#616161;
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #484848;
+}
+
+#server_icon div{
+	display:inline-block; 
+/*	vertical-align:middle; */
+	text-transform:uppercase;
+}
+
+table.center {
+	background-color:#616161;
+	border:1px solid #616161;
+	margin-left:2px;
+}
+
+table.center tbody {
+	color:#ffffff;
+}
+
+table.center tr td{
+	background:#616161 !important;
+	border:none;
+}
+
+#execute_operations {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;	
+}
+
+table.center > tbody > tr > td > input[value="Add"] {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+tr.expand-child > td > form > div > input[value="Start Server"] {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+.main-content > form > input[value="Show All Servers"] {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+#\33 {
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+#\34  {
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;	
+}
+
+.monitor-3 > div {
+	border:1px solid #505050 !important;
+	background:#616161;
+	overflow:hidden !important;
+}
+
+#servermonitor > tfoot > tr > td {
+    color:#ffffff !important;
+    padding:15px 4px 4px;
+    background-color:#373737 !important;
+    vertical-align:top;
+    border:1px solid #373737;
+}
+
+.bloc {
+    padding:0px 15px 1px;
+    color:#ffffff;
+	background:none;
+    border-radius:3px;
+    overflow:hidden;
+    text-align:left;
+    font-size:0.9em;
+}
+
+div.right.bloc > label {
+	padding-right:10px;
+}
+
+div.bloc > img {
+	display:none;
+}
+
+#content {
+    margin:0px auto;
+    text-align:left;
+    border-radius:3px !important;
+	-moz-border-radius:3px;
+}
+
+tr.maintr.odd {
+    border-bottom:none;
+}
+
+tr.expand-child.odd {
+    border-bottom:none !important;
+}
+
+tr.maintr.even {
+    border-bottom:none;
+}
+
+tr.maintr.expandme.odd {
+    border-bottom:none;
+}
+
+tr.maintr.expandme.even {
+    border-bottom:none;
+}
+
+tr.maintr.even td span {
+	color:#df0707 !important;
+	font-weight:bold;	
+}
+
+tr.maintr.odd td span {
+	color:#df0707 !important;
+	font-weight:bold;	
+}
+
+tr.expand-child.even {
+    border-bottom:none;
+}
+
+.main-content {
+    border-radius:3px;
+    border:1px solid #484848;
+	background-color:#505050;
+    overflow:auto;
+    padding-right:1%;
+    padding-bottom:1%;
+    padding-left:1%;
+}
+
+.player_monitor {
+	border-collapse:collapse;
+	border:1px solid #373737 !important;
+}
+
+.player_monitor tbody tr{
+
+}
+
+.player_monitor tbody tr td{
+	color:#3d3d3d;
+}
+
+.player_monitor > thead > tr > th{
+	text-transform:uppercase;
+	background:#373737 !important;
+	width:100% !important;
+	color:#fff !important;
+}
+
+button.upload-image {
+	text-transform:uppercase;
+    padding:5px;
+	margin-top:5px;
+	border:1px solid #373737;
+	background:#373737 !important;
+    position:relative;
+    z-index:50;
+	color:#fff !important;
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
+
+table.tablesorter tbody tr.odd td {
+    background-color:#585858;
+	padding-top: 9px;
+}
+
+table.tablesorter tbody tr.even td {
+	padding-top: 9px;
+}
+
+table.tablesorter tbody td {
+    color:#d8d8d8;
+    padding:4px;
+    background-color:#484848;
+    vertical-align:top;
+	padding-left:6.5px;
+}
+
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+    background-color:#373737;
+    font-size:9pt !important;
+    padding-top:10px;
+    padding-bottom:10px;
+	padding-left:10px;
+	text-transform:uppercase !important;
+}
+
+.owner {
+	background-color:#ffffff;
+}
+
+.monitor-3 {
+    clear:both;
+    position:relative;
+    top:5px;
+    margin-bottom:5px;
+}
+
+input#search {
+    margin-top:5px;
+}
+
+#servermonitor tfoot {
+	border:none;
+}

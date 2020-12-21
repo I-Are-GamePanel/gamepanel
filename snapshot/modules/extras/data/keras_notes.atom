@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/frank/keras_notes/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/frank/keras_notes/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/frank/keras_notes/commits/master.atom"/>
+  <title>Recent Commits to keras_notes:master</title>
+  <updated>2017-08-08T09:35:53Z</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/e42816e19926abe1b0ac7e52b37f6d0b3a22b1a3</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/keras_notes/commit/e42816e19926abe1b0ac7e52b37f6d0b3a22b1a3"/>
+    <title>
+        Minor fixes
+    </title>
+    <updated>2017-08-08T09:35:53Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Minor fixes&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/7e094e8526256214c11cdddc5d83bea37e29b0a4</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/keras_notes/commit/7e094e8526256214c11cdddc5d83bea37e29b0a4"/>
+    <title>
+        Completed sequential model and added examples
+    </title>
+    <updated>2017-08-06T15:21:52Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Completed sequential model and added examples&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/83f14d00c82ae34a5c5d1a4018132e8b3cdef280</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/keras_notes/commit/83f14d00c82ae34a5c5d1a4018132e8b3cdef280"/>
+    <title>
+        Started on sequential model
+    </title>
+    <updated>2017-08-06T14:35:20Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Started on sequential model&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/bd244645cd17fe378d92e6296bc68026aaba46a8</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/keras_notes/commit/bd244645cd17fe378d92e6296bc68026aaba46a8"/>
+    <title>
+        Started on sequential model
+    </title>
+    <updated>2017-08-06T14:34:34Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Started on sequential model&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/162e335b13b18e4b78d6f806d37064d2c5070014</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/keras_notes/commit/162e335b13b18e4b78d6f806d37064d2c5070014"/>
+    <title>
+        Updated readme
+    </title>
+    <updated>2017-08-06T13:07:24Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Updated readme&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/35171e8d5420bb49bd379bbb53679945d06478ba</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/keras_notes/commit/35171e8d5420bb49bd379bbb53679945d06478ba"/>
+    <title>
+        Initial commit
+    </title>
+    <updated>2017-08-06T13:04:06Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Initial commit&lt;/pre&gt;
+    </content>
+  </entry>
+</feed>

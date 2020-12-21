@@ -1,0 +1,9 @@
+#notification{
+	background:black;
+	color:white;
+	position:absolute;
+	z-index:101;
+	padding:10px;
+	right:20px;
+	top:0px
+}

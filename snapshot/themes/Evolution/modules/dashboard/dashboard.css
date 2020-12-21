@@ -1,0 +1,205 @@
+/* Made for Revolution Based Themes */
+.bloc h4 {
+    font-size:15px;
+    margin-left:-15px;
+    margin-right:-15px;
+    cursor:move;
+    text-transform:uppercase;
+}
+
+.main-content {
+    border:1px solid #484848;
+    background-color:#505050;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    padding-top:5px;
+    padding-bottom:10px;
+	padding-left:10px;
+}
+
+.main-content > div > h0 {
+	background:#373737;
+	color:#fff;
+	border:none;
+}
+
+#refresh-manual {
+    color:#333;
+    height:23px;
+    background:none repeat scroll 0% 0% #484848;
+    padding-top:5px;
+    padding-left:5px;
+    padding-right:5px;
+    text-align:center;
+    font-family:"Trebuchet MS";
+    font-size:12px;
+    border-radius:0px 0px 3px 3px;
+	border:1px solid #484848;
+    right:5%;
+    position:absolute;
+	margin-top:-6px;
+}
+
+.bloc {
+	padding:0px 15px 15px 15px;
+	color:#fff;
+	background:#585858 !important;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	overflow:hidden;
+	text-align:left;
+	font-size:0.9em;
+}
+
+#item3 > div {
+	text-align:left;
+	color:#ffffff;
+	font-weight:bold;
+}
+
+#noref > tbody > tr > td > div > a > img {
+	display:none !important;
+}
+
+[id^="refreshed-"][id*="refreshed"] > div > a > img {
+	display:none !important;
+}
+
+ 
+[id^="refreshed-"][id*="refreshed"] > center > table {
+	float:left;
+	width:100%;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+[id^="refreshed-"][id*="refreshed"] > center > table > tbody > tr > td {
+	color:#379BB9 !important;
+    padding:5px;
+    background-color:#686868;
+    border-left:5px solid #379BB9 !important;
+	border-right:none !important;
+	border-top:none !important;
+	border-bottom:none !important;	
+	text-align:left !important;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:10px;
+}
+
+#column2 #ref.online_servers div {
+    text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+    -moz-binding:url("assets/xml/ellipsis.xml#ellipsis");
+    float:left;
+    text-align:left;
+    width:35%;
+    height:15px;
+    overflow:hidden;
+	color:#379BB9;
+	font-weight:bold;
+}
+
+#column2 #ref.online_servers div#gamelink{
+	width:36%;
+	float:right;
+	text-align:right;
+	font-weight:bold;
+}
+
+#column2 #ref.online_servers div.name{
+	color:#379BB9;
+	width:29%;
+	height:18px;
+	white-space:nowrap;
+}
+
+#column2 #noref.online_servers div#gamelink{
+	color:#d8d8d8;
+	float:right;
+	text-align:right;
+	width:40%;
+	height:18px;
+	overflow:hidden;
+	padding-top:3px;
+}
+
+#column2 #noref.online_servers div.name{
+	float:left;
+	text-align:left;
+	width:57%;
+	height:18px;
+	overflow:hidden;
+	padding-top:2px;
+}
+
+#noref > tbody > tr > td > div {
+	font-weight:bold;
+}
+
+#noref > tbody > tr > td {
+	color:#d8d8d8;
+	padding-top:10px;
+}
+
+.online_servers tr td {
+    padding:5px;
+    background-color:#686868;
+    border-left:5px solid #379BB9 !important;
+	border-right:none !important;
+	border-top:none !important;
+	border-bottom:none !important;
+	padding-top:15px;
+	padding-bottom:10px;
+	padding-left:10px;
+	padding-right:10px;	
+}
+
+.main-content > div > div#column4 {
+	width:100% !important;
+	float:left !important;	
+	margin-bottom:10px;
+	margin-left:none !important;	
+}
+
+#refreshed-0 > div {
+	float:left !important;
+	margin-left:0% !important;
+}
+
+DIV#column4{
+	width:100% !important;
+	margin-left:0% !important;
+}
+
+.one_fourth {
+    float:left;
+    width:30%;
+    position:relative;
+	margin-right:5px;
+/*	display:none; */
+}
+
+.one_two {
+    float:left;
+    width:39%;
+    position:relative;
+	margin-left:0% !important;
+    margin-right:.3% !important;
+}
+
+.dragbox h4 .configure {
+    font-size:11px;
+    font-weight:normal;
+    margin-right:3px;
+    float:right;
+}
+
+.online_servers {
+	width:100% !important;
+    color:#000;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+	margin-bottom:10px;
+}

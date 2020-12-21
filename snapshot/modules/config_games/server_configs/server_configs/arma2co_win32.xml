@@ -1,0 +1,119 @@
+ <game_config>
+ <game_key>arma2co_win32</game_key>
+ <protocol>lgsl</protocol>
+ <lgsl_query_name>arma2oa</lgsl_query_name>
+ <installer>steamcmd</installer>
+ <game_name>Arma2 CO</game_name>
+ <server_exec_name>arma2oaserver.exe</server_exec_name>
+ <cli_template>%MODLIST% -profiles=cfg  -name=player %CFG% %CONFIG% %IP% %PORT%</cli_template>
+ <cli_params>
+  <cli_param id="PORT" cli_string="-port=" />
+  <cli_param id="IP" cli_string="-ip=" />
+ </cli_params>
+<reserve_ports>
+    <port type="add" id="QUERY_PORT">1</port>
+ </reserve_ports>
+<cli_allow_chars>;</cli_allow_chars>
+
+<console_log>cfg\arma2oaserver.RPT</console_log>
+<max_user_amount>64</max_user_amount>
+ <control_protocol>armabe</control_protocol>
+ <mods>
+ <mod>
+   <name>none</name>
+   <installer_name>33930</installer_name>
+  </mod>
+ </mods>
+ <replace_texts>
+  <text key="home_name">
+   <default>(hostname\s*=\s*")(.*)(";)</default>
+   <var>hostname = "%key%";</var>
+   <filepath>cfg\server.cfg</filepath>
+   <options>key-regex</options>
+  </text>
+  <text key="max_players">
+   <default>(maxPlayers\s*=\s*)(.*)(;)</default>
+   <var>maxPlayers = %key%;</var>
+   <filepath>cfg\server.cfg</filepath>
+   <options>key-regex</options>
+  </text>
+
+  <text key="control_password">
+   <default>(passwordAdmin\s*=\s*")(.*)(";)</default>
+   <var>passwordAdmin = "%key%";</var>
+   <filepath>cfg\server.cfg</filepath>
+   <options>key-regex</options>
+  </text>
+  
+<text key="control_password">
+   <default>(RConPassword\s*)(.*)</default>
+   <var>RConPassword %key% </var>
+  <filepath>cfg\battlEye\beserver.cfg</filepath> 
+    <options>key-regex</options>
+  </text> 
+</replace_texts> 
+
+<server_params>
+
+
+ <param id="NOTE" key="NOTE" type="text">
+ <default>
+Important information about your server
+</default>
+<option>ns</option>
+ <caption>
+Read the &lt;a href=http://wiki.iaregamer.com/doku.php?id=arma2_combined_operations target=_blank&gt;Wiki&lt;/a&gt; first.&lt;br&gt;
+To edit your server configuration, open the file manager, browse to the CFG folder and edit server.cfg file.  For security, you should rename the file
+to something random like server1234.txt and put that name in the CONFIG setting below.  
+</caption>
+ </param>
+
+
+ <param id="PROFILES" key="-profiles=" type="text">
+ <default>cfg</default>
+<option>ns</option>
+ <caption>DO NOT CHANGE</caption>
+ <desc>>Location of user-profile folder. Configurations, Difficulty settings, Battleye and Logs will be in this folder.</desc>
+ </param>
+
+ <param id="NAME" key="-name=" type="text">
+ <default>player</default>
+<option>ns</option>
+ <caption></caption>
+ <desc>The USERS folder will have this players name for the difficulty settings</desc>
+ </param>
+
+ <param id="CFG" key="-cfg=cfg\" type="text">
+ <default>basic.cfg</default>
+<option>ns</option>
+ <caption>Basic.cfg file</caption>
+ <desc>Selects the Server Basic Config file. Config file for server specific settings like network performance tuning.</desc>
+ </param>
+
+ <param id="CONFIG" key="-config=cfg\" type="text">
+ <default>server.cfg</default>
+<option>ns</option>
+ <caption>Selects the Server Config File. Config file for server specific settings like admin password and mission selection.</caption>
+ <desc>For Security, rename server.cfg to something UNIQUE and put that name here</desc>
+ </param>
+
+ <param id="MODLIST" key="-mod=" type="text">
+<option>ns</option>     
+ <caption>Installed and Enabled Mods</caption>
+ <desc>place semicolon after each mod, ex:@cba_ca;@lingor</desc>
+    </param>
+</server_params>
+
+<post_install>
+cp -R /cygdrive/c/postinstall/arma2co/* .
+</post_install>
+<pre_start>
+testfile=testfile.txt
+echo prestart>>$testfile
+cd cfg
+rm *.RPT
+rm *.log
+</pre_start>
+
+
+</game_config>

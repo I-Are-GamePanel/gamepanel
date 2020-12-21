@@ -1,0 +1,54 @@
+<game_config>
+  <game_key>bec_win64</game_key>
+  <installer>steamcmd</installer>
+  <game_name>BEC</game_name>
+  <server_exec_name>bec.exe</server_exec_name>
+  <cli_template>--dsc --dec -f config.cfg</cli_template>
+
+  <mods>
+    <mod key='bec'>
+      <name>None</name>
+    </mod>
+  </mods>
+
+ <custom_fields>
+
+ <field key="IP" type="text">
+      <default>Ip.*</default>
+      <default_value>127.0.0.1</default_value>
+      <var>Ip =</var>
+      <filepath>config\config.cfg</filepath>
+      <desc>The IP of the game you want to CONTROL</desc>
+    </field>
+ <field key="PORT" type="text">
+      <default>Port.*</default>
+      <default_value>1234</default_value>
+      <var>Port =</var>
+      <filepath>config\config.cfg</filepath>
+      <desc>The port of the game you want to CONTROL</desc>
+    </field>
+ <field key="BePath = c:/ogp64/home/gameserver/" type="text">
+      <default>BePath .*</default>
+      <default_value>SERVERID#/PROFILE/BATTLEYE</default_value>
+      <var>BePath = c:/ogp64/home/gameserver/</var>
+      <filepath>config\config.cfg</filepath>
+      <desc>The BATTLEYE LOCATION of the game you want to CONTROL. Open the FILE MANAGER and browse to it, then copy and paste here</desc>
+    </field>
+
+  </custom_fields>
+
+
+
+<post_install>
+wget -r -np -nH --cut-dirs=2  -R "index.html*" http://files.iaregamer.com/rsync/bec_win64/
+</post_install>
+
+<configuration_files>
+<file description="Configuration File">config/config.cfg</file>
+<file description="Scheduled Messages and Shutdown">config/scheduler.xml</file>
+<file description="List of Admins">config/admins.xml</file>
+<file description="Names forbidden for players">config/badnames.xml</file>
+<file description="Bad Words List">config/badwords.xml</file>
+<file description="Command definitions">config/commands.xml</file>
+</configuration_files>
+</game_config>

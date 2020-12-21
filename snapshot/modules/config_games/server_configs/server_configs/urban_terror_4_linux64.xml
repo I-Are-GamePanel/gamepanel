@@ -1,0 +1,61 @@
+<game_config>
+  <game_key>urt_linux</game_key>
+  <protocol>lgsl</protocol>
+  <lgsl_query_name>urbanterror</lgsl_query_name>
+  <installer>rsync</installer>
+  <game_name>Urban Terror 4</game_name>
+  <server_exec_name>Quake3-UrT-Ded.x86_64</server_exec_name>
+  <cli_template>+set dedicated 2  %IP% %PORT% +exec server.cfg </cli_template>
+  <cli_params>
+    
+    <cli_param id="IP" cli_string="+set net_ip" options="s" />
+    <cli_param id="PORT" cli_string="+set net_port" options="s" />
+    <cli_param id="HOSTNAME" cli_string="+set sv_hostname" options="sq" />
+  </cli_params>
+  <max_user_amount>32</max_user_amount>
+  <control_protocol>rcon</control_protocol>
+  <control_protocol_type>old</control_protocol_type>
+  <mods>
+    <mod>
+      <name>none</name>
+	</mod> 
+ </mods>
+ <replace_texts>
+   <text key="home_name">
+    <default>(set sv_hostname\s*")(.*)(")</default>
+    <var>set sv_hostname "%key%"</var>
+    <filepath>q3ut4/server.cfg</filepath>
+    <options>key-regex</options>
+   </text>
+   <text key="PLAYERS">
+    <default>(set sv_maxclients\s*")(.*)(")</default>
+    <var>set sv_maxclients "%key%"</var>
+    <filepath>q3ut4/server.cfg</filepath>
+    <options>key-regex</options>
+   </text> </replace_texts> 
+
+
+<server_params>
+ <param id="NOTE" key="NOTE" type="text">
+ <default>
+Important information about your server
+</default>
+<option>ns</option>
+ <caption>
+Read the &lt;a href=http://wiki.iaregamer.com target=_blank&gt;Wiki&lt;/a&gt; first. 
+</caption>
+ </param>
+</server_params>
+
+<post_install>
+cp q3ut4/server_example.cfg q3ut4/server.cfg 
+cp q3ut4/maplist_example.txt q3ut4/mapcycle.txt 
+</post_install> 
+<pre_start>
+</pre_start>
+
+<configuration_files> 
+<file description="server.cfg">q3ut4/server.cfg</file> 
+<file description="mapcycle.txt">q3ut4/mapcycle.txt</file> 
+</configuration_files> 
+</game_config> 

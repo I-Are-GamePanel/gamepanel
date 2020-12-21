@@ -1,0 +1,28 @@
+#content a:link, #content a:visited {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+a:link, a:visited {
+    color:#fff;
+    text-decoration:none;
+}
+
+.main-content {
+    border-radius:3px;
+    background-color:#505050;
+    border:1px solid #484848;
+    -moz-border-radius:3px;
+    overflow:auto;
+    padding-right:1%;
+    padding-bottom:1%;
+    padding-left:1%;
+}

@@ -1,0 +1,297 @@
+#main_settings > tbody > tr > td > form > input[value="Change Game Type"] {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	margin-left:10px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+#main_settings > tbody > tr > td > form > input[value="Change main owner"] {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	margin-left:10px;
+	float:right;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+#main_settings > tbody > tr > td > form > input[value="Change Home"] {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	margin-left:10px;
+	float:right;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+#main_settings > tbody > tr > td > form > input[value="Change Name"] {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	margin-left:10px;
+	float:right;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+#main_settings > tbody > tr > td > form > input[value="Change Control Password"] {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	margin-left:10px;
+	float:right;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+#main_settings > tbody > tr > td > form > input[value="Change FTP Login"] {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	margin-left:10px;
+	float:right;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+#main_settings > tbody > tr > td > form > input[value="Change FTP password"] {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	margin-left:10px;
+	float:right;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+#main_settings > tbody > tr > td > form > input[value="Set as master server"] {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	margin-left:10px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+#main_settings > tbody > tr > td > div > form > input[value="Disable FTP"] {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	margin-left:10px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+#browse {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	margin-left:10px;
+	margin-top:10px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+.main-content > form > input[value="Set IP"]{
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	margin-left:10px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+#mods > form > p > input[value="Add Mod"] {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	margin-left:10px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+[class="set_options"] {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	margin-left:5px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+#main_settings > tbody > tr {
+	background:#686868;   
+	border:1px solid #E0E0E0 ;
+}
+
+#main_settings > tbody > tr > td.right {
+	width:300px;
+	height:50px;
+	padding-top:40px;
+	padding-left:15px;
+	padding-right:5px;
+	background:#373737;
+	color:#fff;
+	font-weight:bold;
+	border-right:7px solid #379BB9;
+	text-transform:uppercase;
+}
+
+#main_settings > tbody > tr > td.left {
+	padding-top:15px;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+#main_settings > tbody > tr > td {
+	display:inline-block;
+}
+
+[class="info"] {
+	text-align:center;
+	padding-right:20px;
+	padding-left:20px;
+	font-weight:bold;
+}
+
+.main-content > form {
+	margin-top:-10px;
+	padding-top:10px;
+	padding-left:15px;
+	padding-right:5px;
+	font-weight:bold;
+	background:#686868;   
+	border:1px solid #686868 ;	
+}
+
+.main-content > h3 {
+	padding-left:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	background:#373737;
+	color:#fff;
+}
+
+#mods > h3 {
+	margin-top:-10px;
+	margin-left:-10px;
+	padding-left:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	background:#373737;
+	color:#fff;
+}
+
+#mods {
+	margin-top:20px;
+	padding-left:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	background:#686868;
+}
+
+table.center > tbody > tr > td {
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+}
+
+.main-content {
+    background:none repeat scroll 0% 0% #505050;
+    border-radius:3px;
+	-moz-border-radius:3px;
+    border:1px solid #484848;
+    overflow:auto;
+    padding-right:1%;
+    padding-bottom:1%;
+    padding-left:1%;
+}
+
+#content {
+	background:#505050;
+	border-radius:3px;
+	-moz-border-radius:3px;
+    margin:0px auto;
+    text-align:left;
+}

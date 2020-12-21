@@ -1,0 +1,21 @@
+.ticketErrorHolder {
+    padding: 6px;
+    background-color: pink;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.ticketErrorList li {
+    list-style-type: none;
+
+}
+
+.ticketError {
+    text-align: left;
+}
+
+#guesstimateIniSettings {
+	display: none;
+	margin-top: 6px;
+}

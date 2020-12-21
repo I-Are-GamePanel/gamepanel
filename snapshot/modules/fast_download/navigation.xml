@@ -1,0 +1,4 @@
+<navigation>
+  <page key="default" file="admin_fastdl.php" access="admin" />
+  <page key="fd_user" file="user_fastd.php" access="user,admin" />
+</navigation>

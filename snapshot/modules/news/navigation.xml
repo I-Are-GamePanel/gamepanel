@@ -1,0 +1,4 @@
+<navigation>
+  <page key="news" file="index.php" access="admin,user,guest" />
+  <page key="admin_news" file="admin.php" access="admin" />
+</navigation>

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/OpenGamePanel/Theme-SimpleBootstrap/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Theme-SimpleBootstrap/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/OpenGamePanel/Theme-SimpleBootstrap/commits/master.atom"/>
+  <title>Recent Commits to Theme-SimpleBootstrap:master</title>
+  <updated>2019-10-17T18:45:00Z</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/955fbee4db757baf0825c285066a8fdf7d2b13cf</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Theme-SimpleBootstrap/commit/955fbee4db757baf0825c285066a8fdf7d2b13cf"/>
+    <title>
+        Lost PW Bugfix
+    </title>
+    <updated>2019-10-17T18:45:00Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/19765376?s=30&amp;u=63c270ac82fefb343d48cda4804cdaa7ece7c434&amp;v=4"/>
+    <author>
+      <name>oNdsen</name>
+      <uri>https://github.com/oNdsen</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Lost PW Bugfix
+Fixed a Bug to display SMTP Errors on Lost PW Page&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/ce14488cfc56c462db0504ecd89bdf05794c23ea</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Theme-SimpleBootstrap/commit/ce14488cfc56c462db0504ecd89bdf05794c23ea"/>
+    <title>
+        Dashboard Options &amp; several CSS Fixes
+    </title>
+    <updated>2019-09-06T21:41:03Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/19765376?s=30&amp;u=63c270ac82fefb343d48cda4804cdaa7ece7c434&amp;v=4"/>
+    <author>
+      <name>oNdsen</name>
+      <uri>https://github.com/oNdsen</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Dashboard Options &amp;amp; several CSS Fixes
+Changed the Dashboard Row Options and uploaded several CSS changes/fixes&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/24959281892a404623e78dd17cd31524c542d770</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Theme-SimpleBootstrap/commit/24959281892a404623e78dd17cd31524c542d770"/>
+    <title>
+        Added Dashboard Row Config Option
+    </title>
+    <updated>2019-09-05T18:28:07Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/19765376?s=30&amp;u=63c270ac82fefb343d48cda4804cdaa7ece7c434&amp;v=4"/>
+    <author>
+      <name>oNdsen</name>
+      <uri>https://github.com/oNdsen</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Added Dashboard Row Config Option
+Now its possible to change Display Setting of Dashboard Rows&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/954e557635e07d11da9eecacb4d8e859975c4939</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Theme-SimpleBootstrap/commit/954e557635e07d11da9eecacb4d8e859975c4939"/>
+    <title>
+        Dashboard Fixes
+    </title>
+    <updated>2019-07-29T20:15:15Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/19765376?s=30&amp;u=63c270ac82fefb343d48cda4804cdaa7ece7c434&amp;v=4"/>
+    <author>
+      <name>oNdsen</name>
+      <uri>https://github.com/oNdsen</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Dashboard Fixes
+Fixes for Radial Indicator on Dashboard&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/95b6d240b1e85cbc234b65a0d25784e9c42322c9</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Theme-SimpleBootstrap/commit/95b6d240b1e85cbc234b65a0d25784e9c42322c9"/>
+    <title>
+        Table und Pre Fixes
+    </title>
+    <updated>2019-07-28T09:31:00Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/19765376?s=30&amp;u=63c270ac82fefb343d48cda4804cdaa7ece7c434&amp;v=4"/>
+    <author>
+      <name>oNdsen</name>
+      <uri>https://github.com/oNdsen</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Table und Pre Fixes&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/fce9801f3c37d8f84400d8422ef0a0d78361897d</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Theme-SimpleBootstrap/commit/fce9801f3c37d8f84400d8422ef0a0d78361897d"/>
+    <title>
+        Several Improvements
+    </title>
+    <updated>2019-07-28T09:23:49Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/19765376?s=30&amp;u=63c270ac82fefb343d48cda4804cdaa7ece7c434&amp;v=4"/>
+    <author>
+      <name>oNdsen</name>
+      <uri>https://github.com/oNdsen</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Several Improvements
+Added API Icon and some Fixes&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/78091133fcf156a75aa0f0a737dfb82a8049b428</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Theme-SimpleBootstrap/commit/78091133fcf156a75aa0f0a737dfb82a8049b428"/>
+    <title>
+        Modified the Container Wrapper
+    </title>
+    <updated>2019-07-28T08:51:23Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/19765376?s=30&amp;u=63c270ac82fefb343d48cda4804cdaa7ece7c434&amp;v=4"/>
+    <author>
+      <name>oNdsen</name>
+      <uri>https://github.com/oNdsen</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Modified the Container Wrapper
+
+Fix for @Zorrototo Catch in #24&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/d671e87c573d7df3a80f676aaf67dc2bbeef96f4</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Theme-SimpleBootstrap/commit/d671e87c573d7df3a80f676aaf67dc2bbeef96f4"/>
+    <title>
+        Removed BR Tags
+    </title>
+    <updated>2019-07-25T20:25:02Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/19765376?s=30&amp;u=63c270ac82fefb343d48cda4804cdaa7ece7c434&amp;v=4"/>
+    <author>
+      <name>oNdsen</name>
+      <uri>https://github.com/oNdsen</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Removed BR Tags&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/454de2003679e77325a096283f907c9421f4f4ec</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Theme-SimpleBootstrap/commit/454de2003679e77325a096283f907c9421f4f4ec"/>
+    <title>
+        Dashboard fix #24
+    </title>
+    <updated>2019-07-25T20:24:06Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/19765376?s=30&amp;u=63c270ac82fefb343d48cda4804cdaa7ece7c434&amp;v=4"/>
+    <author>
+      <name>oNdsen</name>
+      <uri>https://github.com/oNdsen</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Dashboard fix #24
+
+Fixed CSS&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/188683075a9cbd71c4dc7bec04509bafa6cde5d8</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Theme-SimpleBootstrap/commit/188683075a9cbd71c4dc7bec04509bafa6cde5d8"/>
+    <title>
+        #23 Scrollbar Problem
+    </title>
+    <updated>2019-01-26T14:29:52Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/19765376?s=30&amp;u=63c270ac82fefb343d48cda4804cdaa7ece7c434&amp;v=4"/>
+    <author>
+      <name>oNdsen</name>
+      <uri>https://github.com/oNdsen</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;#23 Scrollbar Problem
+
+Added fixed height for Container ace_scrollbar-inner&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/6921b960fd98bfc8a2a38165a8dbd5346b8c811b</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Theme-SimpleBootstrap/commit/6921b960fd98bfc8a2a38165a8dbd5346b8c811b"/>
+    <title>
+        #23 Scroll Fix
+    </title>
+    <updated>2019-01-25T22:47:42Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/19765376?s=30&amp;u=63c270ac82fefb343d48cda4804cdaa7ece7c434&amp;v=4"/>
+    <author>
+      <name>oNdsen</name>
+      <uri>https://github.com/oNdsen</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;#23 Scroll Fix&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/12cd1b59c1cf72fa6a77726deba13d7d3c5aace4</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Theme-SimpleBootstrap/commit/12cd1b59c1cf72fa6a77726deba13d7d3c5aace4"/>
+    <title>
+        #22 CPU Fix
+    </title>
+    <updated>2019-01-25T22:39:25Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/19765376?s=30&amp;u=63c270ac82fefb343d48cda4804cdaa7ece7c434&amp;v=4"/>
+    <author>
+      <name>oNdsen</name>
+      <uri>https://github.com/oNdsen</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;#22 CPU Fix&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/e51953996395bf6c51841890d396f6fbdbc1ca9e</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Theme-SimpleBootstrap/commit/e51953996395bf6c51841890d396f6fbdbc1ca9e"/>
+    <title>
+        Several Improvements
+    </title>
+    <updated>2019-01-24T14:01:54Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/19765376?s=30&amp;u=63c270ac82fefb343d48cda4804cdaa7ece7c434&amp;v=4"/>
+    <author>
+      <name>oNdsen</name>
+      <uri>https://github.com/oNdsen</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Several Improvements&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/1be7e2cb505daee27e47dd05834d105feefedb36</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Theme-SimpleBootstrap/commit/1be7e2cb505daee27e47dd05834d105feefedb36"/>
+    <title>
+        Added Ellipsis for long Names
+    </title>
+    <updated>2019-01-24T13:34:07Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/19765376?s=30&amp;u=63c270ac82fefb343d48cda4804cdaa7ece7c434&amp;v=4"/>
+    <author>
+      <name>oNdsen</name>
+      <uri>https://github.com/oNdsen</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Added Ellipsis for long Names
+See Issue #23&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/a8d98a8b2abd9905cbb6a3da03aa63d430f0b95b</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Theme-SimpleBootstrap/commit/a8d98a8b2abd9905cbb6a3da03aa63d430f0b95b"/>
+    <title>
+        Several Issue fixes for #22
+    </title>
+    <updated>2019-01-24T12:49:49Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/19765376?s=30&amp;u=63c270ac82fefb343d48cda4804cdaa7ece7c434&amp;v=4"/>
+    <author>
+      <name>oNdsen</name>
+      <uri>https://github.com/oNdsen</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Several Issue fixes for #22&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/c2961d7c0c6169236751c725193f3d6dd8c099cf</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Theme-SimpleBootstrap/commit/c2961d7c0c6169236751c725193f3d6dd8c099cf"/>
+    <title>
+        jQuery Error Fixex
+    </title>
+    <updated>2019-01-10T09:50:04Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/19765376?s=30&amp;u=63c270ac82fefb343d48cda4804cdaa7ece7c434&amp;v=4"/>
+    <author>
+      <name>oNdsen</name>
+      <uri>https://github.com/oNdsen</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;jQuery Error Fixex&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/277346cf3e2e55eb583127a7f36ae514641ec6b3</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Theme-SimpleBootstrap/commit/277346cf3e2e55eb583127a7f36ae514641ec6b3"/>
+    <title>
+        Old Dashboard behavior Changes
+    </title>
+    <updated>2019-01-10T09:31:19Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/19765376?s=30&amp;u=63c270ac82fefb343d48cda4804cdaa7ece7c434&amp;v=4"/>
+    <author>
+      <name>oNdsen</name>
+      <uri>https://github.com/oNdsen</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Old Dashboard behavior Changes&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/61ce5854b77051315a49d38dd9f816217cb8bf2d</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Theme-SimpleBootstrap/commit/61ce5854b77051315a49d38dd9f816217cb8bf2d"/>
+    <title>
+        max Width for Image not found
+    </title>
+    <updated>2019-01-04T10:31:03Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/19765376?s=30&amp;u=63c270ac82fefb343d48cda4804cdaa7ece7c434&amp;v=4"/>
+    <author>
+      <name>oNdsen</name>
+      <uri>https://github.com/oNdsen</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;max Width for Image not found&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/386391b39ccbc9c74e79066591b22f9dd5c5d6ef</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Theme-SimpleBootstrap/commit/386391b39ccbc9c74e79066591b22f9dd5c5d6ef"/>
+    <title>
+        Added Padding on Select Controls
+    </title>
+    <updated>2018-10-24T14:23:26Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/19765376?s=30&amp;u=63c270ac82fefb343d48cda4804cdaa7ece7c434&amp;v=4"/>
+    <author>
+      <name>oNdsen</name>
+      <uri>https://github.com/oNdsen</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Added Padding on Select Controls
+
+Small Display Fix for the Select Control Field Arrow&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/c6d9647ab00d8535d8b62483c4e76a81d71fc1d7</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Theme-SimpleBootstrap/commit/c6d9647ab00d8535d8b62483c4e76a81d71fc1d7"/>
+    <title>
+        Fix for Issue #19
+    </title>
+    <updated>2018-10-24T14:15:40Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/19765376?s=30&amp;u=63c270ac82fefb343d48cda4804cdaa7ece7c434&amp;v=4"/>
+    <author>
+      <name>oNdsen</name>
+      <uri>https://github.com/oNdsen</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Fix for Issue #19
+
+Fixed Padding on Language Field and fixed width for fa Icons&lt;/pre&gt;
+    </content>
+  </entry>
+</feed>

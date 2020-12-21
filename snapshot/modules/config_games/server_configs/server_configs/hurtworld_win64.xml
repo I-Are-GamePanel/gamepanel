@@ -1,0 +1,43 @@
+<game_config>
+  <game_key>hurtworld_win64</game_key>
+  <protocol>lgsl</protocol>
+  <lgsl_query_name>hurtworld</lgsl_query_name>
+  <installer>steamcmd</installer>
+  <game_name>Hurtworld</game_name>
+  <server_exec_name>Hurtworld.exe</server_exec_name>
+  <cli_template>-batchmode -nographics -exec "%PORT% %MAP%;%QUERY_PORT%;%PLAYERS%;%HOSTNAME%" -logfile "gamelog.txt"</cli_template>
+  <cli_params>
+    <cli_param id="PORT" cli_string="host" options="s" />
+    <cli_param id="MAP" cli_string="" />
+    <cli_param id="PLAYERS" cli_string="maxplayers" options="s" />
+    <cli_param id="HOSTNAME" cli_string="servername" options="s" />
+  </cli_params>
+  <reserve_ports>
+    <port type="add" id="QUERY_PORT" cli_string="queryport" options="s">10</port>
+  </reserve_ports>
+  <map_list>maplist.txt</map_list>
+  <console_log>gamelog.txt</console_log>
+  <max_user_amount>120</max_user_amount>
+  <mods>
+    <mod key="default">
+      <name>None</name>
+      <installer_name>405100</installer_name>
+      <installer_login>anonymous</installer_login>
+    </mod>
+  </mods>
+  <post_install>
+    maplist="maplist.txt"
+    if [ -s "$maplist" ]
+      then
+        echo "File $maplist found. OK!"
+      else
+        echo "File $maplist not found."
+        echo "Generating new maplist file in $maplist!"
+        touch $maplist
+        echo Nullius> $maplist
+    fi
+  </post_install>
+  <configuration_files>
+    <file description="Server Configurations">autoexec.cfg</file>
+  </configuration_files>
+</game_config>

@@ -1,0 +1,50 @@
+<game_config>
+  <game_key>teamspeak3_win32</game_key>
+  <protocol>teamspeak3</protocol>
+  <game_name>TeamSpeak 3</game_name>
+  <server_exec_name>ts3server.exe</server_exec_name>
+  <cli_template>voice_ip=%IP% %PORT% query_ip=%IP% %QUERY_PORT% query_ssh_ip=%IP% %QUERY_SSH_PORT% filetransfer_ip=%IP% %FILETRANSFER_PORT% %QP% %CONTROL_PASSWORD% %LICENS% %LOG%</cli_template>
+  <cli_params>
+    <cli_param id="IP" cli_string="" />
+    <cli_param id="PORT" cli_string="default_voice_port=" />
+    <cli_param id="CONTROL_PASSWORD" cli_string="serveradmin_password=" />
+  </cli_params>
+  <reserve_ports>
+    <port type="add" id="QUERY_PORT" cli_string="query_port=">24</port>
+    <port type="add" id="QUERY_SSH_PORT" cli_string="query_ssh_port=">35</port>
+    <port type="add" id="FILETRANSFER_PORT" cli_string="filetransfer_port=">20046</port>
+  </reserve_ports>
+  <console_log>teamspeak3-server_win32/logs/ts3server_0.log</console_log>
+  <exe_location>teamspeak3-server_win32</exe_location>
+  <mods>
+    <mod key="default">
+      <name>None</name>
+    </mod>
+  </mods>
+  <replace_texts>
+    <text key="webhost_ip">
+      <default>^$</default>
+      <filepath>teamspeak3-server_win32/query_ip_whitelist.txt</filepath>
+    </text>
+  </replace_texts>
+  <server_params>
+    <param key="license_accepted=" type="select" id="LICENS">
+	  <option value="1">Accepted</option>
+      <option value="0">Denied</option>
+      <options>ns</options>
+      <desc>Agreeing to the TeamSpeak 3 server licence. Can be viewed &lt;a href=https://sales.teamspeak.com/documents/TeamSpeak_Master_License_Agreement_EN.pdf target=_blank&gt;here&lt;/a&gt;.</desc>
+    </param>
+    <param key="logappend=" type="select" id="LOG">
+	  <option value="1">Enabled</option>
+      <option value="0">Disabled</option>
+      <options>ns</options>
+      <desc>The log output will be appended to the previous log file (disabling will cause OGP to be unable to return the server log contents in the panel).</desc>
+    </param>
+    <param key="query_protocols=" type="select" id="QP">
+      <option value="raw">Classic</option>
+      <option value="raw,ssh">Classic and SSH</option>
+      <options>ns</options>
+      <desc>Protocols that can be used to connect to the ServerQuery.</desc>
+    </param>
+  </server_params>
+</game_config>

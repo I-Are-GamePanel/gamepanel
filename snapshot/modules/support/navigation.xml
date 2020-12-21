@@ -1,0 +1,4 @@
+<navigation>
+  <page key="default" file="support.php" access="admin,user,subuser" />
+  <page key="support" file="support.php" access="admin,user,subuser" />
+</navigation>

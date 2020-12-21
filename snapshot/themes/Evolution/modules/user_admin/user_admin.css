@@ -1,0 +1,76 @@
+.main-content > p > a {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff !important;	
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+table > tbody > tr{
+	background-color:#373737 !important;
+}
+
+table.center > tbody > tr > th {
+	text-transform:uppercase;
+	padding-top:10px !important;
+	padding-bottom:10px !important;
+	padding-left:5px !important;
+}
+
+#content a:link, #content a:visited {
+    color:#fff;
+    font-weight:bold;
+}
+a:link, a:visited {
+    color:#fff;
+    text-decoration:none;
+}
+
+tr.tr0 {
+	border:1px solid #585858 !important;
+	background:#585858 !important;
+	padding-left:10px;
+	padding-right:10px;	
+}
+
+tr.tr0 td {
+	padding-left:10px;
+	padding-right:10px;	
+}
+
+tr.tr1 {
+	border:1px solid #373737 !important;
+	background:#373737 !important;
+	padding-left:10px;
+	padding-right:10px;	
+}
+
+tr.tr1 td {
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.main-content {
+    background:none repeat scroll 0% 0% #505050;
+    border-radius:3px;
+	-moz-border-radius:3px;
+    border:1px solid #484848;
+    overflow:auto;
+    padding-right:1%;
+    padding-bottom:1%;
+    padding-left:1%;
+}
+
+#content {
+    border-radius:3px;
+	-moz-border-radius:3px;
+    background:#505050;
+    margin:0px auto;
+    text-align:left;
+}

@@ -1,0 +1,17 @@
+
+	<game_config>
+	<game_key>spunkybot_linux64</game_key>
+	<installer>rsync</installer>
+	<game_name>SpunkyBot</game_name>
+	<server_exec_name>startspunky.sh</server_exec_name>
+	<mods>
+	 <mod key='spunkybot'>
+	  <name>none</name>
+	  <installer_name>spunkybot</installer_name>
+	 </mod>
+	</mods>
+<configuration_files>
+<file description="Rules">conf/rules.conf</file>
+<file description="Settings">conf/settings.conf</file>
+</configuration_files>
+	</game_config>

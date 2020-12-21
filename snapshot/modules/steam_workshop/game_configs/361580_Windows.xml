@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<workshop_settings>
+  <workshop_id>228380</workshop_id>
+  <download_method>steamcmd</download_method>
+  <anonymous_login>0</anonymous_login>
+  <mods_path>mods</mods_path>
+  <mods/>
+  <config>
+    <regex>mods=(([0-z]+,?)*)</regex>
+    <mods_backreference_index>1</mods_backreference_index>
+    <variable>mods=</variable>
+    <place_after/>
+    <mod_string>%workshop_mod_id%</mod_string>
+    <string_separator>,</string_separator>
+    <filepath>server_config.cfg</filepath>
+  </config>
+  <post_install>printf "\nMoving item %workshop_mod_id% ..."&#xD;
+cp -Rf "%mods_full_path%/steamapps/workshop/content/228380/%workshop_mod_id%" "%mods_full_path%/."&#xD;
+rm -Rf "%mods_full_path%/steamapps/workshop/content/228380/%workshop_mod_id%"&#xD;
+printf "\nSuccess."</post_install>
+  <uninstall>printf "\nUninstalling item %mod_string% ...\n"&#xD;
+rm -Rf "%mods_full_path%/%mod_string%"&#xD;
+printf "\nSuccess."</uninstall>
+</workshop_settings>

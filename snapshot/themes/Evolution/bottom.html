@@ -1,0 +1,139 @@
+<script>
+(function() {
+	var nodes = document.getElementById('administration').getElementsByTagName('span');
+	for(var i=0; i<nodes.length; i++) {
+		myclass = nodes[i].className;
+		if(typeof myclass != "undefined" && myclass != "")
+		{
+			nodes[i].style.background = "url(modules/administration/images/"+myclass+".png) 0% 50% / 24px 24px no-repeat scroll transparent";
+			nodes[i].style.padding = "5px 0 5px 35px";
+		}
+	}
+	
+	var nodes = document.getElementById('submenu_0').getElementsByTagName('span');
+	for(var i=0; i<nodes.length; i++) {
+		iconPath = nodes[i].getAttribute("data-icon_path");
+		if(typeof iconPath != "undefined" && iconPath != "")
+		{
+			nodes[i].style.background = "url("+iconPath+") 0% 50% / 16px 16px no-repeat scroll transparent";
+			nodes[i].style.padding = "5px 0 5px 25px";
+		}
+	}
+})();
+</script>
+<div id="bottomWrapper"> 
+        <div class="image" style="padding-top:20px">
+		  %footer%
+        </div> 
+      </div> 
+    </div>
+	
+<script type="text/javascript">
+// Anonymous "self-invoking" function
+function GetURLParameter(sParam)
+{
+	var sPageURL = window.location.search.substring(1);
+	var sURLVariables = sPageURL.split('&');
+	for (var i = 0; i < sURLVariables.length; i++)
+	{
+		var sParameterName = sURLVariables[i].split('=');
+		if (sParameterName[0] == sParam)
+		{
+			return sParameterName[1];
+		}
+	}
+}
+
+function loadme(){
+	var pathArray = window.location.pathname.split( '/' );
+	var currentFile = pathArray[pathArray.length-1];
+	var urlParams = window.location.search;
+	var flipStatus = sessionStorage.getItem("flip");
+	
+	if( (currentFile == 'index.php' || currentFile == '') && urlParams == '')
+	{
+		$('#bottomWrapper').prepend('<div id="login-blind">\
+										<img id="blind-arrow" src="themes/Evolution/images/flip.png">\
+									</div>');
+
+		if(flipStatus == "off" || flipStatus == 'null')
+		{
+			$('#wrapper').show();
+			$('.menu-bg').show();
+			$('#blind-arrow').addClass('flip');
+		}
+
+		$('#login-blind').click(function(){
+			if(sessionStorage.getItem("flip") == "off")
+			{
+				$('.menu-bg').slideUp("slow");
+				$('#wrapper').slideUp("slow");
+				$('#blind-arrow').removeClass('flip');
+				sessionStorage.setItem("flip", "on");
+			}
+			else
+			{
+				$('.menu-bg').slideDown("slow");
+				$('#wrapper').slideDown("slow");
+				$('#blind-arrow').addClass('flip');
+				sessionStorage.setItem("flip", "off");
+			}
+		});
+	}
+	else
+	{
+		$('#wrapper').show();
+		$('.menu-bg').show();
+	}
+
+	if(currentFile == 'home.php')
+	{
+		$('#footer').css('width','920px');
+		$('.user-links').show();
+	}
+
+	if(currentFile == 'home.php' && GetURLParameter('m') == 'ftp')
+	{
+		$('iframe').load(function() {
+			$('iframe').contents().find("head").append('<link rel="stylesheet" type="text/css" href="../../themes/Evolution/modules/ftp/iframe.css">');
+		});
+	}
+
+	if(urlParams == '?logout')
+	{
+		$('.menu-bg').slideUp(2000);
+		$('#wrapper').slideUp(2000);
+		if(flipStatus != 'null')
+		{
+			sessionStorage.removeItem("flip");
+		}
+	}
+}
+
+if(!window.jQuery)
+{
+	// Load the script
+	var script = document.createElement("SCRIPT");
+	script.src = 'js/jquery/jquery-1.11.0.min.js';
+	script.type = 'text/javascript';
+	document.getElementsByTagName("head")[0].appendChild(script);
+		// Poll for jQuery to come into existance
+	var checkReady = function(callback) {
+		if (window.jQuery) {
+			callback(jQuery);
+		}
+		else {
+			window.setTimeout(function() { checkReady(callback); }, 100);
+		}
+	};
+	
+	// Start polling...
+	checkReady(function($) {
+		loadme();
+	});
+}
+else
+{
+	loadme();
+}
+</script>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/OpenGamePanel/Module-tShock/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-tShock/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/OpenGamePanel/Module-tShock/commits/master.atom"/>
+  <title>Recent Commits to Module-tShock:master</title>
+  <updated>2018-06-20T14:13:36Z</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/0b8949084e3fd4a8123787fb85a9a5c69e298add</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-tShock/commit/0b8949084e3fd4a8123787fb85a9a5c69e298add"/>
+    <title>
+        Issues Fixed
+    </title>
+    <updated>2018-06-20T14:13:36Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars1.githubusercontent.com/u/6736736?s=30&amp;v=4"/>
+    <author>
+      <name>DieFeM</name>
+      <uri>https://github.com/DieFeM</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Issues Fixed&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/542420011b8bcc82295ca4ca02792830d58a9497</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-tShock/commit/542420011b8bcc82295ca4ca02792830d58a9497"/>
+    <title>
+        Fixing issues
+    </title>
+    <updated>2018-06-20T14:12:39Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars1.githubusercontent.com/u/6736736?s=30&amp;v=4"/>
+    <author>
+      <name>DieFeM</name>
+      <uri>https://github.com/DieFeM</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Fixing issues&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/333d13694c46dfa8b1c0806962a31f21247ca00f</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-tShock/commit/333d13694c46dfa8b1c0806962a31f21247ca00f"/>
+    <title>
+        Changed tShock to tshock
+    </title>
+    <updated>2018-06-20T14:08:49Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars1.githubusercontent.com/u/6736736?s=30&amp;v=4"/>
+    <author>
+      <name>DieFeM</name>
+      <uri>https://github.com/DieFeM</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Changed tShock to tshock&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/f64cf2437812b58ec794a04fa15b12f0fef18467</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-tShock/commit/f64cf2437812b58ec794a04fa15b12f0fef18467"/>
+    <title>
+        Changed repository name
+    </title>
+    <updated>2018-06-20T13:39:36Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars1.githubusercontent.com/u/6736736?s=30&amp;v=4"/>
+    <author>
+      <name>DieFeM</name>
+      <uri>https://github.com/DieFeM</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Changed repository name&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/1c8edbfc5d6fabf65caa340d5531b5b08c69e7e6</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-tShock/commit/1c8edbfc5d6fabf65caa340d5531b5b08c69e7e6"/>
+    <title>
+        removed unnecessary file
+    </title>
+    <updated>2018-06-20T13:23:31Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars1.githubusercontent.com/u/6736736?s=30&amp;v=4"/>
+    <author>
+      <name>DieFeM</name>
+      <uri>https://github.com/DieFeM</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;removed unnecessary file&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/91dab60716a64dcece6fb9e749b395a2a5c99eb9</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-tShock/commit/91dab60716a64dcece6fb9e749b395a2a5c99eb9"/>
+    <title>
+        Initial Release
+    </title>
+    <updated>2018-06-20T13:01:25Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars1.githubusercontent.com/u/6736736?s=30&amp;v=4"/>
+    <author>
+      <name>DieFeM</name>
+      <uri>https://github.com/DieFeM</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Initial Release&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/cb077780bcb355630241d8780e0d6574548eed52</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-tShock/commit/cb077780bcb355630241d8780e0d6574548eed52"/>
+    <title>
+        Initial commit
+    </title>
+    <updated>2018-06-20T12:50:56Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars1.githubusercontent.com/u/6736736?s=30&amp;v=4"/>
+    <author>
+      <name>DieFeM</name>
+      <uri>https://github.com/DieFeM</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Initial commit&lt;/pre&gt;
+    </content>
+  </entry>
+</feed>

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/frank/dl/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/frank/dl/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/frank/dl/commits/master.atom"/>
+  <title>Recent Commits to dl:master</title>
+  <updated>2019-07-04T11:10:21Z</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/b596093302601f61b6bf22094c648935211af262</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/dl/commit/b596093302601f61b6bf22094c648935211af262"/>
+    <title>
+        all files are in
+    </title>
+    <updated>2019-07-04T11:10:21Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;all files are in&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/1e22c2a89bd0e4ef055560b8da1c1c071b6df22f</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/dl/commit/1e22c2a89bd0e4ef055560b8da1c1c071b6df22f"/>
+    <title>
+        fixed a spelling mistake
+    </title>
+    <updated>2019-05-04T12:42:04Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;fixed a spelling mistake&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/888faee5b7cab93131a1c4047f01152c90a468d5</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/dl/commit/888faee5b7cab93131a1c4047f01152c90a468d5"/>
+    <title>
+        finished up part 2
+    </title>
+    <updated>2019-05-04T12:27:49Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;finished up part 2&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/bcae5d1a7f1d5177628faf5ee82e80218cbff571</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/dl/commit/bcae5d1a7f1d5177628faf5ee82e80218cbff571"/>
+    <title>
+        trained generative model
+    </title>
+    <updated>2019-05-01T21:14:02Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;trained generative model&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/f51f9c34ac70aed632b78e027ad664e0ce07f344</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/dl/commit/f51f9c34ac70aed632b78e027ad664e0ce07f344"/>
+    <title>
+        finished part 1 report
+    </title>
+    <updated>2019-05-01T10:33:13Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;finished part 1 report&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/8c52de8a8f7e246178e0a85faceca41cda204927</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/dl/commit/8c52de8a8f7e246178e0a85faceca41cda204927"/>
+    <title>
+        completed part 1
+    </title>
+    <updated>2019-04-30T13:38:06Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;completed part 1&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/61208b674514a16cce041d081acf1c9ea6b8ccb6</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/dl/commit/61208b674514a16cce041d081acf1c9ea6b8ccb6"/>
+    <title>
+        running tests for part 1
+    </title>
+    <updated>2019-04-29T14:15:22Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;running tests for part 1&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/009176615007b026e04fdd846f6d291e42b24a8d</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/dl/commit/009176615007b026e04fdd846f6d291e42b24a8d"/>
+    <title>
+        did assignment 2 part 1
+    </title>
+    <updated>2019-04-28T18:49:10Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;did assignment 2 part 1&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/4351301a8dd34060c4b1ee2951b7254ca3f01851</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/dl/commit/4351301a8dd34060c4b1ee2951b7254ca3f01851"/>
+    <title>
+        added assignment 2
+    </title>
+    <updated>2019-04-27T17:30:56Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;added assignment 2&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/f5d906c83a4efe766618380d3ea366b33afcfde4</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/dl/commit/f5d906c83a4efe766618380d3ea366b33afcfde4"/>
+    <title>
+        done with this stuff
+    </title>
+    <updated>2019-04-21T20:31:13Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;done with this stuff&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/5bfa49fb5a87cc2a459f1153dfc3a30972a6753e</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/dl/commit/5bfa49fb5a87cc2a459f1153dfc3a30972a6753e"/>
+    <title>
+        final version of the MLP
+    </title>
+    <updated>2019-04-21T19:34:23Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;final version of the MLP&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/cb968f305710160c0ad3c6e472bc2df46feaf938</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/dl/commit/cb968f305710160c0ad3c6e472bc2df46feaf938"/>
+    <title>
+        implemented and tuned mlp
+    </title>
+    <updated>2019-04-21T18:17:51Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;implemented and tuned mlp&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/1db88183661d24d16c7eefac6e7af72bd9fc1f0b</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/dl/commit/1db88183661d24d16c7eefac6e7af72bd9fc1f0b"/>
+    <title>
+        added tex report
+    </title>
+    <updated>2019-04-21T09:36:35Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;added tex report&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/0848888ae9f330e02134284b1a446a001059e64f</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/dl/commit/0848888ae9f330e02134284b1a446a001059e64f"/>
+    <title>
+        convnet finished
+    </title>
+    <updated>2019-04-20T22:36:21Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;convnet finished&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/2daa97bec864497f652c510fd1f7494f5d06c396</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/dl/commit/2daa97bec864497f652c510fd1f7494f5d06c396"/>
+    <title>
+        made printing more humane
+    </title>
+    <updated>2019-04-20T22:03:10Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;made printing more humane&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/ed893d2117be28ff4b06f5e9059ed8fa58563b32</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/dl/commit/ed893d2117be28ff4b06f5e9059ed8fa58563b32"/>
+    <title>
+        fixed step vs epoch mistake
+    </title>
+    <updated>2019-04-20T21:59:51Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;fixed step vs epoch mistake&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/a18fa63e5a47922e6de3e4412cd9d77cad0d7266</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/dl/commit/a18fa63e5a47922e6de3e4412cd9d77cad0d7266"/>
+    <title>
+        removed testing on the dev set
+    </title>
+    <updated>2019-04-20T20:14:35Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;removed testing on the dev set&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/eaf84aa039594679652522f9d4c57952ef79958b</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/dl/commit/eaf84aa039594679652522f9d4c57952ef79958b"/>
+    <title>
+        initialized assignment 1. implemented convnet
+    </title>
+    <updated>2019-04-20T20:09:29Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;initialized assignment 1. implemented convnet&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/578e8028d095382c63edf57b29a90c0de3f75c1b</id>
+    <link type="text/html" rel="alternate" href="https://github.com/frank/dl/commit/578e8028d095382c63edf57b29a90c0de3f75c1b"/>
+    <title>
+        Initial commit
+    </title>
+    <updated>2019-04-20T20:06:41Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/20204556?s=30&amp;v=4"/>
+    <author>
+      <name>frank</name>
+      <uri>https://github.com/frank</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Initial commit&lt;/pre&gt;
+    </content>
+  </entry>
+</feed>

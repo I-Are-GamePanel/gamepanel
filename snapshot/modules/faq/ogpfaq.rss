@@ -1,0 +1,1801 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<rss version="2.0" 
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:admin="http://webns.net/mvcb/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+   xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+   xmlns:content="http://purl.org/rss/1.0/modules/content/"
+   >
+<channel>
+    
+    <title>OGP FAQ</title>
+    <link>https://opengamepanel.org/faq/</link>
+    <description></description>
+    <dc:language>en</dc:language>
+    <generator>Serendipity 2.0.4 - http://www.s9y.org/</generator>
+    <pubDate>Wed, 17 Jun 2020 20:10:54 GMT</pubDate>
+
+    <image>
+    <url>https://opengamepanel.org/faq/templates/default/img/s9y_banner_small.png</url>
+    <title>RSS: OGP FAQ - </title>
+    <link>https://opengamepanel.org/faq/</link>
+    <width>100</width>
+    <height>21</height>
+</image>
+
+<item>
+    <title>List of SteamCDM error codes and app states. Why does it fail to install Steam game servers?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/60-List-of-SteamCDM-error-codes-and-app-states.-Why-does-it-fail-to-install-Steam-game-servers.html</link>
+            <category>Games</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/60-List-of-SteamCDM-error-codes-and-app-states.-Why-does-it-fail-to-install-Steam-game-servers.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=60</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=60</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    &lt;strong&gt;Current known error codes:&lt;/strong&gt;
+
+0: Success!
+1: ERROR! Timed out waiting for AppInfo update.
+5: Login Failure: Two-factor code mismatch (88)
+5: Login Failure: Rate Limit Exceeded (84)
+8: ERROR! Failed to install (No subscription).
+8: Error! State is 0x402 after update job.
+8: Error! State is 0x602 after update job.
+8. Error! App &#039;XXX&#039; state is 0x202 after update job
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Error&lt;/th&gt;&lt;th&gt;Possible Reason&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;ERROR! Timed out waiting for AppInfo update.&lt;/td&gt;&lt;td&gt;Unknown&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Login Failure: Rate Limit Exceeded (84)&lt;/td&gt;&lt;td&gt;Unknown&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ERROR! Failed to install (No subscription)&lt;/td&gt;&lt;td&gt;Game not owned by any authorised accounts&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Error! State is 0x202 after update job.&lt;/td&gt;&lt;td&gt;Not enough space to download game&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Error! State is 0x402 after update job.&lt;/td&gt;&lt;td&gt;Update required but not completed - check network&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Error! State is 0x602 after update job.&lt;/td&gt;
+&lt;td&gt;Update required but not completed - check network&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Error! App &#039;255850&#039; state is is 0x2 after update job.&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+Source: &lt;a href=&quot;https://github.com/GameServerManagers/LinuxGSM/issues/719#issuecomment-330470766&quot; target=&quot;_blank&quot;&gt;https://github.com/GameServerManagers/LinuxGSM/issues/719#issuecomment-330470766&lt;/a&gt;
+
+
+&lt;strong&gt;App States:&lt;/strong&gt;
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;App state value &amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&lt;/th&gt;&lt;th&gt;Meaning of the app state value&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;StateInvalid&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;StateUninstalled&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;StateUpdateRequired&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;StateFullyInstalled&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;StateEncrypted&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;16&lt;/td&gt;&lt;td&gt;StateLocked&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;32&lt;/td&gt;&lt;td&gt;StateFilesMissing&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;64&lt;/td&gt;&lt;td&gt;StateAppRunning&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;128&lt;/td&gt;&lt;td&gt;StateFilesCorrupt&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;256&lt;/td&gt;&lt;td&gt;StateUpdateRunning&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;512&lt;/td&gt;&lt;td&gt;StateUpdatePaused&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1024&lt;/td&gt;&lt;td&gt;StateUpdateStarted&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2048&lt;/td&gt;&lt;td&gt;StateUninstalling&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4096&lt;/td&gt;&lt;td&gt;StateBackupRunning&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;65536&lt;/td&gt;&lt;td&gt;StateReconfiguring&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;131072&lt;/td&gt;&lt;td&gt;StateValidating&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;262144&lt;/td&gt;&lt;td&gt;StateAddingFiles&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;524288&lt;/td&gt;&lt;td&gt;StatePreallocating&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1048576&lt;/td&gt;&lt;td&gt;StateDownloading&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2097152&lt;/td&gt;&lt;td&gt;StateStaging&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4194304&lt;/td&gt;&lt;td&gt;StateCommitting&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;8388608&lt;/td&gt;&lt;td&gt;StateUpdateStopping&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+Source: &lt;a href=&quot;https://github.com/lutris/lutris/blob/master/docs/steam.rst&quot; target=&quot;_blank&quot;&gt;https://github.com/lutris/lutris/blob/master/docs/steam.rst&lt;/a&gt;
+ 
+    </content:encoded>
+
+    <pubDate>Wed, 17 Jun 2020 13:14:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/60-guid.html</guid>
+    
+</item>
+<item>
+    <title>I have error &quot;The Agent that is controlling this server is offline&quot; when adding Agent to Panel</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/59-I-have-error-The-Agent-that-is-controlling-this-server-is-offline-when-adding-Agent-to-Panel.html</link>
+            <category>Panel</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/59-I-have-error-The-Agent-that-is-controlling-this-server-is-offline-when-adding-Agent-to-Panel.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=59</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=59</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    That can mean a few things:
+
+- The Agent is stopped/crashed because it is not properly installed or you made a mistake somewhere administrating your machine and shut it down
+- The Agent machine doesn&#039;t allow connection on the Agent port
+- The Panel machine doesn&#039;t allow connection to the Agent port
+- The encryption key or other information are wrong
+
+
+Verify the Agent is started properly by checking its service status (with command &lt;strong&gt;systemctl status ogp_agent&lt;/strong&gt; or similar one depending on the OS), screen (with command &lt;strong&gt;sudo su -c &#039;screen -S ogp_agent -r&#039; ogp_agent&lt;/strong&gt;), or log file (located at &lt;strong&gt;/usr/share/ogp_agent/ogp_agent.log&lt;/strong&gt;).
+Then verify the Agent machine allows connection on the Agent port, try to connect from your web browser to http://[Agent IP]:[Agent PORT] (example for IP 123.123.123.123 and PORT 12679, http://123.123.123.123:12679 would be the address to try to access), you should see a web page telling you that access is denied to you if Agent is working and port is properly accessible (and properly forwarded if your machine is behind a router). If you got no response at all and no web page loads, then Agent is not started or port is not properly opened/forwarded.
+
+Verify the Panel machine and the web server allow connection to the Agent port by checking your web server (default installation would already have the prerequisites for the web server), and the machine firewall.
+Shared hosting usually can not use another port than the default port 80, so in that case try to do some configuration for the Agent to &#039;use the port 80&#039; (you will probably be unable to directly use the port 80 in the Agent configuration, as it would be a reserved system port and probably denied on most systems, but you can always configure for example iptables, or the machine router, or other similar solutions to forward the port 80 to the Agent port) that should be sufficient to have it able to be connected to the Panel, but in the case Panel machine can only connect to port 80 you&#039;ll have other issues for the Panel to query the game servers (in that case you&#039;ll need to use the Remote Query in Panel Settings to use the Agent to query game servers for the Panel).
+
+The information you add in Panel for the Agent may be wrong, be sure to verify what you type and that everything is correct.
+The encryption key used in Agent config may also contain too much/special characters that prohibit proper communication between Panel and Agent, try for a test with a simple alphanumeric encryption key in Agent config (restart Agent then before adding it to Panel). If it works then change your encryption key again and find the culprit.
+
+If Agent is started, Agent machine accepts connection on Agent port, Panel machine allows connection to the Agent port, Panel web server has the minimum requirement, and you are sure everything you have typed is correct, then it will work, if it doesn&#039;t, you&#039;re doing it wrong, check everything again because something is blocking connection somewhere.
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 21 Apr 2020 22:12:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/59-guid.html</guid>
+    
+</item>
+<item>
+    <title>How to schedule actions (restart, stop, update, other...)?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/58-How-to-schedule-actions-restart,-stop,-update,-other....html</link>
+            <category>~Others</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/58-How-to-schedule-actions-restart,-stop,-update,-other....html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=58</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=58</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    Simply install and use the Cron module found in Administration -&gt; Extras.
+
+In Cron module (or Cron Administration page), select the server you want to do an action for first. Then select the action in the dropdown list of actions. Last but not least, replace the default &quot;asterisk&quot; values for minute/hour/day/month/day-of-the-week, or else it will repeat your action every minute. Refer to websites like &lt;a href=&quot;https://crontab.guru/#*_*_*_*_*&quot; title=&quot;Crontab Guru&quot; target=&quot;_blank&quot;&gt;Crontab Guru&lt;/a&gt; if you&#039;re not sure about the values for your action, but it is simple, see this &lt;a href=&quot;https://en.wikipedia.org/wiki/Cron&quot; target=&quot;_blank&quot;&gt;wikipedia&lt;/a&gt; explanation:
+
+&lt;pre&gt;
+#  ------------- minute (0 - 59)
+# |  ------------- hour (0 - 23)
+# | |  ------------- day of the month (1 - 31)
+# | | |  ------------- month (1 - 12)
+# | | | |  ------------- day of the week (0 - 6)
+# | | | | |
+# | | | | |
+# | | | | |
+# * * * * *
+&lt;/pre&gt;
+
+A field may be an asterisk (&lt;strong&gt;*&lt;/strong&gt;), which always stands for &lt;strong&gt;first-last&lt;/strong&gt; (a range from first to last), so if you want to restart a server everyday, just replace the asterisk in the &quot;minute&quot; and the &quot;hour&quot; columns with your desired hour and minute values, and leave all the others as &lt;strong&gt;*&lt;/strong&gt; (for every day of the week, of every month, every day, at XX Hour and XX Minute).
+
+Ranges of numbers are allowed. Ranges are two numbers separated with a hyphen. The specified range is inclusive. For example, &lt;strong&gt;8-11&lt;/strong&gt; for an &quot;hours&quot; entry specifies execution at hours 8, 9, 10 and 11.
+
+Lists are allowed. A list is a set of numbers (or ranges) separated by commas. Examples: &quot;&lt;strong&gt;1,2,5,9&lt;/strong&gt;&quot; or &quot;&lt;strong&gt;0-4,8-12&lt;/strong&gt;&quot;.
+
+Step values can be used in conjunction with ranges. Following a range with &quot;/&lt;number&gt;&quot; specifies skips of the numbers value through the range. For example, &quot;&lt;strong&gt;0-23/2&lt;/strong&gt;&quot; can be used in the hours field to specify command execution every other hour (the alternative is &quot;0,2,4,6,8,10,12,14,16,18,20,22&quot;).
+
+Steps are also permitted after an asterisk, so if you want to say &quot;every two hours&#039;&#039;, just use &quot;&lt;strong&gt;*/2&lt;/strong&gt;&quot;.
+
+Names can also be used for the &quot;month&quot; and &quot;day of the week&quot; fields. Use the first three letters of the particular day or month (case doesn&#039;t matter).
+
+&lt;strong&gt;Note&lt;/strong&gt;: The day of a command&#039;s execution can be specified by two fields: day of month, and day of week. If both fields are restricted (ie, aren&#039;t *), the command will be run when either field matches the current time. For example, &quot;&lt;strong&gt;30 4 1,15 * 5&lt;/strong&gt;&quot; would cause a command to be run at 4:30 AM on the 1st and 15th of each month, plus every Friday
+
+&lt;strong&gt;Examples&lt;/strong&gt;:
+
+&quot;8 0 * * *&quot; ==&gt; 8 minutes after midnight, every day
+&quot;5 11 * * Sat,Sun&quot; ==&gt; at 11:05 on each Saturday and Sunday
+&quot;0-59/5 * * * *&quot; ==&gt; every five minutes
+&quot;42 12 3 Feb Sat&quot; ==&gt; at 12:42 on 3rd of February and on each Saturday in February
+
+In addition, ranges or lists of names are allowed.
+
+Do not use other values than the ones in the explanation above. Crontab Guru website is for Linux operating system&#039;s Crontab and not specifically for the OGP Cron module, it will provide full Crontab values, standard and non standard, so as said previously, only use the values presented above, and use the Crontab Guru website only to help you check if your Cron is correct if you&#039;re not sure.
+ 
+    </content:encoded>
+
+    <pubDate>Thu, 06 Feb 2020 19:38:00 -0700</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/58-guid.html</guid>
+    
+</item>
+<item>
+    <title>Autoupdate feature in CSGO is not working</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/57-Autoupdate-feature-in-CSGO-is-not-working.html</link>
+            <category>Games</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/57-Autoupdate-feature-in-CSGO-is-not-working.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=57</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=57</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    This is probably because of an issue where the CSGO srcds_run executable is looking for steam.sh when the SteamCMD executable is called steamcmd.sh
+
+To fix the issue, create a copy  (or you can create a symlink to it) of /usr/share/ogp_agent/steamcmd/steamcmd.sh to /usr/share/ogp_agent/steamcmd/steam.sh make it executable and owned by the OGP Agent.
+
+It is also possible to edit the srcds_run file to look for steamcmd.sh instead but this may be overridden with the next update so better use the other method.
+ 
+    </content:encoded>
+
+    <pubDate>Sun, 12 Jan 2020 07:20:00 -0700</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/57-guid.html</guid>
+    
+</item>
+<item>
+    <title>Extras page is empty</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/56-Extras-page-is-empty.html</link>
+            <category>Panel</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/56-Extras-page-is-empty.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=56</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=56</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    If the &lt;strong&gt;Extras&lt;/strong&gt; page is empty that probably means it can not reach the OGP repositories on GitHub, it can possibly be because you have set a GitHub account username in the OGP Settings page. Do not set a GitHub account username in the OGP &lt;strong&gt;Panel Settings&lt;/strong&gt; page, it is used for development purpose as described in the tooltip:
+
+&lt;blockquote&gt;Enter your &lt;strong&gt;GitHub username&lt;/strong&gt; ONLY to use your own forked repositories to update OGP. This should only be changed by developers who wish to use their own repos for development rather than checking in possibly buggy code into the main branch.&lt;/blockquote&gt;
+
+&lt;strong&gt;Remove the GitHub account username to have OGP working back on the official repositories.&lt;/strong&gt;
+
+
+Another possible issue is when the web server is not properly configured and OGP doesn&#039;t have proper access to working directories, and despite being able to contact GitHub, it can not write to the required places on the web server, resulting in an empty page. &lt;strong&gt;In this case the web server error logs can help troubleshoot the issue.&lt;/strong&gt;
+ 
+    </content:encoded>
+
+    <pubDate>Fri, 30 Aug 2019 16:32:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/56-guid.html</guid>
+    
+</item>
+<item>
+    <title>Remote Query enabled in Panel Settings outputs BAD RESPONSE message in Panel Game Monitor</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/54-Remote-Query-enabled-in-Panel-Settings-outputs-BAD-RESPONSE-message-in-Panel-Game-Monitor.html</link>
+            <category>Agent</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/54-Remote-Query-enabled-in-Panel-Settings-outputs-BAD-RESPONSE-message-in-Panel-Game-Monitor.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=54</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=54</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    You probably lack the requirement needed for the Agent machine to be able to use the PHP local script used to query the game servers (this most likely happens if you install Agent and Panel with Easy Installers on two different machines).
+
+You need &lt;strong&gt;php&lt;/strong&gt; and &lt;strong&gt;php-cgi&lt;/strong&gt; to be installed on the Agent machine to use Remote Query. Depending on your OS the command could vary, on Ubuntu use the following commands:
+
+&lt;blockquote&gt;sudo apt update
+sudo apt install php
+sudo apt install php-cgi&lt;/blockquote&gt;
+
+Remote Query is particularly useful if your Panel is not able to query directly the game servers for technical reasons/issues, this way you can use the Agent to query the game servers and then send back the query results to Panel.
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 12 Mar 2019 13:27:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/54-guid.html</guid>
+    
+</item>
+<item>
+    <title>How to enable HTTPS support in Cygwin?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/53-How-to-enable-HTTPS-support-in-Cygwin.html</link>
+            <category>~Others</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/53-How-to-enable-HTTPS-support-in-Cygwin.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=53</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=53</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    In the Agent installation folder (usually C:\OGP(64)\ by default) there should be an executable file called &lt;strong&gt;setup-x86_64.exe&lt;/strong&gt;. Execute it, click next until you come to a window called &quot;&lt;strong&gt;Cygwin Setup - Select Packages&lt;/strong&gt;&quot;, there you have to select &quot;&lt;strong&gt;View: FULL&lt;/strong&gt;&quot;, and search for &quot;&lt;strong&gt;LWP&lt;/strong&gt;&quot;, then click on &lt;strong&gt;SKIP&lt;/strong&gt; to select the version of package &quot;&lt;strong&gt;Perl-LWP-Protocol-https&lt;/strong&gt;&quot; like in &lt;a href=&quot;https://opengamepanel.org/faq/uploads/OGP_FAQ/cygwin/cygwinHTTPS.png&quot; target=&quot;_blank&quot;&gt;this image here&lt;/a&gt; and finish installation.
+
+source: &lt;a href=&quot;https://www.opengamepanel.org/forum/viewthread.php?thread_id=6216&amp;pid=32355#post_32351&quot; target=&quot;_blank&quot;&gt;https://www.opengamepanel.org/forum/viewthread.php?thread_id=6216&lt;/a&gt;
+ 
+    </content:encoded>
+
+    <pubDate>Wed, 18 Jul 2018 02:41:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/53-guid.html</guid>
+    
+</item>
+<item>
+    <title>How can I set the rates or tickrate on my game server?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/52-How-can-I-set-the-rates-or-tickrate-on-my-game-server.html</link>
+            <category>Games</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/52-How-can-I-set-the-rates-or-tickrate-on-my-game-server.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=52</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=52</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    You simply go to the Custom Fields and set the rates here. The Custom Fields will always override on server start any manual changes you make to the parameter available in the Custom Fields page.
+
+The rates can be changed for the following list of game servers:
+
+- Counter-Strike
+- Counter-Strike Source
+- Counter-Strike Global Offensive
+- Team Fortress Classic
+- Team Fortress 2
+
+source: &lt;a href=&quot;https://www.opengamepanel.org/forum/viewthread.php?thread_id=2629&quot; title=&quot;https://www.opengamepanel.org/forum/viewthread.php?thread_id=2629&quot;&gt;https://www.opengamepanel.org/forum/viewthread.php?thread_id=2629&lt;/a&gt;
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 10 Apr 2018 08:43:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/52-guid.html</guid>
+    
+</item>
+<item>
+    <title>How to use the OGP API?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/51-How-to-use-the-OGP-API.html</link>
+            <category>Panel</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/51-How-to-use-the-OGP-API.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=51</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=51</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    Please refer to the forum thread about the new API for now: &lt;a href=&quot;https://www.opengamepanel.org/forum/viewthread.php?thread_id=6413&quot; target=&quot;_blank&quot;&gt;New API and Cron module&lt;/a&gt;
+
+You can also read the file &lt;a href=&quot;https://github.com/OpenGamePanel/OGP-Website/blob/master/ogp_api.php&quot; title=&quot;OGP API&quot; target=&quot;_blank&quot;&gt;ogp_api.php&lt;/a&gt; from your Panel installation folder, and see the documentation in the beginning of the file.
+
+Note that only authorized hosts/proxies will be allowed to use the API. Go to your Panel Settings page (Administration -&gt; Panel Settings), and click on &quot;Setup API authorized hosts&quot; on top of the page to add an authorized API users/machines/hosts/proxies.
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 10 Apr 2018 08:34:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/51-guid.html</guid>
+    
+</item>
+<item>
+    <title>Counter Strike and other server based on AppID 90 do not install properly with SteamCMD what can I do?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/50-Counter-Strike-and-other-server-based-on-AppID-90-do-not-install-properly-with-SteamCMD-what-can-I-do.html</link>
+            <category>Games</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/50-Counter-Strike-and-other-server-based-on-AppID-90-do-not-install-properly-with-SteamCMD-what-can-I-do.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=50</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=50</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    It&#039;s been a forever bug in steamCMD, game servers based on the AppID 90 like Counter Strike do not install properly, only a part of the server files are downloaded.
+
+This is a problem we can not fix in OGP. However, an alternative fix is available, you can download this archive &lt;a href=&quot;https://opengamepanel.org/files/cs_1.6_server_linux.tar.gz&quot; title=&quot;https://opengamepanel.org/files/cs_1.6_server_linux.tar.gz&quot;&gt;https://opengamepanel.org/files/cs_1.6_server_linux.tar.gz&lt;/a&gt; and extract it to your game server folder, and then do a SteamCMD update from the Panel. It should then properly download the server files.
+
+source: &lt;a href=&quot;https://www.opengamepanel.org/forum/viewthread.php?thread_id=5398#post_29978&quot; title=&quot;https://www.opengamepanel.org/forum/viewthread.php?thread_id=5398#post_29978&quot;&gt;https://www.opengamepanel.org/forum/viewthread.php?thread_id=5398#post_29978&lt;/a&gt;
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 10 Apr 2018 08:29:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/50-guid.html</guid>
+    
+</item>
+<item>
+    <title>When I connect to SSH with ogp_agent login the session seems broken</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/49-When-I-connect-to-SSH-with-ogp_agent-login-the-session-seems-broken.html</link>
+            <category>~Others</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/49-When-I-connect-to-SSH-with-ogp_agent-login-the-session-seems-broken.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=49</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=49</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    When you connect to SSH from putty for example, If your session seems different than a &#039;normal&#039; SSH session, with weird characters appearing when you press the arrow keys, you&#039;re surely missing information in the file &lt;strong&gt;/etc/passwd&lt;/strong&gt; for your &lt;strong&gt;ogp_agent&lt;/strong&gt; user &lt;strong&gt;command/shell&lt;/strong&gt;.
+
+source: &lt;a href=&quot;https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/&quot; title=&quot;https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/&quot;&gt;https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/&lt;/a&gt;
+
+&lt;blockquote&gt;Command/shell: The absolute path of a command or shell (/bin/bash). Typically, this is a shell. Please note that it does not have to be a shell.&lt;/blockquote&gt;
+
+&lt;pre class=&#039;brush: plain;&#039;&gt;sudo nano /etc/passwd&lt;/pre&gt;
+
+Simply add the command/shell path to your user line if it is missing. It should look like this (the important part being &lt;strong&gt;:/bin/bash&lt;/strong&gt;):
+&lt;pre class=&#039;brush: plain;&#039;&gt;ogp_agent:x:1001:1001::/home/ogp_agent:/bin/bash&lt;/pre&gt;
+
+After adding your command/shell for your ogp_agent user, save (CTRL+O), exit (CTRL+X), and connect again using your ogp_agent user, you should now have a properly working shell when you connect to SSH with your ogp_agent user.
+
+ 
+    </content:encoded>
+
+    <pubDate>Mon, 18 Sep 2017 23:23:26 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/49-guid.html</guid>
+    
+</item>
+<item>
+    <title>How can I restart my Agent?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/48-How-can-I-restart-my-Agent.html</link>
+            <category>Agent</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/48-How-can-I-restart-my-Agent.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=48</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=48</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    To restart the Agent execute the following command from terminal:
+
+&lt;pre class=&#039;brush: bash;&#039;&gt;sudo service ogp_agent restart&lt;/pre&gt;
+
+You can also restart the Agent from the &lt;strong&gt;Servers&lt;/strong&gt; page in the Panel (Administration -&gt; Servers). In this page you can click on the desired Agent row, it will expand and then you can click on the &lt;strong&gt;Restart Agent&lt;/strong&gt; link.
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 22 Aug 2017 12:17:34 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/48-guid.html</guid>
+    
+</item>
+<item>
+    <title>How can I change the FTP method (ftp_method) that OGP uses?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/47-How-can-I-change-the-FTP-method-ftp_method-that-OGP-uses.html</link>
+            <category>FTP</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/47-How-can-I-change-the-FTP-method-ftp_method-that-OGP-uses.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=47</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=47</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    Locate the Agent config files using this FAQ (&lt;a href=&quot;http://www.opengamepanel.org/viewpage.php?page_id=16#11&quot; target=&quot;_blank&quot;&gt;in the Agent section here&lt;/a&gt;), edit the file &lt;strong&gt;Preferences.pm&lt;/strong&gt; and change the line where you see &quot;&lt;strong&gt;ftp_method&lt;/strong&gt;&quot;.
+
+Example &lt;strong&gt;Preferences.pm&lt;/strong&gt; file:
+&lt;pre class=&#039;brush: plain;&#039;&gt;%Cfg::Preferences = (
+	screen_log_local =&gt; &#039;1&#039;,
+	delete_logs_after =&gt; &#039;30&#039;,
+	ogp_manages_ftp =&gt; &#039;1&#039;,
+	ftp_method =&gt; &#039;PureFTPd&#039;,
+	ogp_autorestart_server =&gt; &#039;0&#039;,
+);&lt;/pre&gt;
+
+In this example in the line starting with &quot;&lt;strong&gt;ftp_method&lt;/strong&gt;&quot; you need to change the value &quot;&lt;strong&gt;PureFTPd&lt;/strong&gt;&quot; with the one you want to use.
+
+Valid FTP methods are the following:
+&lt;pre class=&#039;brush: plain;&#039;&gt;IspConfig
+EHCP
+proftpd
+PureFTPd
+FZ&lt;/pre&gt;
+
+In this example if you want to use &lt;strong&gt;EHCP&lt;/strong&gt; as FTP method your file &lt;strong&gt;Preferences.pm&lt;/strong&gt; should look like this:
+
+Example &lt;strong&gt;Preferences.pm&lt;/strong&gt; file:
+&lt;pre class=&#039;brush: plain;&#039;&gt;%Cfg::Preferences = (
+	screen_log_local =&gt; &#039;1&#039;,
+	delete_logs_after =&gt; &#039;30&#039;,
+	ogp_manages_ftp =&gt; &#039;1&#039;,
+	ftp_method =&gt; &#039;EHCP&#039;,
+	ogp_autorestart_server =&gt; &#039;0&#039;,
+);&lt;/pre&gt;
+
+After editing the Agent config files, &lt;strong&gt;you always need to restart the Agent&lt;/strong&gt;, see the &lt;a href=&quot;http://www.opengamepanel.org/viewpage.php?page_id=16#48&quot; target=&quot;_blank&quot;&gt;Agent section of this FAQ&lt;/a&gt; if you don&#039;t know the different ways of restarting the Agent.
+ 
+    </content:encoded>
+
+    <pubDate>Sun, 20 Aug 2017 08:09:30 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/47-guid.html</guid>
+    
+</item>
+<item>
+    <title>How to Assign Game Servers to Users and Sub Users</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/46-How-to-Assign-Game-Servers-to-Users-and-Sub-Users.html</link>
+            <category>Panel</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/46-How-to-Assign-Game-Servers-to-Users-and-Sub-Users.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=46</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=46</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NxA0O1YMZe4&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+ 
+    </content:encoded>
+
+    <pubDate>Wed, 28 Jun 2017 18:52:28 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/46-guid.html</guid>
+    
+</item>
+<item>
+    <title>I have the error &quot;Failed to start the remote server. Error code: -1&quot; when starting my game server.</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/42-I-have-the-error-Failed-to-start-the-remote-server.-Error-code-1-when-starting-my-game-server..html</link>
+            <category>Games</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/42-I-have-the-error-Failed-to-start-the-remote-server.-Error-code-1-when-starting-my-game-server..html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=42</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=42</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    If this error appears when you start a game server, this may be because your machine struggles to start your game server (maybe because it is overloaded, or not really powerful), and it fails to respond quickly enough between Agent and Panel, giving you this error.
+If you notice that the server actually starts good after some time, despite the fact it told you it failed, try to increase the &lt;strong&gt;Time Out&lt;/strong&gt; value in your Agent.
+To do that go to &lt;strong&gt;Servers&lt;/strong&gt; page in Panel (Administration-&gt;Servers) and &lt;strong&gt;Edit&lt;/strong&gt; your Agent, then change the &lt;strong&gt;Time Out&lt;/strong&gt; value to a higher one and see if it fixes the error.
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 28 Feb 2017 12:00:00 -0700</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/42-guid.html</guid>
+    
+</item>
+<item>
+    <title>The &quot;Get Size&quot; button in Game Monitor shows 0.00, how can I fix that?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/41-The-Get-Size-button-in-Game-Monitor-shows-0.00,-how-can-I-fix-that.html</link>
+            <category>Panel</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/41-The-Get-Size-button-in-Game-Monitor-shows-0.00,-how-can-I-fix-that.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=41</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=41</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    It seems like your Agent needs more time to calculate the size of your game server files on the machine. You can increase the timeout time of your Agent from the Panel. To do that go to &lt;strong&gt;Servers&lt;/strong&gt; page (Administration-&gt;Servers), then &lt;strong&gt;Edit&lt;/strong&gt; your Agent, and change the &lt;strong&gt;Time Out&lt;/strong&gt; value to a higher one like &lt;strong&gt;15&lt;/strong&gt; seconds.
+
+It seems like this problem will most likely occur on Windows server Agent, rather than Linux ones.
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 28 Feb 2017 11:50:00 -0700</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/41-guid.html</guid>
+    
+</item>
+<item>
+    <title>How can I backup and restore my Panel database?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/40-How-can-I-backup-and-restore-my-Panel-database.html</link>
+            <category>Panel</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/40-How-can-I-backup-and-restore-my-Panel-database.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=40</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=40</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    You can do that from the &lt;strong&gt;Panel Administration page&lt;/strong&gt;. At the bottom of this page, you can see a section called &lt;strong&gt;DB Backup&lt;/strong&gt;. Click the &lt;strong&gt;Download DB Backup&lt;/strong&gt; button to save your database to a file and download it. To restore a previous backup, simply click on the &lt;strong&gt;Browse&lt;/strong&gt; button, select your backup file, then click the &lt;strong&gt;Restore DB Backup&lt;/strong&gt; button. If you have a proper OGP installation and you&#039;re not missing any dependencies, everything should work perfectly.
+
+
+Alternatively you can directly use MySQL from the shell:
+
+
+&lt;strong&gt;&lt;u&gt;Backup Database&lt;/u&gt;&lt;/strong&gt;
+
+Backup of the existing database can be done with following command:
+
+&lt;pre class=&#039;brush: bash;&#039;&gt;mysqldump --user [username] -p [database] &gt; backup.sql&lt;/pre&gt;
+Replace the &lt;strong&gt;[username]&lt;/strong&gt; with username located in &lt;strong&gt;includes/config.inc.php&lt;/strong&gt; and &lt;strong&gt;[database]&lt;/strong&gt; with database located in same file. After executing the command the password is asked (same as in &lt;strong&gt;config.inc.php&lt;/strong&gt;).
+
+
+&lt;strong&gt;&lt;u&gt;Restore Database Backup&lt;/u&gt;&lt;/strong&gt;
+
+Backup can be restored with following command:
+
+&lt;pre class=&#039;brush: bash;&#039;&gt;mysql --user [username] -p [database] &lt; backup.sql&lt;/pre&gt;
+ 
+    </content:encoded>
+
+    <pubDate>Sun, 12 Feb 2017 01:31:08 -0700</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/40-guid.html</guid>
+    
+</item>
+<item>
+    <title>I lost my Panel administrator password, what can I do to get it back?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/39-I-lost-my-Panel-administrator-password,-what-can-I-do-to-get-it-back.html</link>
+            <category>Panel</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/39-I-lost-my-Panel-administrator-password,-what-can-I-do-to-get-it-back.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=39</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=39</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    In case you lose the admin password you can reset the password with for example the following command:
+
+&lt;pre class=&#039;brush: bash;&#039;&gt;mysql --user [username] -p [database]&lt;/pre&gt;
+
+Then type in following command but change the &lt;strong&gt;OGP_USERNAME&lt;/strong&gt; and &lt;strong&gt;NEW_PASSWORD&lt;/strong&gt; to the proper ones:
+
+&lt;pre class=&#039;brush: bash;&#039;&gt;UPDATE ogp_users SET users_passwd=MD5(&#039;NEW_PASSWORD&#039;) WHERE ogp_users.users_login=&#039;OGP_USERNAME&#039;;&lt;/pre&gt;
+
+After this type quit to &lt;strong&gt;exit&lt;/strong&gt; the MySQL prompt.
+ 
+    </content:encoded>
+
+    <pubDate>Sun, 12 Feb 2017 01:28:32 -0700</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/39-guid.html</guid>
+    
+</item>
+<item>
+    <title>How to have &quot;Check expiration&quot; to work using &quot;CRON job&quot;?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/38-How-to-have-Check-expiration-to-work-using-CRON-job.html</link>
+            <category>Panel</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/38-How-to-have-Check-expiration-to-work-using-CRON-job.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=38</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=38</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    Go to &lt;strong&gt;Panel Settings&lt;/strong&gt; page (Administration -&gt; Panel Settings) and configure how OGP handles expiration system. Use the following settings:
+
+&lt;pre class=&#039;brush: plain;&#039;&gt;Check expiration using: CRON job&lt;/pre&gt;
+
+Then you have to use CRON to check the expiration system. In Crontab or CRON module in OGP (Administration -&gt; CRON Admin) use the following to check expiration every minute:
+
+&lt;pre class=&#039;brush: plain;&#039;&gt;* * * * * curl &quot;http://localhost/index.php?m=user_games&amp;p=check_expire&quot;&lt;/pre&gt;
+
+&lt;strong&gt;* * * * *&lt;/strong&gt; : being the time when the command is called. modify it to a reasonable value (every second being to short period of time, but every month being too long).
+&lt;strong&gt;http://localhost/index.php?m=user_games&amp;p=check_expire&lt;/strong&gt; : being the URL called by curl to check the expiration system. use the URL corresponding to your Panel.
+
+Refer to &lt;a href=&quot;https://crontab.guru/#*_*_*_*_*&quot;&gt;Crontab guru&lt;/a&gt; for more possibilities. Modify the time and/or URL to match your own needs.
+
+ 
+    </content:encoded>
+
+    <pubDate>Sat, 14 Jan 2017 17:22:22 -0700</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/38-guid.html</guid>
+    
+</item>
+<item>
+    <title>Can OGP manage databases for my game servers?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/37-Can-OGP-manage-databases-for-my-game-servers.html</link>
+            <category>Panel</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/37-Can-OGP-manage-databases-for-my-game-servers.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=37</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=37</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    Yes, go to the &lt;strong&gt;MySQL Admin&lt;/strong&gt; page (Administration -&gt; MySQL Admin), add your MySQL server administration information to add it. Once you added the MySQL server, OGP can manage databases for your game servers (click on the server name/ID to expand its tab and access more options).
+ 
+    </content:encoded>
+
+    <pubDate>Wed, 28 Dec 2016 09:13:04 -0700</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/37-guid.html</guid>
+    
+</item>
+<item>
+    <title>How can I have OGP to auto restart my crashed servers?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/36-How-can-I-have-OGP-to-auto-restart-my-crashed-servers.html</link>
+            <category>Agent</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/36-How-can-I-have-OGP-to-auto-restart-my-crashed-servers.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=36</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=36</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    You have to edit the &lt;strong&gt;Agent&lt;/strong&gt; config file located at &lt;strong&gt;/usr/share/ogp_agent/Cfg/Preferences.pm&lt;/strong&gt;. Be sure to have the following parameter set to &lt;strong&gt;1&lt;/strong&gt; in this file:
+
+&lt;pre class=&#039;brush: plain;&#039;&gt;	ogp_autorestart_server =&gt; &#039;1&#039;,&lt;/pre&gt;
+
+Save your modification, and restart the Agent with the following command:
+
+&lt;pre class=&#039;brush: bash;&#039;&gt;sudo service ogp_agent restart&lt;/pre&gt;
+
+You will alsoneed to restart your game servers from Panel for this change to be properly applied.
+ 
+    </content:encoded>
+
+    <pubDate>Sun, 18 Dec 2016 15:54:00 -0700</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/36-guid.html</guid>
+    
+</item>
+<item>
+    <title>The game executable /home/ogp_agent/OGP_User_Files/xxxx/xxxx was not found from the remote server?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/35-The-game-executable-homeogp_agentOGP_User_Filesxxxxxxxx-was-not-found-from-the-remote-server.html</link>
+            <category>Games</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/35-The-game-executable-homeogp_agentOGP_User_Filesxxxxxxxx-was-not-found-from-the-remote-server.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=35</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=35</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    This means you need to install your game server after creating it from OGP. You have three available options to install your game server:
+
+Simply click on the &lt;strong&gt;Install/Update with Steam&lt;/strong&gt; button, the SteamCMD tool will be used to download from Steam servers.
+
+If it is not available with Steam, install it with &lt;strong&gt;RSync&lt;/strong&gt; by clicking the &lt;strong&gt;RSync Install&lt;/strong&gt; button (note that RSync servers are not all owned by OGP but are shared RSync servers from OGP users, where files you download may be outdated, corrupt and so on.. in short be sure you trust this download source before using it).
+
+Ultimately if none of these two install options are not available, do a manual FTP install by creating the folder you have set in the game server parameters when creating it from OGP (click on the &lt;strong&gt;Edit&lt;/strong&gt; button from the game server own page in order to change or see this path), and then uploading the game server files with your FTP client (be sure to use &lt;strong&gt;BINARY MODE&lt;/strong&gt; to keep your files integrity, FTP clients tends to upload in ASCII or AUTOMATIC mode for most of the files, and it tends to corrupt them while transferring non ASCII files). Be sure to have proper ownership and chmod of folder and files you create/upload for the OGP Agent user, or you will encounter other problems later (if you use the OGP Agent user to upload your files you should have no problem).
+ 
+    </content:encoded>
+
+    <pubDate>Thu, 15 Dec 2016 22:35:10 -0700</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/35-guid.html</guid>
+    
+</item>
+<item>
+    <title>Fast Download module. What should I do after installing it?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/34-Fast-Download-module.-What-should-I-do-after-installing-it.html</link>
+            <category>Modules</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/34-Fast-Download-module.-What-should-I-do-after-installing-it.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=34</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=34</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    First thing to do after installing the &lt;strong&gt;Fast Download&lt;/strong&gt; module from the &lt;strong&gt;Extras&lt;/strong&gt; page (Administration -&gt; Extras), is to go to the &lt;strong&gt;Fast Download Admin&lt;/strong&gt; page (Administration -&gt; Fast Download).
+
+From here, select the remote server you want to enable the service on, then click on &lt;strong&gt;Advanced Settings&lt;/strong&gt;. In this page, select the appropriate settings, then click on &lt;strong&gt;Save the daemon configuration and restart it&lt;/strong&gt;. You now have the Fast Download service started and ready to use.
+
+Then you can create a Fast Download Alias for the game server you want from the Fast Download tab or the Fast Download Admin page.
+
+More Admin options are available from the &lt;strong&gt;Access Rules&lt;/strong&gt; page in the Admin page.
+ 
+    </content:encoded>
+
+    <pubDate>Thu, 15 Dec 2016 22:07:09 -0700</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/34-guid.html</guid>
+    
+</item>
+<item>
+    <title>How do I use the WHMCS mod for OGP?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/33-How-do-I-use-the-WHMCS-mod-for-OGP.html</link>
+            <category>~Others</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/33-How-do-I-use-the-WHMCS-mod-for-OGP.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=33</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=33</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    Simply follow the &lt;strong&gt;PDF documentation&lt;/strong&gt; you find at GitHub &lt;a href=&quot;https://github.com/OpenGamePanel/OGP-WHMCS&quot; target=&quot;_blank&quot;&gt;https://github.com/OpenGamePanel/OGP-WHMCS&lt;/a&gt;
+
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 13 Dec 2016 21:06:47 -0700</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/33-guid.html</guid>
+    
+</item>
+<item>
+    <title>How can I protect some Panel files I edited from being overwritten during the update process?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/32-How-can-I-protect-some-Panel-files-I-edited-from-being-overwritten-during-the-update-process.html</link>
+            <category>Panel</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/32-How-can-I-protect-some-Panel-files-I-edited-from-being-overwritten-during-the-update-process.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=32</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=32</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    Go to the &lt;strong&gt;Update&lt;/strong&gt; page (Administration -&gt; Update Panel) and then click the &lt;strong&gt;Blacklist&lt;/strong&gt; link. All marked files will be ignored during update.
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 13 Dec 2016 21:04:12 -0700</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/32-guid.html</guid>
+    
+</item>
+<item>
+    <title>How can I set the affinity or priority (niceness) of my game server?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/31-How-can-I-set-the-affinity-or-priority-niceness-of-my-game-server.html</link>
+            <category>Games</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/31-How-can-I-set-the-affinity-or-priority-niceness-of-my-game-server.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=31</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=31</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    Go to your game server own page in Panel (Game Monitor -&gt; Game Type of your server -&gt; &lt;strong&gt;Your Server&lt;/strong&gt;), then click the &lt;strong&gt;Edit&lt;/strong&gt; button.
+
+Scroll down to the bottom of this page, you will see these options here, you can set the &lt;strong&gt;affinity&lt;/strong&gt; to the CPU core you want (to force using only this specific CPU core), and also set the priority (&lt;strong&gt;niceness&lt;/strong&gt;) of the game server process (The lower the value the higher the priority. The higher the value, the lower the priority).
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 13 Dec 2016 20:57:21 -0700</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/31-guid.html</guid>
+    
+</item>
+<item>
+    <title>I deleted the game server XML configuration from disk and database from the Game/Mod Config page and lost my game server. What can I do?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/30-I-deleted-the-game-server-XML-configuration-from-disk-and-database-from-the-GameMod-Config-page-and-lost-my-game-server.-What-can-I-do.html</link>
+            <category>Panel</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/30-I-deleted-the-game-server-XML-configuration-from-disk-and-database-from-the-GameMod-Config-page-and-lost-my-game-server.-What-can-I-do.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=30</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=30</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    Let&#039;s undo this stupid accident. We can recover back your lost server. It is easy, but needs skilled hands. When you delete XML, OGP is deleting the XML file from the disk and removing it from the database.
+
+But the game server still exists on your disk and in the database. The problem is the game server is not attached to any XML anymore!
+
+Note: the game server files still exist on the disk in this path: /home/your_ogp_user/OGP_User_Files/GAMESERVER_ID
+
+
+1. &lt;strong&gt;Important! Make a backup of your OGP database! If you do any mistake or something goes wrong, you can revert back all changes!&lt;/strong&gt;
+
+2. You need to copy back the deleted XML file to the correct folder there: OGP_Panel/modules/config_games/server_configs/. About file permissions, owners, etc. be sure your web server is able to read and write this file.
+
+3. Click the &lt;strong&gt;Update Configs&lt;/strong&gt; button in Game/Mod Config page (Administration -&gt; Game/Mod Config). XML is back, but you still don&#039;t see your deleted game server in Game Monitor. This is totally right, because your deleted game server is attached to an old and deleted XML&#039;s ID (home_cfg_id) and the new XML has a new XML&#039;s ID (home_cfg_id).
+
+4. You need to login to MySQL and edit OGP database manually. Go to &lt;strong&gt;ogp_config_homes&lt;/strong&gt; table and find your new uploaded XML file&#039;s line. You need to know what is the &#039;&lt;strong&gt;home_cfg_id&lt;/strong&gt;&#039; only. We need this in the next step.
+
+5. Go to &lt;strong&gt;ogp_server_homes&lt;/strong&gt; table and find your deleted game server&#039;s line. You have to edit this line by changing &lt;strong&gt;home_cfg_id&lt;/strong&gt;. It still has the old XML&#039;s ID (home_cfg_id), so you just have to change this to new one.
+
+6. Now we have the deleted game server with the new XML&#039;s ID (home_cfg_id) and your deleted game server should be visible again and ready to manage in the OGP Panel.
+
+
+If you did everything right then you could get back your server in the &lt;strong&gt;Game Monitor&lt;/strong&gt; page by this small hack. If you have many game servers with deleted XML, maybe you need to do reverse way. Change the new XML&#039;s ID to the old one...
+
+
+Source: this message &lt;a href=&quot;http://www.opengamepanel.org/forum/viewthread.php?thread_id=5093#post_24307&quot; target=&quot;_blank&quot;&gt;http://www.opengamepanel.org/forum/viewthread.php?thread_id=5093#post_24307&lt;/a&gt;
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 13 Dec 2016 20:44:26 -0700</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/30-guid.html</guid>
+    
+</item>
+<item>
+    <title>How to setup my game server rates from the Panel?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/29-How-to-setup-my-game-server-rates-from-the-Panel.html</link>
+            <category>Games</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/29-How-to-setup-my-game-server-rates-from-the-Panel.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=29</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=29</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    The Panel controls the rates of your servers, so to setup the rates of your servers in the Panel, open the page &quot;&lt;strong&gt;Game Monitor&lt;/strong&gt;&quot; then select your game server and click the &lt;strong&gt;Edit &lt;/strong&gt;button, then on top of this page, click on &quot;&lt;strong&gt;Go to custom fields&lt;/strong&gt;&quot;
+
+&lt;strong&gt;Games involved:&lt;/strong&gt;
+
+- Counter-Strike
+- Counter-Strike Source
+- Counter-Strike Global Offensive
+- Team Fortress Classic
+- Team Fortress 2
+
+For other game server like Insurgency you can still add an additional parameter from the game server own page, or edit the configuration files.
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 13 Dec 2016 20:36:37 -0700</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/29-guid.html</guid>
+    
+</item>
+<item>
+    <title>I have lot of game servers running, and all the new servers I create can not start. Why?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/28-I-have-lot-of-game-servers-running,-and-all-the-new-servers-I-create-can-not-start.-Why.html</link>
+            <category>Games</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/28-I-have-lot-of-game-servers-running,-and-all-the-new-servers-I-create-can-not-start.-Why.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=28</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=28</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    A possible cause could be that you exceeded the opened files limit in your system for your user/system.
+
+To verify that this is the problem, shut down all your game servers (or only a few if you can not shut them down all), and try to start one of the new servers that you couldn&#039;t start before. If it starts correctly it is almost sure that it is your problem.
+
+You can follow instructions on this website &lt;a href=&quot;https://easyengine.io/tutorials/linux/increase-open-files-limit/&quot; target=&quot;_blank&quot;&gt;https://easyengine.io/tutorials/linux/increase-open-files-limit/&lt;/a&gt; to increase this limit for your system and/or OGP Agent user.
+
+Source: &lt;a href=&quot;http://www.opengamepanel.org/forum/viewthread.php?thread_id=3605&quot; target=&quot;_blank&quot;&gt;http://www.opengamepanel.org/forum/viewthread.php?thread_id=3605&lt;/a&gt;
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 13 Dec 2016 20:26:04 -0700</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/28-guid.html</guid>
+    
+</item>
+<item>
+    <title>How to change the FTP server port?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/27-How-to-change-the-FTP-server-port.html</link>
+            <category>FTP</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/27-How-to-change-the-FTP-server-port.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=27</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=27</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    In this example, we want to change the port to 40
+
+
+&lt;strong&gt;In Debian &amp;amp; Ubuntu as root:&lt;/strong&gt;
+
+&lt;pre class=&#039;brush: bash;&#039;&gt;echo &quot;127.0.0.1,40&quot; &gt; /etc/pure-ftpd/conf/Bind
+echo &quot;40110 40210&quot; &gt; /etc/pure-ftpd/conf/PassivePortRange&lt;/pre&gt;
+
+Then restart the ftp service
+
+&lt;pre class=&#039;brush: bash;&#039;&gt;service pure-ftpd restart&lt;/pre&gt;
+
+
+&lt;strong&gt;In Red-Hat &amp;amp; CentOS edit /etc/pure-ftpd/pure-ftpd.conf as root and change this:&lt;/strong&gt;
+
+&lt;pre class=&#039;brush: plain;&#039;&gt;#Bind 127.0.0.1,21&lt;/pre&gt;
+
+remove the # and change 21 with 40:
+
+&lt;pre class=&#039;brush: plain;&#039;&gt;Bind 127.0.0.1,40&lt;/pre&gt;
+
+Then restart the ftp service
+
+&lt;pre class=&#039;brush: bash;&#039;&gt;service pure-ftpd restart&lt;/pre&gt;
+
+
+&lt;strong&gt;In Windows (Cygwin) version 2953 and later&lt;/strong&gt;
+
+Edit the file &lt;strong&gt;/OGP/Cfg/bash_prefs.cfg&lt;/strong&gt;
+
+&lt;pre class=&#039;brush: plain;&#039;&gt;ogp_manages_ftp=1
+ftp_port=21
+ftp_ip=0.0.0.0
+ftp_pasv_range=40000:50000&lt;/pre&gt;
+
+Then restart the Agent, to do this open a cmd or cygwin window as administrator and type
+
+&lt;pre class=&#039;brush: plain;&#039;&gt;net stop ogp_agent
+net start ogp_agent&lt;/pre&gt;
+
+_______________________________
+
+PS: You can also use &lt;strong&gt;0.0.0.0&lt;/strong&gt; to bind all interfaces or your public IP.
+
+
+Source: this thread &lt;a href=&quot;http://www.opengamepanel.org/forum/viewthread.php?thread_id=2425&quot;&gt;http://www.opengamepanel.org/forum/viewthread.php?thread_id=2425&lt;/a&gt;
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 13 Dec 2016 20:11:47 -0700</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/27-guid.html</guid>
+    
+</item>
+<item>
+    <title>How to successfully getting OGP to query TeamSpeak3 Server?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/26-How-to-successfully-getting-OGP-to-query-TeamSpeak3-Server.html</link>
+            <category>Panel</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/26-How-to-successfully-getting-OGP-to-query-TeamSpeak3-Server.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=26</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=26</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    In order to allow your Teamspeak 3 server to be queried by remote sources such as TSViewer you will need to make permission changes that allow “Guests” to query your server.
+
+Please follow the steps below in the order they are presented to ensure that everything gets set correctly.
+
+
+&lt;strong&gt;Step 1.&lt;/strong&gt;
+
+Open your Teamspeak 3 client and connect to your server.
+
+
+&lt;strong&gt;Step 2.&lt;/strong&gt;
+
+In your Teamspeak 3 client navigate to –&amp;gt; “Settings” –&amp;gt; “Options” (pictured below)
+
+&lt;a href=&quot;http://opengamepanel.org/faq/uploads/OGP_FAQ/TS3_query/tsstep1.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://opengamepanel.org/faq/uploads/OGP_FAQ/TS3_query/tsstep1.serendipityThumb.jpg&quot;&gt;&lt;/a&gt;
+
+
+&lt;strong&gt;Step 3.&lt;/strong&gt;
+
+On the left side of the new window, make sure you have “Application” selected. On the right panel, you will need to check off “Advanced permissions system.” (pictured below)
+
+&lt;a href=&quot;http://opengamepanel.org/faq/uploads/OGP_FAQ/TS3_query/tsstep2.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://opengamepanel.org/faq/uploads/OGP_FAQ/TS3_query/tsstep2.serendipityThumb.jpg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+
+
+&lt;strong&gt;Step 4.&lt;/strong&gt;
+
+Choose “Apply” and then “OK” at the bottom of the window.
+
+
+&lt;strong&gt;Step 5.&lt;/strong&gt;
+
+In your Teamspeak 3 client navigate to “Permissions” –&gt; “Server Groups“. (pictured below)
+
+&lt;a href=&quot;http://opengamepanel.org/faq/uploads/OGP_FAQ/TS3_query/tsstep3.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://opengamepanel.org/faq/uploads/OGP_FAQ/TS3_query/tsstep3.serendipityThumb.jpg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+
+
+&lt;strong&gt;Step 6.&lt;/strong&gt;
+
+In the new window, make sure “Guest” is selected at the left. Using the filter in the middle pane enter the following b_virtualserver_info_view (pictured below)
+
+&lt;a href=&quot;http://opengamepanel.org/faq/uploads/OGP_FAQ/TS3_query/tsstep4.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://opengamepanel.org/faq/uploads/OGP_FAQ/TS3_query/tsstep4.serendipityThumb.jpg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+
+
+&lt;strong&gt;Step 7.&lt;/strong&gt;
+
+Below the filter you will see the new permission option appear, you will need to right click on it and choose “Add permission.” (pictured below)
+
+&lt;a href=&quot;http://opengamepanel.org/faq/uploads/OGP_FAQ/TS3_query/tsstep5.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://opengamepanel.org/faq/uploads/OGP_FAQ/TS3_query/tsstep5.serendipityThumb.jpg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+
+
+&lt;strong&gt;Step 8.&lt;/strong&gt;
+
+You should now see it with the selected permission Value. (pictured below)
+
+&lt;a href=&quot;http://opengamepanel.org/faq/uploads/OGP_FAQ/TS3_query/tsstep6.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://opengamepanel.org/faq/uploads/OGP_FAQ/TS3_query/tsstep6.serendipityThumb.jpg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+
+
+&lt;strong&gt;Step 9.&lt;/strong&gt;
+
+Repeat &lt;strong&gt;step 6 and 7&lt;/strong&gt; with the following filters:
+
+&lt;strong&gt;b_virtualserver_client_list
+b_virtualserver_channel_list&lt;/strong&gt;
+
+
+&lt;strong&gt;Step 10.&lt;/strong&gt;
+Once you have completed adding the permissions for the three items above, you will be set to remotely query the status of your server.
+
+
+&lt;strong&gt;Step 11.&lt;/strong&gt;
+
+Make sure in the &lt;strong&gt;query_ip_whitelist.txt&lt;/strong&gt; file within your TeamSpeak3 server directory that you&#039;ve added &lt;strong&gt;your Panel server&#039;s IP address&lt;/strong&gt; so that it can make unlimited queries (if not done automatically for some reason by OGP).
+
+
+That should be all you have to do. It should look like this when your server is query-able for TS3
+
+&lt;img src=&quot;http://opengamepanel.org/faq/uploads/OGP_FAQ/TS3_query/ogp_ts3_query_good.serendipityThumb.jpg&quot; alt=&quot;&quot;&gt;
+
+
+Source: this old thread here &lt;a href=&quot;http://www.opengamepanel.org/forum/viewthread.php?thread_id=2658&quot; target=&quot;_blank&quot;&gt;http://www.opengamepanel.org/forum/viewthread.php?thread_id=2658&lt;/a&gt; and this archive from &lt;a href=&quot;https://web.archive.org/web/20150525183704/http://knowledge.hypernia.com/voice-servers-teamspeak-3-allow-remote-status-queries&quot; title=&quot;website is now dead&quot;&gt;http://knowledge.hypernia.com&lt;/a&gt;
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 13 Dec 2016 19:41:49 -0700</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/26-guid.html</guid>
+    
+</item>
+<item>
+    <title>How to run Windows based game server or program in Linux with OGP using WINE?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/13-How-to-run-Windows-based-game-server-or-program-in-Linux-with-OGP-using-WINE.html</link>
+            <category>Wine</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/13-How-to-run-Windows-based-game-server-or-program-in-Linux-with-OGP-using-WINE.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=13</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=13</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    Follow this guide on the GitHub Wiki page &lt;a href=&quot;https://github.com/OpenGamePanel/OGP-Website/wiki/Running-Windows-Game-Servers-on-Linux-using-WINE&quot; title=&quot;How to run Windows based game server or program in Linux with OGP using WINE?&quot; target=&quot;_blank&quot;&gt;https://github.com/OpenGamePanel/OGP-Website/wiki/Running-Windows-Game-Servers-on-Linux-using-WINE&lt;/a&gt;
+
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 13 Dec 2016 18:57:00 -0700</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/13-guid.html</guid>
+    
+</item>
+<item>
+    <title>Why doesn't my gameserver start?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/25-Why-doesnt-my-gameserver-start.html</link>
+            <category>Games</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/25-Why-doesnt-my-gameserver-start.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=25</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=25</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    There will be multiple possible source for this problem. Here are a few errors and their respective solutions:
+
+
+&lt;strong&gt;Centos: subsystem locked&lt;/strong&gt;
+
+Solution is to remove the lock and adding the Agent to startup. Type the following command in a terminal:
+
+&lt;pre class=&#039;brush: bash;&#039;&gt;sudo rm -f /var/lock/subsys/ogp_agent
+chkconfig --levels 235 ogp_agent on&lt;/pre&gt;
+
+
+&lt;strong&gt;Failed to read maps. Error code: -1&lt;/strong&gt;
+
+This means that it cant find or read the file. You are running the Agent as a user so this means if you add game server files as root or another user, you have to do the following in a terminal:
+
+&lt;pre class=&#039;brush: bash;&#039;&gt;sudo chown ogp_agent:ogp_agent -R /home/ogp_agent/&lt;/pre&gt;
+
+this will make the &lt;strong&gt;ogp_agent&lt;/strong&gt; user own the files. This is the most common problem.
+
+
+&lt;strong&gt;My File Manager wont work. Why?&lt;/strong&gt;
+
+Could be that Plesk or a other control panel is blocking it.
+
+
+&lt;strong&gt;What is Error code: -13?&lt;/strong&gt;
+
+It means you don&#039;t have enough permissions to start the game home, you have to &lt;strong&gt;chmod&lt;/strong&gt; the executable file from terminal.
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 13 Dec 2016 18:39:38 -0700</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/25-guid.html</guid>
+    
+</item>
+<item>
+    <title>OGP Panel breaks if I use Suhosin security plugin in Apache web server. How can I fix it?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/24-OGP-Panel-breaks-if-I-use-Suhosin-security-plugin-in-Apache-web-server.-How-can-I-fix-it.html</link>
+            <category>Panel</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/24-OGP-Panel-breaks-if-I-use-Suhosin-security-plugin-in-Apache-web-server.-How-can-I-fix-it.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=24</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=24</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    As for the PHP issue, if anyone is using the &lt;strong&gt;Suhosin plugin&lt;/strong&gt;, add this to your &lt;strong&gt;.htaccess&lt;/strong&gt; file in the panel directory:
+
+&lt;pre class=&#039;brush: php;&#039;&gt;php_value suhosin.request.array_index_blacklist &quot;&#039;&quot;&lt;&gt;;()&quot;
+php_value suhosin.request.max_array_index_length 300
+php_value suhosin.post.max_array_index_length 300&lt;/pre&gt;
+
+It was stripping most of the requests as the default character blacklist includes + for POST arrays, and in the case of autoupdate, the POST array index length was longer than the default limit of 64 characters.
+
+Source: this post &lt;a href=&quot;http://www.opengamepanel.org/forum/viewthread.php?thread_id=5095&amp;pid=24315#post_24314&quot; title=&quot;http://www.opengamepanel.org/forum/viewthread.php?thread_id=5095&amp;pid=24315#post_24314&quot;&gt;http://www.opengamepanel.org/forum/viewthread.php?thread_id=5095&amp;pid=24315#post_24314&lt;/a&gt;
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 13 Dec 2016 14:15:24 -0700</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/24-guid.html</guid>
+    
+</item>
+<item>
+    <title>Why do I see this error: &quot;Directory '/home/ogp_agent/OGP_User_Files/1/' not found from the server.&quot; in the File Manager?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/23-Why-do-I-see-this-error-Directory-homeogp_agentOGP_User_Files1-not-found-from-the-server.-in-the-File-Manager.html</link>
+            <category>Panel</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/23-Why-do-I-see-this-error-Directory-homeogp_agentOGP_User_Files1-not-found-from-the-server.-in-the-File-Manager.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=23</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=23</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    &lt;em&gt;&lt;strong&gt;Deprecated since OGP should now automatically create the folder as soon as initial creation in Panel is done.&lt;/strong&gt;&lt;/em&gt;
+
+&lt;strong&gt;Folder is created only when you Install the game server with SteamCMD or RSync or Master Server.&lt;/strong&gt;
+If you have to do a manual install with FTP then you need to create the folder.
+
+The logic behind: if it created the folder when you create the game server, &lt;strong&gt;or edit the server folder&lt;/strong&gt;, you can end up with multiple unused empty folder. &lt;strong&gt;The way it works, it only creates the folder when needed&lt;/strong&gt; (installing with OGP).
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 01 Nov 2016 02:42:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/23-guid.html</guid>
+    
+</item>
+<item>
+    <title>When I transfer some files from FTP they got corrupted / Some characters are added/modified when I transfer with my FTP client how do I fix that?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/20-When-I-transfer-some-files-from-FTP-they-got-corrupted-Some-characters-are-addedmodified-when-I-transfer-with-my-FTP-client-how-do-I-fix-that.html</link>
+            <category>FTP</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/20-When-I-transfer-some-files-from-FTP-they-got-corrupted-Some-characters-are-addedmodified-when-I-transfer-with-my-FTP-client-how-do-I-fix-that.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=20</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=20</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    Problem is surely you have &lt;strong&gt;wrong transfer mode&lt;/strong&gt; set in your FTP client. To avoid files modification/corruption set your FTP client transfer mode to &lt;strong&gt;BINARY&lt;/strong&gt; instead of AUTO/ASCII.
+
+&lt;strong&gt;Binary mode will keep the integrity of your files&lt;/strong&gt;, when ASCII will tend to modify them during transfer because of the original purpose of ASCII transfer mode (transferring plain text files only).
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 25 Oct 2016 04:17:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/20-guid.html</guid>
+    
+</item>
+<item>
+    <title>Wine package is updated and it is not working anymore together with OGP. What can I do to fix it?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/21-Wine-package-is-updated-and-it-is-not-working-anymore-together-with-OGP.-What-can-I-do-to-fix-it.html</link>
+            <category>Wine</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/21-Wine-package-is-updated-and-it-is-not-working-anymore-together-with-OGP.-What-can-I-do-to-fix-it.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=21</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=21</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    Run the following commands in a terminal:
+
+&lt;pre class=&#039;brush: bash;&#039;&gt;sudo /etc/init.d/ogp_vnc stop
+sudo /etc/init.d/ogp_vnc start&lt;/pre&gt;
+
+Note that it will shutdown all WINE game servers.
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 25 Oct 2016 04:17:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/21-guid.html</guid>
+    
+</item>
+<item>
+    <title>I can not update OGP. How do I fix the &quot;sourceforge.net is down or not responding&quot; error during update?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/19-I-can-not-update-OGP.-How-do-I-fix-the-sourceforge.net-is-down-or-not-responding-error-during-update.html</link>
+            <category>Panel</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/19-I-can-not-update-OGP.-How-do-I-fix-the-sourceforge.net-is-down-or-not-responding-error-during-update.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=19</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=19</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    &lt;strong&gt;&lt;em&gt;This is an old entry but keeping it for the cavemen who are still on this old version.&lt;/em&gt;&lt;/strong&gt;
+
+It may simply be SourceForge website which is not accessible at the time you try to update, simply wait that the site is back up online for downloads.
+
+If you are sure Source Forge website is available, you surely have an old OGP version (not using the recommended new &lt;strong&gt;Easy Installers&lt;/strong&gt; will produce this error) which is affected by a problem because of SourceForge changing http to http&lt;strong&gt;S&lt;/strong&gt;.
+
+To fix this you can manually update OGP (see this procedure in this FAQ), or you can fix the update problem by modifying some OGP files manually to repair the auto update by following this: 
+
+&lt;blockquote&gt;A change on SourceForge broke the Agent and Panel update functionality, and you need to fix it first to be able to auto update the Agent on Agent restart, or to update the Panel when you click the update button.
+
+
+&lt;strong&gt;To fix auto update for Agent you need to:&lt;/strong&gt;
+
+&lt;strong&gt;Linux&lt;/strong&gt; - replace the file ogp_agent_run in /usr/share/ogp_agent/ with the current one here &lt;a href=&quot;https://sourceforge.net/p/hldstart/svn/HEAD/tree/trunk/agent/ogp_agent_run&quot; target=&quot;_blank&quot;&gt;https://sourceforge.net/p/hldstart/svn/HEAD/tree/trunk/agent/ogp_agent_run&lt;/a&gt; 
+
+&lt;strong&gt;Windows&lt;/strong&gt; - replace the file ogp_agent in C:\OGP(64)\bin\ogp_agent with the current one here &lt;a href=&quot;https://sourceforge.net/p/hldstart/svn/HEAD/tree/trunk/agent_win/bin/ogp_agent&quot; target=&quot;_blank&quot;&gt;https://sourceforge.net/p/hldstart/svn/HEAD/tree/trunk/agent_win/bin/ogp_agent&lt;/a&gt;
+
+&lt;strong&gt;OR Linux + Windows&lt;/strong&gt; - you can manually apply the fix in a text editor following this thread &lt;a href=&quot;http://www.opengamepanel.org/forum/viewthread.php?thread_id=2964&amp;rowstart=40#post_19641&quot; target=&quot;_blank&quot;&gt;http://www.opengamepanel.org/forum/viewthread.php?thread_id=2964&amp;rowstart=40#post_19641&lt;/a&gt;
+
+Restart Agent it will auto update.
+
+
+&lt;strong&gt;To fix update module for the Panel you need to:&lt;/strong&gt;
+
+&lt;strong&gt;Linux&lt;/strong&gt; - replace file update.php in /var/www/html/modules/update/update.php with the current one here &lt;a href=&quot;https://sourceforge.net/p/hldstart/svn/HEAD/tree/trunk/upload/modules/update/update.php&quot; target=&quot;_blank&quot;&gt;https://sourceforge.net/p/hldstart/svn/HEAD/tree/trunk/upload/modules/update/update.php &lt;/a&gt;
+
+&lt;strong&gt;Windows&lt;/strong&gt; - replace the file update.php in C:\OGP(64)\srv\www\htdocs\modules\update\update.php with the current one here &lt;a href=&quot;https://sourceforge.net/p/hldstart/svn/HEAD/tree/trunk/upload/modules/update/update.php&quot; target=&quot;_blank&quot;&gt;https://sourceforge.net/p/hldstart/svn/HEAD/tree/trunk/upload/modules/update/update.php&lt;/a&gt;
+
+&lt;strong&gt;OR Linux + Windows&lt;/strong&gt; - manually apply the fix in a text editor following this thread &lt;a href=&quot;http://www.opengamepanel.org/forum/viewthread.php?thread_id=2964&amp;rowstart=40#post_19641&quot; target=&quot;_blank&quot;&gt;http://www.opengamepanel.org/forum/viewthread.php?thread_id=2964&amp;rowstart=40#post_19641&lt;/a&gt;
+
+Go in &lt;strong&gt;Administration&lt;/strong&gt; menu, then &lt;strong&gt;Update Panel&lt;/strong&gt; sub menu, and click the &lt;strong&gt;Update Now&lt;/strong&gt; button.&lt;/blockquote&gt;
+
+You should now have an updated and working Agent/Panel (which will now use GitHub since OGP moved over there since 8th November 2016, from the OGP SourceForge version 3390).
+
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 25 Oct 2016 04:16:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/19-guid.html</guid>
+    
+</item>
+<item>
+    <title>Why can't I delete some files in my game server folder?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/17-Why-cant-I-delete-some-files-in-my-game-server-folder.html</link>
+            <category>Panel</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/17-Why-cant-I-delete-some-files-in-my-game-server-folder.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=17</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=17</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    OGP protects the &lt;strong&gt;server executable&lt;/strong&gt; and the &lt;strong&gt;startup script&lt;/strong&gt; to disallow modifications by the user.
+
+You have two possibilities to remove this protection. First you can use the &lt;strong&gt;Panel&lt;/strong&gt; as an admin, and use the file manager to &lt;strong&gt;Unlock&lt;/strong&gt; the file by clicking on the appropriate button (protected files have a red button instead of a blue one).
+The second way to unlock the file is to use a command, open a terminal and browse to the folder where you have the protected file, then type the following (replace &lt;strong&gt;fileName&lt;/strong&gt; by the appropriate value, for example GameServer.exe or srcds_run or whatever the file name is):
+
+&lt;pre class=&#039;brush: bash;&#039;&gt;sudo chattr -i fileName&lt;/pre&gt;
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 25 Oct 2016 04:15:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/17-guid.html</guid>
+    
+</item>
+<item>
+    <title>How to download, update, install or uninstall modules in OGP?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/18-How-to-download,-update,-install-or-uninstall-modules-in-OGP.html</link>
+            <category>Modules</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/18-How-to-download,-update,-install-or-uninstall-modules-in-OGP.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=18</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=18</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    To download or update modules go to the &lt;strong&gt;Extras&lt;/strong&gt; page (Administration -&gt; Extras) then tick the checkbox accordingly to what you want to download or update, then click the &lt;strong&gt;Update/Download&lt;/strong&gt; button.
+
+To install modules, then you can simply click the &lt;strong&gt;Install&lt;/strong&gt; link in the &lt;strong&gt;Extras&lt;/strong&gt; page.
+
+You can also install previously downloaded modules, or custom created modules from the &lt;strong&gt;Modules&lt;/strong&gt; page (Administration -&gt; Modules) by clicking the &lt;strong&gt;Install&lt;/strong&gt; link for the desired module.
+
+To uninstall a module from &lt;strong&gt;Extras&lt;/strong&gt; page or &lt;strong&gt;Modules&lt;/strong&gt; page, simply click the &lt;strong&gt;Uninstall&lt;/strong&gt; link. You can also delete downloaded modules after you have uninstalled them, click the &lt;strong&gt;Remove&lt;/strong&gt; link from the &lt;strong&gt;Extras&lt;/strong&gt; page.
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 25 Oct 2016 04:15:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/18-guid.html</guid>
+    
+</item>
+<item>
+    <title>What should I do when I have a problem with OGP? How to ask for help?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/16-What-should-I-do-when-I-have-a-problem-with-OGP-How-to-ask-for-help.html</link>
+            <category>~Others</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/16-What-should-I-do-when-I-have-a-problem-with-OGP-How-to-ask-for-help.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=16</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=16</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    &lt;strong&gt;First, be sure your system, as well as OGP Agent and Panel are up to date&lt;/strong&gt;, it is important as problems may be related to outdated packages on the system, or related to bugs in OGP itself and may have been fixed in latest version. Same goes for &lt;strong&gt;Extras&lt;/strong&gt; modules (see how to update modules in this FAQ). So first &lt;strong&gt;everything&lt;/strong&gt; should be up to date.
+
+Then search the forum for your problem as it is maybe a common problem people have and many solutions could be found (if you search for an exact error message, be sure to tick the &#039;&lt;strong&gt;result has to contain all those words&lt;/strong&gt;&#039; option instead of the default &#039;search any of those words&#039; search option).
+
+You can also try with google using this link &lt;a href=&quot;https://www.google.com/search?q=site:http:%2F%2Fwww.opengamepanel.org+KEYWORDS+HERE&quot; title=&quot;Search on OGP website from google&quot; target=&quot;_blank&quot;&gt;https://www.google.com/search?q=site:http://www.opengamepanel.org+KEYWORDS+HERE&lt;/a&gt;, replace &lt;strong&gt;KEYWORDS HERE&lt;/strong&gt; in the search box by your search keywords of course, it will search on OGP website.
+
+Then if you need to open a new thread, follow those simple rules: Tell us your operating system, Agent and Panel version (to be sure you are up to date, but you &lt;strong&gt;NEED&lt;/strong&gt; to be up to date for support), describe the error you encounter and for which game server (if relevant) and/or on which Panel page or action (if relevant), give the error messages or logs from Agent, Panel, web server, game server you have, to make it simple give the most details as possible.
+
+&lt;strong&gt;Remember you are not in a hurry to write your support thread, so take your time and remember that the best thread you write, the most positive it will be perceived, threads like &quot;OGP not working, help!!!&quot; are likely to be ignored or will receive negative answers.&lt;/strong&gt;
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 25 Oct 2016 04:13:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/16-guid.html</guid>
+    
+</item>
+<item>
+    <title>How to create an Addon for a game server in OGP?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/15-How-to-create-an-Addon-for-a-game-server-in-OGP.html</link>
+            <category>Panel</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/15-How-to-create-an-Addon-for-a-game-server-in-OGP.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=15</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=15</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    Go to the &lt;strong&gt;Addons&lt;/strong&gt; page (Administration -&gt; Addons) and simply fill the information and then click the &lt;strong&gt;Create Addon&lt;/strong&gt; button. See the following picture to help you:
+
+&lt;a href=&quot;http://opengamepanel.org/faq/uploads/OGP_FAQ/HowtocreateAddonforgameserverinOGP.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://opengamepanel.org/faq/uploads/OGP_FAQ/HowtocreateAddonforgameserverinOGP.serendipityThumb.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 25 Oct 2016 04:11:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/15-guid.html</guid>
+    
+</item>
+<item>
+    <title>How to receive an email when an update is released?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/14-How-to-receive-an-email-when-an-update-is-released.html</link>
+            <category>~Others</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/14-How-to-receive-an-email-when-an-update-is-released.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=14</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=14</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    &lt;strong&gt;Open Game Panel is now on GitHub&lt;/strong&gt;. &lt;a href=&quot;https://github.com/join&quot; title=&quot;GitHub signup&quot;&gt;Create a GitHub account&lt;/a&gt;, and go to the OGP page at GitHub &lt;a href=&quot;https://github.com/OpenGamePanel&quot;&gt;https://github.com/OpenGamePanel&lt;/a&gt;
+
+You will see the different OGP repositories. The main repositories are the three on top: &lt;strong&gt;OGP-Website&lt;/strong&gt; / &lt;strong&gt;OGP-Agent-Linux&lt;/strong&gt; / &lt;strong&gt;OGP-Agent-Windows&lt;/strong&gt;&lt;br /&gt;
+You can see if you scroll down in the page that there are other repositories for each Module and Theme you can use in OGP.
+
+Click on the repository your are interested in, then you have icons on top of the page called  &lt;strong&gt;Watch&lt;/strong&gt;, &lt;strong&gt;Star&lt;/strong&gt;, and &lt;strong&gt;Fork&lt;/strong&gt;. The one you are interested in is &lt;strong&gt;Watch&lt;/strong&gt;. simply click on it to change your notification preference. You are now subscribed and will receive an email when a new commit is available. Do the same for all repositories you want to watch. Be sure to enable email notification and not only web notification in your settings &lt;a href=&quot;https://github.com/settings/notifications&quot;&gt;https://github.com/settings/notifications&lt;/a&gt;
+
+Source: &lt;a href=&quot;https://github.com/blog/1204-notifications-stars&quot;&gt;https://github.com/blog/1204-notifications-stars&lt;/a&gt;
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 25 Oct 2016 04:10:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/14-guid.html</guid>
+    
+</item>
+<item>
+    <title>Where can I find the Agent configuration files?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/11-Where-can-I-find-the-Agent-configuration-files.html</link>
+            <category>Agent</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/11-Where-can-I-find-the-Agent-configuration-files.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=11</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=11</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    In default installation they are located at &quot;&lt;strong&gt;/usr/share/ogp_agent/Cfg/&lt;/strong&gt;&quot;.
+
+&lt;strong&gt;Restart the Agent&lt;/strong&gt; with following command after saving your modifications to config files in order to take effect:
+
+&lt;pre class=&#039;brush: bash;&#039;&gt;sudo service ogp_agent restart&lt;/pre&gt;
+
+
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 25 Oct 2016 04:09:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/11-guid.html</guid>
+    
+</item>
+<item>
+    <title>How to create RSync server?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/12-How-to-create-RSync-server.html</link>
+            <category>~Others</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/12-How-to-create-RSync-server.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=12</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=12</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    Follow this &lt;a href=&quot;http://www.opengamepanel.org/faq.php?cat_id=5&quot; title=&quot;How to create RSync server?&quot; target=&quot;_blank&quot;&gt;http://www.opengamepanel.org/faq.php?cat_id=5&lt;/a&gt;
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 25 Oct 2016 04:09:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/12-guid.html</guid>
+    
+</item>
+<item>
+    <title>Why are the files and folders in the File Manager in Panel all with wrong and weird characters (or blank characters) in their name?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/10-Why-are-the-files-and-folders-in-the-File-Manager-in-Panel-all-with-wrong-and-weird-characters-or-blank-characters-in-their-name.html</link>
+            <category>Panel</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/10-Why-are-the-files-and-folders-in-the-File-Manager-in-Panel-all-with-wrong-and-weird-characters-or-blank-characters-in-their-name.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=10</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=10</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    You have probably &lt;strong&gt;wrong ownership on the files and folders&lt;/strong&gt; of your OGP user home directory (where you install your game servers). To fix this run the following command
+
+&lt;pre class=&#039;brush: bash;&#039;&gt;sudo chown ogp_agent:ogp_agent -R /home/ogp_agent/OGP_User_Files/&lt;/pre&gt;
+
+Another possibility could be that you have old Agent/Panel version (see &#039;How to update Agent/Panel&#039;) or your Agent/Panel version are too different from each other.
+
+Also be sure to have your system up to date.
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 25 Oct 2016 04:08:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/10-guid.html</guid>
+    
+</item>
+<item>
+    <title>How to update the Panel?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/7-How-to-update-the-Panel.html</link>
+            <category>Panel</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/7-How-to-update-the-Panel.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=7</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=7</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    Simply go to the &lt;strong&gt;Update&lt;/strong&gt; page (Administration -&gt; Update Panel) and click the &lt;strong&gt;Update Now&lt;/strong&gt; button.
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 25 Oct 2016 04:07:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/7-guid.html</guid>
+    
+</item>
+<item>
+    <title>How to create a new Game Config file (to add and manage a new game server, program or whatever you want from OGP)?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/8-How-to-create-a-new-Game-Config-file-to-add-and-manage-a-new-game-server,-program-or-whatever-you-want-from-OGP.html</link>
+            <category>Games</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/8-How-to-create-a-new-Game-Config-file-to-add-and-manage-a-new-game-server,-program-or-whatever-you-want-from-OGP.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=8</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=8</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    &lt;strong&gt;First be sure that the game server or program you want to run in OGP works outside of OGP&lt;/strong&gt;, it would be a waste of time if you try to run in OGP something that does not work at all on your machine.
+
+Then see how other XML game configs are made, some can be really complicated with lot of features, but other can be really simple.
+
+Then create a new empty XML file on your web server, in your OGP Panel installation folder &lt;strong&gt;/modules/config_games/server_configs/&lt;/strong&gt; named like this &quot;&lt;strong&gt;GameName_OS.xml&lt;/strong&gt;&quot; (&#039;&lt;strong&gt;GameName&lt;/strong&gt;&#039; being the game server name, for example &#039;counterstrike&#039; or &#039;counter_strike&#039; (&lt;strong&gt;do not use spaces&lt;/strong&gt;), and &#039;&lt;strong&gt;OS&lt;/strong&gt;&#039; being what Operating System it is made for (&#039;win&#039;, &#039;&lt;strong&gt;win32&lt;/strong&gt;&#039;, &#039;&lt;strong&gt;win64&lt;/strong&gt;&#039;, &#039;linux&#039;, &#039;&lt;strong&gt;linux32&lt;/strong&gt;&#039;, or &#039;&lt;strong&gt;linux64&lt;/strong&gt;&#039; depending on the game server requirement, &#039;win&#039; and &#039;linux&#039; being general and mostly deprecated (do not use that), and &#039;win64&#039; or &#039;linux64&#039; being specific on the architecture and forbid installation on 32 bits systems obviously), and follow these helpful information &lt;a href=&quot;http://opengamepanel.org/articles.php?article_id=6&quot; title=&quot;Articles Home » Documentation » XML Game Configs Creation&quot; target=&quot;_blank&quot;&gt;http://opengamepanel.org/articles.php?article_id=6&lt;/a&gt; (little outdated, to be updated later). 
+
+&lt;strong&gt;Start with really simple and minimal XML&lt;/strong&gt;, then when it works you can add more features. See the &lt;strong&gt;/modules/config_games/server_configs/README&lt;/strong&gt; file for more information about the XML file validation to find the errors in your XML. When your XML file is validated, you can add it in OGP Panel database by going to the &lt;strong&gt;Game/Mod Config&lt;/strong&gt; page (Administration -&gt; Game/Mod Config) and simply click the &lt;strong&gt;Update Configs&lt;/strong&gt; button. You can now install it from OGP Panel.
+
+Additional Information on new XML functionalities are provided here &lt;a href=&quot;https://github.com/OpenGamePanel/OGP-Website/wiki/XML-Notes&quot; title=&quot;XML guide on GitHub&quot; target=&quot;_blank&quot;&gt;https://github.com/OpenGamePanel/OGP-Website/wiki/XML-Notes&lt;/a&gt;
+ 
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 25 Oct 2016 04:07:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/8-guid.html</guid>
+    
+</item>
+<item>
+    <title>How to create a module for OGP?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/9-How-to-create-a-module-for-OGP.html</link>
+            <category>Modules</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/9-How-to-create-a-module-for-OGP.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=9</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=9</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    First read &lt;a href=&quot;http://www.opengamepanel.org/forum/viewthread.php?thread_id=3901&amp;pid=17219#post_17219&quot; title=&quot;How to create a module for OGP&quot; target=&quot;_blank&quot;&gt;http://www.opengamepanel.org/forum/viewthread.php?thread_id=3901&amp;pid=17219#post_17219&lt;/a&gt; then you can also look how other modules are made in OGP.
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 25 Oct 2016 04:07:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/9-guid.html</guid>
+    
+</item>
+<item>
+    <title>How to update the Agent?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/6-How-to-update-the-Agent.html</link>
+            <category>Agent</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/6-How-to-update-the-Agent.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=6</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=6</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    Simply restart the Agent with the following command from terminal:
+
+&lt;pre class=&#039;brush: bash;&#039;&gt;sudo service ogp_agent restart&lt;/pre&gt;
+
+&lt;strong&gt;Agent configuration needs to allow auto update&lt;/strong&gt; (in Agent installation folder, go to &lt;strong&gt;Cfg&lt;/strong&gt; folder, open &lt;strong&gt;bash_prefs.cfg&lt;/strong&gt; and be sure you have &quot;&lt;strong&gt;agent_auto_update=1&lt;/strong&gt;&quot;.
+
+You can also restart the Agent from the &lt;strong&gt;Servers&lt;/strong&gt; page in the Panel (Administration -&gt; Servers). As for restarting it from the terminal, Agent configuration must allow auto update.
+
+
+You can also manually update the Agent by stopping it first with the following command:
+
+&lt;pre class=&#039;brush: bash;&#039;&gt;sudo service ogp_agent stop&lt;/pre&gt;
+
+Then update it by overwriting the Agent files (located at /usr/share/ogp_agent/ in a default installation) with the files from GitHub Agent repository &lt;a href=&quot;https://github.com/OpenGamePanel&quot;&gt;https://github.com/OpenGamePanel&lt;/a&gt;. Manually download and upload the files to the installation directory or use one of the following commands (Note that using GitHub SVN instead of GIT may take a while to work because GitHub needs to create the SVN folder when you request it):
+
+&lt;pre class=&#039;brush: bash;&#039;&gt;svn co https://github.com/OpenGamePanel/OGP-Agent-Linux/trunk/ /usr/share/ogp_agent&lt;/pre&gt;
+
+You then have to restart the Agent after you updated the files, use the following command:
+
+&lt;pre class=&#039;brush: bash;&#039;&gt;sudo service ogp_agent start&lt;/pre&gt;
+
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 25 Oct 2016 04:06:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/6-guid.html</guid>
+    
+</item>
+<item>
+    <title>How can I see the Panel version?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/5-How-can-I-see-the-Panel-version.html</link>
+            <category>Panel</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/5-How-can-I-see-the-Panel-version.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=5</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=5</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    In default theme you can see the &lt;strong&gt;Panel version&lt;/strong&gt; at the bottom of the page, or go to the &lt;strong&gt;Update&lt;/strong&gt; page (Administration -&gt; Update Panel). You should see &quot;Panel version: XXXX&quot;
+
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 25 Oct 2016 04:05:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/5-guid.html</guid>
+    
+</item>
+<item>
+    <title>How to force game server files validation with SteamCMD from OGP Panel?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/3-How-to-force-game-server-files-validation-with-SteamCMD-from-OGP-Panel.html</link>
+            <category>Games</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/3-How-to-force-game-server-files-validation-with-SteamCMD-from-OGP-Panel.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=3</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=3</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    Delete the &lt;strong&gt;SteamApps&lt;/strong&gt; folder located in the game server root folder, then run a normal update from the OGP Panel by clicking &lt;strong&gt;Install/Update via Steam&lt;/strong&gt; button in the game server own page. You will see the file verification progress in the logging window.
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 25 Oct 2016 04:04:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/3-guid.html</guid>
+    
+</item>
+<item>
+    <title>How can I see the Agent version?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/4-How-can-I-see-the-Agent-version.html</link>
+            <category>Agent</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/4-How-can-I-see-the-Agent-version.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=4</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=4</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    Look in the &lt;strong&gt;Agent log&lt;/strong&gt; file (usr/share/ogp_agent/ogp_agent.log for Linux, C:\OGPxx\OGP for windows) or look in the &lt;strong&gt;Agent screen&lt;/strong&gt; from terminal with the following command to attach the Agent screen (CTRL+A+D to detach the screen):
+
+&lt;pre class=&#039;brush: bash;&#039;&gt;sudo su -c &#039;screen -S ogp_agent -r&#039; ogp_agent&lt;/pre&gt;
+
+You should see a line like this where &lt;strong&gt;vXXXX &lt;/strong&gt;is the Agent version:
+
+&lt;pre class=&#039;brush: plain;&#039;&gt;Open Game Panel - Agent started - vXXXX - port YYYY - PID ZZZZ&lt;/pre&gt;
+
+
+You can also restart the Agent from the Administration -&gt; Server menu, and see the screen log from here after Agent is restarted.
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 25 Oct 2016 04:04:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/4-guid.html</guid>
+    
+</item>
+<item>
+    <title>Where to start to install OGP? What do I install?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/2-Where-to-start-to-install-OGP-What-do-I-install.html</link>
+            <category>~Others</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/2-Where-to-start-to-install-OGP-What-do-I-install.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=2</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=2</wfw:commentRss>
+    
+
+    <author>nospam@example.com (Dani)</author>
+    <content:encoded>
+    You simply need to go to the &lt;a href=&quot;http://www.opengamepanel.org/infusions/pro_download_panel/download.php?catid=9&quot; title=&quot;Downloads&quot; target=&quot;_blank&quot;&gt;Downloads section&lt;/a&gt; in the menu at Open Game Panel website, and read the instructions for the &lt;strong&gt;Easy Installers&lt;/strong&gt; according to your Operating System (OS version and architecture).
+
+Start with installing the &lt;strong&gt;Agent&lt;/strong&gt;, then install the &lt;strong&gt;Panel&lt;/strong&gt;.
+
+Then you can read this page (a little outdated, to be updated later) &lt;a href=&quot;http://opengamepanel.org/articles.php?article_id=4&quot; title=&quot;OGP Getting Started Guide&quot; target=&quot;_blank&quot;&gt;OGP Getting Started Guide&lt;/a&gt;
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 25 Oct 2016 03:43:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/2-guid.html</guid>
+    
+</item>
+<item>
+    <title>How does OGP work?</title>
+    <link>https://opengamepanel.org/faq/index.php?/archives/1-How-does-OGP-work.html</link>
+            <category>~Others</category>
+    
+    <comments>https://opengamepanel.org/faq/index.php?/archives/1-How-does-OGP-work.html#comments</comments>
+    <wfw:comment>https://opengamepanel.org/faq/wfwcomment.php?cid=1</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>https://opengamepanel.org/faq/rss.php?version=2.0&amp;type=comments&amp;cid=1</wfw:commentRss>
+    
+
+    <author>nospam@example.com (®omano)</author>
+    <content:encoded>
+    &lt;strong&gt;Open Game Panel&lt;/strong&gt; basically consists of a program running on the machine where your game servers will be installed (the &lt;strong&gt;Agent&lt;/strong&gt;), and a web interface which communicates with the Agent to control it, to install, start, stop your game servers, and more (the &lt;strong&gt;Panel&lt;/strong&gt;).
+
+The Panel can run on the same machine as the Agent, but can also run on another different machine.
+
+You can have multiple machines for your game servers, but &lt;strong&gt;you have to install the Agent on every machine where you want to install game servers&lt;/strong&gt;, then with &lt;strong&gt;the same Panel&lt;/strong&gt; you can control all of them.
+
+See the OGP Architecture Diagram here &lt;a href=&quot;http://www.opengamepanel.org/viewpage.php?page_id=6&quot; title=&quot;OGP Architecture Diagram&quot; target=&quot;_blank&quot;&gt;http://www.opengamepanel.org/viewpage.php?page_id=6&lt;/a&gt;
+ 
+    </content:encoded>
+
+    <pubDate>Tue, 25 Oct 2016 03:41:00 -0600</pubDate>
+    <guid isPermaLink="false">https://opengamepanel.org/faq/index.php?/archives/1-guid.html</guid>
+    
+</item>
+
+</channel>
+</rss>

@@ -1,0 +1,5 @@
+<navigation>
+  <page key="main" file="main.php" access="user,admin" />
+  <page key="uninstall" file="uninstall.php" access="user,admin" />
+  <page key="workshop_admin" file="workshop_admin.php" access="admin" />
+</navigation>

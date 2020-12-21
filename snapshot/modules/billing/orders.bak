@@ -1,0 +1,217 @@
+<?php 
+function exec_ogp_module()
+{
+	error_reporting(E_ALL);
+	
+	global $db,$settings;
+	$coupon_id = 0;
+	$coupon_code = 0;
+	$coupon_discount = 0;
+	$coupon_name = "";
+	if(isset($_POST['remove']))
+	{
+		$query_delete_order = $db->query("DELETE FROM OGP_DB_PREFIXbilling_orders WHERE cart_id=".$db->realEscapeSingle($_POST['cart_id']));
+		$query_delete_order = $db->query("DELETE FROM OGP_DB_PREFIXbilling_carts WHERE cart_id=".$db->realEscapeSingle($_POST['cart_id']));
+	}
+	if(isset($_POST['paid']))
+	{
+		$query_set_as_paid =  $db->query("UPDATE OGP_DB_PREFIXbilling_carts
+										  SET paid=1
+										  WHERE cart_id=".$db->realEscapeSingle($_POST['cart_id']));
+	}
+	$status_array = array ( "not_paid" => 0,
+							"paid" => 1,
+							"procesing_payment" => 2,
+							"paid_and_installed" => 3
+						  );
+	?>
+	
+	<h2><?php print_lang("orders");?></h2>
+		 <form method="post" action="?m=billing&p=cart">
+	<input type="hidden" name="cart_id" value="<?php echo $order['cart_id'];?>">
+	<input type="submit" value="View Cart">
+					 </form>										 
+	<?php
+	$isAdmin = $db->isAdmin( $_SESSION['user_id'] );
+
+	$user_id = $_SESSION['user_id'];
+	foreach($status_array as $status => $paid_value)
+	{
+		if ($isAdmin){
+ 			$carts = $db->resultQuery("SELECT * FROM OGP_DB_PREFIXbilling_carts WHERE paid =" . $db->realEscapeSingle($paid_value) ." order by cart_id DESC");
+			} else {
+ 			$carts = $db->resultQuery("SELECT * FROM OGP_DB_PREFIXbilling_carts WHERE paid =" . $db->realEscapeSingle($paid_value) ." AND user_id = " . $user_id ." order by cart_id DESC");
+			}
+
+		if( $carts > 0 )
+		{
+			?>
+		<h4><?php print_lang($status);?></h4><?php
+			foreach($carts as $cart) 
+			{
+			
+			?>
+		<center>
+			<table style="width:100%;text-align:center;" class="center">
+				<tr>
+					<th><?php print_lang("login");?></th>
+					<th><?php print_lang("order_id");?></th>
+					<th><?php print_lang("server_id");?></th>
+					<th><?php print_lang("home_name");?></th>
+					<th><?php print_lang("price");?></th>
+				<?php
+				if($status == "paid_and_installed")
+				{?>
+					<th><?php print_lang("expiration_date");?></th>
+				<?php
+				}?>
+				</tr>
+				<?php  
+				$orders = $db->resultQuery("SELECT * FROM OGP_DB_PREFIXbilling_orders WHERE cart_id=".$db->realEscapeSingle($cart['cart_id']));
+				$subtotal = 0;
+				foreach($orders as $order) 
+				{
+				if($order['qty'] > 1)
+					$order['invoice_duration'] = $order['invoice_duration']."s";
+				?>
+				<tr class="tr">
+					<td><a href="?m=user_admin&p=edit_user&user_id=<?php echo $order['user_id'];?>" ><?php $user = $db->getUserById($order['user_id']); echo $user['users_login'];?></a></td>
+					<td><b class="success"><?php echo $order['cart_id'];?></b></td>
+					<td><b class="success"><?php echo $order['home_id'];?></b></td>
+					<td><?php echo $order['home_name']." [ ".$order['max_players']." ".get_lang('slots').", ".$order['qty']." ".get_lang($order['invoice_duration'])." ]";?></td>
+					<td><?php echo $order['price'].$cart['currency'];?></td>
+					<?php
+					if($status == "paid_and_installed")
+					{
+						
+						$today = time();
+						$order_status = "Unknown";
+						$order_status = $order['end_date'] > '0' ? "<b style='color:green;'>Enabled</b>":$order_status;
+						$order_status = $order['end_date'] == '0' ? "<b style='color:yellow;'>Unpaid</b>":$order_status;
+						$order_status = $order['end_date'] == '-1' ? "<b style='color:yellow;'>Invoice Due</b>":$order_status;
+						$order_status = $order['end_date'] == '-2' ? "<b style='color:red;'>Suspended</b>":$order_status;
+						$order_status = $order['end_date'] == '-3' ? "<b style='color:yellow;'>Renewed</b>":$order_status;
+						$order_status = $order['end_date'] == '-99' ? "<b style='color:red;'>Expired</b>":$order_status;
+						$finish_date = date('d/M/Y H:i',$order['finish_date']);
+						echo "<td>Status: <b>$order_status</b>";
+						echo "<br>Expiration: <b>$finish_date</b></td>";
+					}
+					?>
+			    </tr><?php 
+				$subtotal += $order['price'] * $order['max_players'];
+				}
+				$total = $subtotal+($settings['tax_amount']/100*$subtotal);
+				?>
+				<tr>
+					<td>
+				<?php
+				if ($status == "not_paid" )
+				{
+					if ($isAdmin)
+					{
+									
+					?>
+					 <form method="post" action="">
+					  <input type="hidden" name="cart_id" value="<?php echo $order['cart_id'];?>">
+					  <input name="paid" type="submit" value="Mark Paid">
+					 </form>
+					<?php
+					}else{
+						echo "<b style='color:yellow;'>Unpaid</b>";
+					
+					}
+				}
+				if($status == "paid")
+				{
+					?>
+					 <form method="post" action="home.php?m=billing&p=create_servers">
+					  <input type="hidden" name="cart_id" value="<?php echo $order['cart_id'];?>">
+					<?php
+					if($order['extended'] == "1")
+					{
+					?>
+					  <input name="enable_server" type="submit" value="<?php print_lang("enable_server");?>">
+					<?php 
+					}
+					else
+					{
+					?>
+					  <input name="create_server" type="submit" value="<?php print_lang("create_server");?>">
+					<?php 
+					}
+					?>
+					 </form>
+					<?php
+				}
+				elseif($status == "procesing_payment")
+				{
+					?>
+					 <form method="post" action="">
+					  <input type="hidden" name="cart_id" value="<?php echo $order['cart_id'];?>">
+					  <input name="paid" type="submit" value="<?php print_lang("set_as_paid");?>">
+					 </form>
+					<?php
+				}
+				elseif($status == "paid_and_installed")
+				{
+					?>
+					 <form method="post" action="?m=billing&p=bill">
+					  <input type="hidden" name="cart_id" value="<?php echo $order['cart_id'];?>">
+					  <input name="paid" type="submit" value="<?php print_lang("see_invoice");?>">
+					 </form>
+					<?php
+				}
+				?>
+					</td>
+					<td>
+					<!-- 
+					 <form method="post" action="">
+					  <input type="hidden" name="cart_id" value="<?php echo $order['cart_id'];?>">
+					  
+					  <input name="remove" type="submit" value="<?php print_lang("remove_cart");?>"> 
+					  	</form>
+						-->
+					</td>
+					<!-- 
+					     EMPTY CELLS, PUT ALL PRICES VERTICAL IN PRICE COLUMN 
+					     Get the Coupon info
+					-->
+					<td></td><td></td><td align="right">
+					<?php 
+					
+					echo get_lang('subtotal')." <b>$".number_format( $subtotal , 2 ). " " .$cart['currency']."</b></br>"; 
+					//get the coupon information used in this order
+					if($cart['coupon_id']>0) {
+						$result = $db->resultquery("SELECT * from OGP_DB_PREFIXbilling_coupons WHERE id = '". $cart['coupon_id'] . "'");
+						foreach($result as $coupon){
+							$coupon_savings = $subtotal * (1-($coupon['discount']/ 100));
+							echo "Coupon Savings: <b>$" .number_format( $coupon_savings , 2 ).$cart['currency']."</b></br>"; 
+							}
+					}
+					if ($settings['tax_amount'] > 0){
+						echo "Tax <b>(".$settings['tax_amount']."%) $".number_format( $settings['tax_amount']/100*$subtotal, 2 ).$cart['currency']."</b></br>";
+					}
+					$total = $subtotal-$coupon_savings+($settings['tax_amount']/100*$subtotal);
+					echo get_lang('total')." <b>$".number_format( $total , 2 ). " " .$cart['currency']."</b>"; 
+					?>
+					</td>
+					<?php
+					if($status == "paid_and_installed")
+					{
+					?>
+					<td>
+					 <?php echo "Paid on:  <b>".$cart['date']."</b>"; ?>
+					</td>
+					<?php
+					}
+					?>
+				</tr>
+			</table>
+		</center>
+				<?php
+			}
+		}
+	}
+}
+?>
+

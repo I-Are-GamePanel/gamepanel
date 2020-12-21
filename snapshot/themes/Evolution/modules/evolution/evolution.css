@@ -1,0 +1,162 @@
+/**
+ * Evolution Theme Editor
+ * 2016 Created By: james30263
+ * www.opengamepanel.org
+ **/
+ 
+p {
+    background-color:#373737;
+    border:1px solid #373737;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    color:#fff;
+	width:60px;
+    cursor:pointer;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    text-transform:uppercase;
+} 
+
+.message {
+	background-color:#585858;
+	border:1px solid #585858;
+	width:98.5%;
+    text-align:left;
+	margin-bottom:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	padding-right:10px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    text-transform:none;	
+}
+
+.notice {
+	background-color:#585858;
+	border:1px solid #585858;
+	width:98.5%;
+    text-align:left;
+	margin-bottom:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	padding-right:10px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    text-transform:none;	
+	color:#f31226;
+	font-weight:bold;
+	font-style:italic;
+}
+
+.lager {
+	background-color:#4f4f4f;
+	border: 1px solid #373737;
+	width:98.5%;
+	margin-bottom:30px;
+	color:#f20723;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    text-transform:none;	
+}
+
+.checker {
+	background-color:#585858;
+	border:1px solid #585858;
+	width:98.5%;
+	margin-bottom:30px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    text-transform:none;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;	
+}
+
+.colorbox {
+	background-color:#585858;
+	border:1px solid #585858;
+	width:98.5%;
+	margin-bottom:30px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    text-transform:none;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;	
+}
+
+#steps {
+    text-transform:none;
+	font-size:13px;
+}
+
+div.notinstalled {
+		color:#f20723;
+}
+
+div.installed {
+		color:#2cb517;
+}
+
+#content a:link, #content a:visited {
+    color:#fff;
+    font-weight:bold;
+	text-decoration:none;
+}
+/**
+ * Farbtastic Color Picker 1.2
+ * © 2008 Steven Wittens
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ */
+ 
+.farbtastic {
+  position:relative;
+}
+.farbtastic * {
+  position:absolute;
+  cursor:crosshair;
+}
+.farbtastic, .farbtastic .wheel {
+  width:195px;
+  height:195px;
+}
+.farbtastic .color, .farbtastic .overlay {
+  top:47px;
+  left:47px;
+  width:101px;
+  height:101px;
+}
+.farbtastic .wheel {
+  background:url(images/wheel.png) no-repeat;
+  width:195px;
+  height:195px;
+}
+.farbtastic .overlay {
+  background:url(images/mask.png) no-repeat;
+}
+.farbtastic .marker {
+  width:17px;
+  height:17px;
+  margin:-8px 0 0 -8px;
+  overflow:hidden; 
+  background:url(images/marker.png) no-repeat;
+}

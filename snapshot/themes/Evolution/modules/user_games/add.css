@@ -1,0 +1,10 @@
+[value="Add game server"] {
+    background-color:#373737;
+    border:1px solid #373737 !important;
+    padding:5px 10px;
+    color:#FFF;
+    cursor:pointer;
+    margin-left:5px;
+    border-radius:3px;
+    text-transform:uppercase;
+}

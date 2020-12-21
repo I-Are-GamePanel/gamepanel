@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<workshop_settings>
+  <workshop_id/>
+  <download_method>steamcmd</download_method>
+  <anonymous_login>0</anonymous_login>
+  <mods_path/>
+  <mods/>
+  <config>
+    <regex/>
+    <mods_backreference_index/>
+    <variable/>
+    <place_after/>
+    <mod_string/>
+    <string_separator/>
+    <filepath/>
+  </config>
+  <post_install/>
+  <uninstall/>
+</workshop_settings>

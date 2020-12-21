@@ -1,0 +1,130 @@
+.main-content div div p{
+	color:#ffffff !important;
+}
+
+/* game image styling */
+input[type="image"]{
+	margin-top:-15px;
+	width:256px;
+	height:256px;
+}
+
+/* description image styling */
+img{
+	width:256px;
+	height:256px;
+}
+
+/* cart image styling */
+a img{
+	display:none;
+	width:24px;
+	height:22px;
+}
+
+/* Game name below image */
+center {
+
+}
+
+#refresh-manual {
+    color:#333;
+    height:23px;
+    background:none repeat scroll 0% 0% #484848;
+    padding-top:5px;
+    padding-left:5px;
+    padding-right:5px;
+    text-align:center;
+    font-family:"Trebuchet MS";
+    font-size:12px;
+    border-radius:0px 0px 3px 3px;
+    right:5%;
+    position:absolute;
+}
+
+/* pricing text */
+center em{
+	text-align:center;
+	background-color:#505050 !important;
+	color:#379BB9 !important;
+}
+
+.main-content {
+    background:none;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    border:none;
+    background-color:#505050;
+	border:1px solid #484848;
+    overflow:auto;
+    padding-right:1%;
+    padding-bottom:1%;
+    padding-left:1%;
+}
+
+.main-content > div > table > tbody > tr > td > input[value="Add To Cart"] {
+	margin-top:20px;
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+.main-content > div > table > tbody > tr > td > form > button {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+.main-content > div > div > form > input[value="Edit"] {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+table.center{
+	color:#379BB9;
+	padding:10px;
+}
+
+table.center tr td{
+	padding-top:20px;
+	color:#ffffff;
+	cursor:default;
+}
+
+/*#content a:link, #content a:visited{*/
+table.center tbody tr td a{
+	text-decoration:none;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	background-color: #373737;
+}

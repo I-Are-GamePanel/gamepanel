@@ -1,0 +1,109 @@
+<game_config>
+ <game_key>arma2oa_win32</game_key>
+ <protocol>lgsl</protocol>
+ <lgsl_query_name>arma2oa</lgsl_query_name>
+ <installer>steamcmd</installer>
+ <game_name>Arma2 Operation Arrowhead</game_name>
+ <server_exec_name>arma2oaserver.exe</server_exec_name>
+ <cli_template>%MODLIST% -cfg=cfg\basic.cfg -config=cfg\server.cfg -name=player -profiles=cfg %IP% %PORT%</cli_template>
+ <cli_params>
+  <cli_param id="PORT" cli_string="-port=" />
+  <cli_param id="IP" cli_string="-ip=" />
+ </cli_params>
+<reserve_ports>
+    <port type="add" id="QUERY_PORT">1</port>
+ </reserve_ports>
+<cli_allow_chars>;</cli_allow_chars>
+
+<console_log>cfg/arma2oaserver.RPT</console_log>
+<max_user_amount>64</max_user_amount>
+ <control_protocol>armabe</control_protocol>
+ <mods>
+ <mod key='arma2oa'>
+   <name>none</name>
+   <installer_name>33930</installer_name>
+  </mod>
+ </mods>
+ <replace_texts>
+  <text key="max_players">
+   <default>(maxPlayers\s*=\s*)(.*)(;)</default>
+   <var>maxPlayers = "%key%";</var>
+   <filepath>cfg/server.cfg</filepath>
+   <options>key-regex</options>
+  </text>
+
+  <text key="control_password">
+   <default>(passwordAdmin\s*=\s*")(.*)(";)</default>
+   <var>passwordAdmin = "%key%";</var>
+   <filepath>cfg/server.cfg</filepath>
+   <options>key-regex</options>
+  </text>
+  
+<text key="control_password">
+   <default>RConPassword.*</default>
+   <var>RConPassword </var>
+  <filepath>cfg/battlEye/beserver.cfg</filepath> 
+    <options>s</options>
+  </text> 
+
+ <text key="port">
+    <default>Port =.*</default>
+    <var>Port = %key% </var>
+    <filepath>bec/config/config.cfg</filepath>
+    <options>key-regex</options>
+   </text>
+ <text key="ip">
+    <default>Ip =.*</default>
+    <var>Ip = %key% </var>
+    <filepath>bec/config/config.cfg</filepath>
+    <options>key-regex</options>
+   </text>
+<text key="home_path">
+    <default>BePath =.*</default>
+    <var>BePath = %key%/cfg/Battleye</var>
+    <filepath>bec/config/config.cfg</filepath>
+    <options>key-regex</options>
+   </text>
+
+<text >
+    <default>Timeout =.*</default>
+    <var>Timeout = 62</var>
+    <filepath>bec/config/config.cfg</filepath>
+    <options>key-regex</options>
+   </text>
+
+</replace_texts> 
+
+<server_params>
+
+
+ <param id="MODLIST" key="-mod=" type="text">
+<default></default>
+<option>ns</option>
+ <caption>Mods ex: @A-Map;@AI;@Moreguns;@TurboCars</caption>
+ <desc>Semicolon after each mod and you MUST copy the KEY into your keys folder. 
+Make sure if you install a MOD, you list the name here or else it wont get loaded.
+ </desc>
+ </param>
+
+</server_params>
+
+<post_install>
+wget -r -np -nH --cut-dirs=1  -R "index.html*" http://files.iaregamer.com/postinstall/bec/
+</post_install>
+<pre_start>
+find . -type f -name '*.log' -delete
+find . -type f -name '*.LOG' -delete
+find . -type f -name '*.rpt' -delete
+find . -type f -name '*.RPT' -delete
+find . -type f -name 'BEServer_active*' -delete
+</pre_start>
+
+<configuration_files>
+ <file description="Server settings">cfg\server.cfg</file>
+ <file description="Basic Network settings" >cfg\basic.cfg</file>
+ <file description="Difficulty Settings">cfg\users\player\player.arma2oaprofile</file>
+
+</configuration_files>
+
+</game_config>

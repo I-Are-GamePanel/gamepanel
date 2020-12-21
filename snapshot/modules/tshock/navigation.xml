@@ -1,0 +1,7 @@
+<navigation>
+  <page key="default" file="server.php" access="admin,user,subuser" />
+  <page key="users" file="users.php" access="admin,user,subuser" />
+  <page key="bans" file="bans.php" access="admin,user,subuser" />
+  <page key="create_token" file="create_token.php" access="admin,user,subuser" />
+  <page key="select_server" file="select_server.php" access="admin,user,subuser" />
+</navigation>

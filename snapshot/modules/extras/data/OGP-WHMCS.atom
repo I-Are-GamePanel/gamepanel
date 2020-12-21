@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/OpenGamePanel/OGP-WHMCS/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/OGP-WHMCS/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/OpenGamePanel/OGP-WHMCS/commits/master.atom"/>
+  <title>Recent Commits to OGP-WHMCS:master</title>
+  <updated>2018-08-07T19:08:31Z</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/3f58222e23ee4c17625f7edc7187ff0977c2cb64</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/OGP-WHMCS/commit/3f58222e23ee4c17625f7edc7187ff0977c2cb64"/>
+    <title>
+        Forced HTTP 1.0 headers in curl
+    </title>
+    <updated>2018-08-07T19:08:31Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars1.githubusercontent.com/u/6736736?s=30&amp;v=4"/>
+    <author>
+      <name>DieFeM</name>
+      <uri>https://github.com/DieFeM</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Forced HTTP 1.0 headers in curl
+
+To avoid chunked transfers.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/167c4389dff483c31a78ef8a8fd9a326a023e54e</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/OGP-WHMCS/commit/167c4389dff483c31a78ef8a8fd9a326a023e54e"/>
+    <title>
+        OGP API for WHMCS (api.php) assign port on next IP
+    </title>
+    <updated>2018-04-29T19:11:16Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars1.githubusercontent.com/u/6736736?s=30&amp;v=4"/>
+    <author>
+      <name>DieFeM</name>
+      <uri>https://github.com/DieFeM</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;OGP API for WHMCS (api.php) assign port on next IP
+
+The API has been modified to iterate the remote server IPs until it finds a port available in the ports range.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/5b866df6f4a625f37ec48e1de3ad7f717c80e469</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/OGP-WHMCS/commit/5b866df6f4a625f37ec48e1de3ad7f717c80e469"/>
+    <title>
+        Change to Signature
+    </title>
+    <updated>2018-01-25T16:36:05Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Change to Signature&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/5b8644ad341233ea82100034e5598e20c41013e5</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/OGP-WHMCS/commit/5b8644ad341233ea82100034e5598e20c41013e5"/>
+    <title>
+        Change
+    </title>
+    <updated>2017-10-29T16:05:14Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Change&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/c20a232f3479302b2681a8efb03a69364fd5477c</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/OGP-WHMCS/commit/c20a232f3479302b2681a8efb03a69364fd5477c"/>
+    <title>
+        Lock EXE After Manual Update
+    </title>
+    <updated>2017-10-21T22:32:58Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Lock EXE After Manual Update&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/45bb0f0a4d2f6fcf5b003b5fe17e30fcb8711088</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/OGP-WHMCS/commit/45bb0f0a4d2f6fcf5b003b5fe17e30fcb8711088"/>
+    <title>
+        WHMCS OGP Files from SourceForge
+    </title>
+    <updated>2017-02-12T06:12:31Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;WHMCS OGP Files from SourceForge&lt;/pre&gt;
+    </content>
+  </entry>
+</feed>

@@ -1,0 +1,58 @@
+p.center > input[value="Add Remote Host"] {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+#content a:link, #content a:visited {
+    color:#373737;
+    font-weight:bold;
+}
+
+a:link, a:visited {
+    color:#373737;
+    text-decoration:none;
+}
+
+.maintr {
+	border:none !important;
+}
+
+.main-content {
+    background:none repeat scroll 0% 0% #505050;
+    border-radius:3px;
+	-moz-border-radius:3px;
+    border:1px solid #484848;
+    overflow:auto;
+    padding-right:1%;
+    padding-bottom:1%;
+    padding-left:1%;
+}
+
+#content {
+    border-radius:3px;
+	-moz-border-radius:3px;
+    background:#505050;
+    margin:0px auto;
+    text-align:left;
+}
+
+table.tablesorter tbody td {
+    color:#d8d8d8;
+    padding:4px;
+    background-color:#585858;
+    vertical-align:top;
+}
+
+#content a:link, #content a:visited {
+    color:#d8d8d8;
+    font-weight:bold;
+}

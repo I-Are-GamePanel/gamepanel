@@ -1,0 +1,4 @@
+<navigation>
+	<page key="circular" file="circular.php" access="admin" />
+	<page key="show_circular" file="show_circular.php" access="admin,user,subuser" />
+</navigation>

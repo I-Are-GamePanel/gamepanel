@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/OpenGamePanel/Module-LGSL_with_Img_Mod/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-LGSL_with_Img_Mod/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/OpenGamePanel/Module-LGSL_with_Img_Mod/commits/master.atom"/>
+  <title>Recent Commits to Module-LGSL_with_Img_Mod:master</title>
+  <updated>2019-05-06T22:47:24Z</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/9ba7150e57c46598bcee5d340952c22ef978d90f</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-LGSL_with_Img_Mod/commit/9ba7150e57c46598bcee5d340952c22ef978d90f"/>
+    <title>
+         Latest and final GeoIP.dat
+    </title>
+    <updated>2019-05-06T22:47:24Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/17416415?s=30&amp;u=3d3d55a7fda4e2c1a079600ba4da7283a2d391d2&amp;v=4"/>
+    <author>
+      <name>Zorrototo</name>
+      <uri>https://github.com/Zorrototo</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt; Latest and final GeoIP.dat 
+
+GeoLite legacy is now discontinued, modules will need update in order to use the new GeoLite2 database in the future. See https://support.maxmind.com/geolite-legacy-discontinuation-notice/&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/40ebff5be0d2e23d41e695dc0d95554a57c4c085</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-LGSL_with_Img_Mod/commit/40ebff5be0d2e23d41e695dc0d95554a57c4c085"/>
+    <title>
+        Changes
+    </title>
+    <updated>2017-11-30T07:08:56Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Changes&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/f526b5884708348ebae75f07dfb679c964d6d519</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-LGSL_with_Img_Mod/commit/f526b5884708348ebae75f07dfb679c964d6d519"/>
+    <title>
+        Merge pull request #9 from Adjokip/patch-1
+    </title>
+    <updated>2017-08-29T06:30:47Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #9 from Adjokip/patch-1
+
+Remove Third-Party IP Lookup&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/2c8a53300e05ca34d6ac45fd44934088e6878cce</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-LGSL_with_Img_Mod/commit/2c8a53300e05ca34d6ac45fd44934088e6878cce"/>
+    <title>
+        Update lgsl_class.php
+    </title>
+    <updated>2017-08-28T08:47:57Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/14150999?s=30&amp;u=7d6eaf3bd8cdf7d0dc155f4adc9c46b1bb36a70a&amp;v=4"/>
+    <author>
+      <name>Adjokip</name>
+      <uri>https://github.com/Adjokip</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Update lgsl_class.php&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/d1bc054c2d26a5dcfe9b1f649f05496a4f53373c</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-LGSL_with_Img_Mod/commit/d1bc054c2d26a5dcfe9b1f649f05496a4f53373c"/>
+    <title>
+        Merge pull request #1 from Adjokip/patch-2
+    </title>
+    <updated>2017-08-27T19:48:37Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/14150999?s=30&amp;u=7d6eaf3bd8cdf7d0dc155f4adc9c46b1bb36a70a&amp;v=4"/>
+    <author>
+      <name>Adjokip</name>
+      <uri>https://github.com/Adjokip</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #1 from Adjokip/patch-2
+
+Update lgsl_class.php&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/b8ed871b1135664b66b6474ab002e632770fa66e</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-LGSL_with_Img_Mod/commit/b8ed871b1135664b66b6474ab002e632770fa66e"/>
+    <title>
+        Update lgsl_class.php
+    </title>
+    <updated>2017-08-27T19:47:23Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/14150999?s=30&amp;u=7d6eaf3bd8cdf7d0dc155f4adc9c46b1bb36a70a&amp;v=4"/>
+    <author>
+      <name>Adjokip</name>
+      <uri>https://github.com/Adjokip</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Update lgsl_class.php&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/188f417a6b4567fb60f9d91e8778cd07456be017</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-LGSL_with_Img_Mod/commit/188f417a6b4567fb60f9d91e8778cd07456be017"/>
+    <title>
+        Update lgsl_list.php
+    </title>
+    <updated>2017-08-27T19:45:21Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/14150999?s=30&amp;u=7d6eaf3bd8cdf7d0dc155f4adc9c46b1bb36a70a&amp;v=4"/>
+    <author>
+      <name>Adjokip</name>
+      <uri>https://github.com/Adjokip</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Update lgsl_list.php&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/fdbf1ee58a788ad150258bbbe6894c5c2428781f</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-LGSL_with_Img_Mod/commit/fdbf1ee58a788ad150258bbbe6894c5c2428781f"/>
+    <title>
+        Merge pull request #8 from rocco27/master
+    </title>
+    <updated>2017-06-24T03:33:15Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #8 from rocco27/master
+
+Fixed Copyrights in the files&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/4845270fe99a76257a3fa3248477e19f7eafe64a</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-LGSL_with_Img_Mod/commit/4845270fe99a76257a3fa3248477e19f7eafe64a"/>
+    <title>
+        Fixed Copyrights in the files
+    </title>
+    <updated>2017-06-23T23:08:40Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/5268244?s=30&amp;u=90b4643b2b74de909d90b0a3c7c3e4261ef652ee&amp;v=4"/>
+    <author>
+      <name>rocco27</name>
+      <uri>https://github.com/rocco27</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Fixed Copyrights in the files&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/8f06010bc831acd3f894a2ba1cb77f8308164f15</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-LGSL_with_Img_Mod/commit/8f06010bc831acd3f894a2ba1cb77f8308164f15"/>
+    <title>
+        Cleanup
+    </title>
+    <updated>2017-06-04T21:43:45Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Cleanup&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/65ae1b6826a40a55e7ac38c584c14160ed8d8bed</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-LGSL_with_Img_Mod/commit/65ae1b6826a40a55e7ac38c584c14160ed8d8bed"/>
+    <title>
+        Transifex Language Updates - Generated by own3mall&#39;s auto script.
+    </title>
+    <updated>2017-06-04T21:42:21Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Transifex Language Updates - Generated by own3mall&amp;#39;s auto script.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/dfd60aa300e6d65ff6c467d3d9490a3aedc88c96</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-LGSL_with_Img_Mod/commit/dfd60aa300e6d65ff6c467d3d9490a3aedc88c96"/>
+    <title>
+        Transifex Language Updates - Generated by own3mall&#39;s auto script.
+    </title>
+    <updated>2017-06-04T11:31:27Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Transifex Language Updates - Generated by own3mall&amp;#39;s auto script.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/de6fdd77f1593f9cf34f9def69dc815006e4bdc7</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-LGSL_with_Img_Mod/commit/de6fdd77f1593f9cf34f9def69dc815006e4bdc7"/>
+    <title>
+        Transifex Language Updates - Generated by own3mall&#39;s auto script.
+    </title>
+    <updated>2017-05-31T06:07:55Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Transifex Language Updates - Generated by own3mall&amp;#39;s auto script.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/3a86f69793f6571b33bf16f32ab296361f1e9aee</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-LGSL_with_Img_Mod/commit/3a86f69793f6571b33bf16f32ab296361f1e9aee"/>
+    <title>
+        Transifex Language Updates - Generated by own3mall&#39;s auto script.
+    </title>
+    <updated>2017-05-28T16:12:38Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Transifex Language Updates - Generated by own3mall&amp;#39;s auto script.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/9ac5fc162ce72791f668dedb8c32d24bb4e9e027</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-LGSL_with_Img_Mod/commit/9ac5fc162ce72791f668dedb8c32d24bb4e9e027"/>
+    <title>
+        Transifex Language Updates - Generated by own3mall&#39;s auto script.
+    </title>
+    <updated>2017-04-20T22:45:23Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Transifex Language Updates - Generated by own3mall&amp;#39;s auto script.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/c2e1df923326433c2cf41c0185e56fbda417a73b</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-LGSL_with_Img_Mod/commit/c2e1df923326433c2cf41c0185e56fbda417a73b"/>
+    <title>
+        Merge pull request #6 from Zorrototo/master
+    </title>
+    <updated>2017-02-19T06:58:32Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #6 from Zorrototo/master
+
+Updated GeoIP.dat&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/4d85bf4e7d89dcdb3df05030f0546da3bc5a8fde</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-LGSL_with_Img_Mod/commit/4d85bf4e7d89dcdb3df05030f0546da3bc5a8fde"/>
+    <title>
+        Updated GeoIP.dat
+    </title>
+    <updated>2017-02-15T13:34:27Z</updated>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4118d9eccaab93259671822019bcc4d5?d=https%3A%2F%2Fgithub.githubassets.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&amp;r=g&amp;s=30"/>
+    <author>
+      <name></name>
+      <email>zebilaweed@free.fr</email>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Updated GeoIP.dat&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/e8312935d27b39952979e5b3c8b9342d5f8a1149</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-LGSL_with_Img_Mod/commit/e8312935d27b39952979e5b3c8b9342d5f8a1149"/>
+    <title>
+        Modified Version of Omano&#39;s Proposed Fix: https://github.com/OpenGame…
+    </title>
+    <updated>2017-02-14T03:19:21Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Modified Version of Omano&amp;#39;s Proposed Fix: https://github.com/OpenGamePanel/Module-LGSL_with_Img_Mod/pull/4&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/f456758cd416e89328ea6edaaa8bbdffad4ea376</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-LGSL_with_Img_Mod/commit/f456758cd416e89328ea6edaaa8bbdffad4ea376"/>
+    <title>
+        Merge pull request #1 from Zorrototo/patch-1
+    </title>
+    <updated>2017-02-14T03:08:15Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #1 from Zorrototo/patch-1
+
+Adding French to LGSL module, changing cache to 10 sec&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/f575e83cfec956bb0898e6ceb376d677198e6d2c</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Module-LGSL_with_Img_Mod/commit/f575e83cfec956bb0898e6ceb376d677198e6d2c"/>
+    <title>
+        Merge pull request #2 from Zorrototo/master
+    </title>
+    <updated>2017-02-14T03:07:43Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #2 from Zorrototo/master
+
+Less ugly default images&lt;/pre&gt;
+    </content>
+  </entry>
+</feed>

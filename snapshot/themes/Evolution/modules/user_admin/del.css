@@ -1,0 +1,15 @@
+.main-content > p > a {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff !important;	
+	cursor:pointer;
+	margin-left:10px;
+	width:75px !important;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}

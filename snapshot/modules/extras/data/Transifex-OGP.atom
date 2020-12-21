@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/OpenGamePanel/Transifex-OGP/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Transifex-OGP/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/OpenGamePanel/Transifex-OGP/commits/master.atom"/>
+  <title>Recent Commits to Transifex-OGP:master</title>
+  <updated>2018-07-21T19:24:43Z</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/7d2bd3aeabfad52e21a4f0736c5a0f72dd5b8339</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Transifex-OGP/commit/7d2bd3aeabfad52e21a4f0736c5a0f72dd5b8339"/>
+    <title>
+        Minor Changes
+    </title>
+    <updated>2018-07-21T19:24:43Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Minor Changes&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/725264dd56d0df8b4c52c42923557f2e2eaf8690</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Transifex-OGP/commit/725264dd56d0df8b4c52c42923557f2e2eaf8690"/>
+    <title>
+        Merge branch &#39;master&#39; of github.com:OpenGamePanel/Transifex-OGP
+    </title>
+    <updated>2017-12-08T00:00:08Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge branch &amp;#39;master&amp;#39; of github.com:OpenGamePanel/Transifex-OGP&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/da09edd2cb404b427a2639baacc81a95e6abacf8</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Transifex-OGP/commit/da09edd2cb404b427a2639baacc81a95e6abacf8"/>
+    <title>
+        Fixed Quote Issue
+    </title>
+    <updated>2017-12-07T23:59:30Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Fixed Quote Issue&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/b0bf3aec917cc1e0d585fa390d30789e2c7bb2aa</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Transifex-OGP/commit/b0bf3aec917cc1e0d585fa390d30789e2c7bb2aa"/>
+    <title>
+        Update README.md
+    </title>
+    <updated>2017-11-30T02:44:11Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Update README.md&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/ba25299c647327b1f0b2c7f647a94848c01ab111</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Transifex-OGP/commit/ba25299c647327b1f0b2c7f647a94848c01ab111"/>
+    <title>
+        Update README.md
+    </title>
+    <updated>2017-11-30T02:43:57Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Update README.md&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/8a1b774e20329eef13169c602b7021d1d1546037</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Transifex-OGP/commit/8a1b774e20329eef13169c602b7021d1d1546037"/>
+    <title>
+        Latest Version
+    </title>
+    <updated>2017-11-30T02:37:06Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Latest Version&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/2d92a078dc00a9e63e8ca0caa73616dbbc792a79</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Transifex-OGP/commit/2d92a078dc00a9e63e8ca0caa73616dbbc792a79"/>
+    <title>
+        Scripts Used to Automate Transifex Files...
+    </title>
+    <updated>2016-12-01T04:16:04Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Scripts Used to Automate Transifex Files...
+
+Assumes you have installed the tx transifex python client using pip
+Assumes you have git cloned everything using SSH and have a ~/.ssh/config file setup with GitHub key for project
+Assumes you have set your global git config to the right username and password&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/2e7a3b1c58a2802d8c842f4d928950febcb8cfb4</id>
+    <link type="text/html" rel="alternate" href="https://github.com/OpenGamePanel/Transifex-OGP/commit/2e7a3b1c58a2802d8c842f4d928950febcb8cfb4"/>
+    <title>
+        Initial commit
+    </title>
+    <updated>2016-12-01T04:05:22Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/11792538?s=30&amp;u=bdc7d8d169f2e04f3ebe927735e8f9e390514c67&amp;v=4"/>
+    <author>
+      <name>own3mall</name>
+      <uri>https://github.com/own3mall</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Initial commit&lt;/pre&gt;
+    </content>
+  </entry>
+</feed>

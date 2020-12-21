@@ -1,0 +1,70 @@
+table.center > tbody > tr > td > form > input[value="Unassign"] {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;	
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+.main-content > p > a {
+	background-color:#373737;
+	border:1px solid #373737;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff !important;	
+	cursor:pointer;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+
+table.center > tbody > tr {
+	text-transform:uppercase;
+	
+}
+
+table.center > tbody > tr > td{
+	border:1px solid #3f3f3f !important;
+	background:#3f3f3f;
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+
+.main-content {
+	background-color:#505050;
+    border-radius:3px;
+	-moz-border-radius:3px; 
+    border:1px solid #484848;
+    overflow:auto;
+    padding-right:1%;
+    padding-bottom:1%;
+    padding-left:1%;
+}
+
+#content {
+	background:#505050;
+    border-radius:3px;
+	-moz-border-radius:3px;
+    margin:0px auto;
+    text-align:left;
+}
+
+.main-content > h3 {
+    color:#ffffff !important;
+    margin:10px 0px 5px;
+}
+
+table.center{
+	padding-bottom:20px;
+}

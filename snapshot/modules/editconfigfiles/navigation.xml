@@ -1,0 +1,4 @@
+<navigation>
+	<page key="modify" file="modify.php" access="user,admin,subuser" />
+	<page key="default" file="configFileList.php" access="user,admin,subuser" />
+</navigation>

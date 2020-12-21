@@ -1,0 +1,24 @@
+.status{
+	border: 1px solid black;
+	width:50%;
+}
+.key{
+	vertical-align:top;
+	font-weight:bold;
+}
+.value{
+	font-style: italic;
+}
+.entry_t1{
+	background-color:#ccc;
+}
+.entry_t2{
+	background-color:#ddd;
+}
+.entry_t3{
+	background-color:#bbb;
+}
+.entry_t4{
+	background-color:#eee;
+	color:blue;
+}

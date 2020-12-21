@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<workshop_settings>
+  <workshop_id>4000</workshop_id>
+  <download_method>steamapi</download_method>
+  <anonymous_login>1</anonymous_login>
+  <mods_path>mods</mods_path>
+  <mods>
+    <mod id="1403476308">
+      <name>gm_news_studio</name>
+      <description>TmV3cyBTdHVkaW8gb2YgR2FycnkncyBNb2QhIFlvdSBjYW4gZmluYWxseSBtYWtlIHlvdXIgb3duIG5ld3Mgb24gdGhpcyBtYXAhDQpNYXAgZG9lcyBub3QgcmVxdWlyZSBhbnkgYWRkaXRpb25hbCBjb250ZW50Lg0KU29tZSBwYXJ0cyBvZiBtYXAgYXJlIGNvbG91cmFibGUuDQoNCklmIHlvdSBsaWtlIHRoaXMgYWRkb24gc28gbXVjaCwgdGhhdCB5b3UgY2FuIGdpZnQgbWUgc29tZXRoaW5nIC0gaGVyZSdzIG15IHRyYWRlLW9mZmVyOg0KDQpodHRwczovL3N0ZWFtY29tbXVuaXR5LmNvbS90cmFkZW9mZmVyL25ldy8/cGFydG5lcj0xMTEzOTA4NDAmdG9rZW49c3c4ekZmWEQNCg0KVGFnczoNCk5ld3MNClRGTg0KQnJvYWRjYXN0DQpTYW5kYm94DQpNb3ZpZQ0KQW5pbWF0aW9uDQpDYW1lcmENClZpZGlv</description>
+      <image_url>https://steamuserimages-a.akamaihd.net/ugc/910171257329171075/337E32C3BEE684EFF58A0837FAADE9CC69AE04AC/</image_url>
+      <download_url>https://steamusercontent-a.akamaihd.net/ugc/909045760924451577/085F0A63EC79B0509E2C8643DFAFE0D9E4785FCE/</download_url>
+      <filename>1528544715_223866981.gma</filename>
+      <file_size>6461914</file_size>
+    </mod>
+    <mod id="1437899079">
+      <name>Smitty Werbenjagermanjensen - Spongebob Squarepants</name>
+      <description>Ikl0IHdhcyBoaXMgaGF0IE1yLiBLcmFicyEgSGUgd2FzIG51bWJlciBvbmUhIg0KDQpTbWl0dHkgV2VyYmVuamFnZXJtYW5qZW5zZW4sIGZhaXRoZnVsbHkgcmVjcmVhdGVkIGZyb20gdGhlIGVwaXNvZGUgIk9uZSBLcmFiJ3MgVHJhc2giDQoNCltoMV1JbmNsdWRlcyBbL2gxXQ0KDQpQbGF5ZXIgbW9kZWwgDQpSYWdkb2xsIA0KRmluZ2VyIFBvc2luZyAoT25seSBvbmUgZmluZ2VyKQ0KRlBTIEFybXMNCkZyaWVuZGx5IGFuZCBIb3N0aWxlIE5QQ3MNCg0KW2gxXUNyZWRpdHMgYW5kIEh1Z2UgVGhhbmtzIFRvWy9oMV0NCltiXUdyaWZmYm9bL2JdIFRoZSBib2R5IGZvciBoaW0sIEkgZG91YnQgSSB3b3VsZCd2ZSBiZWVuIGFibGUgdG8gZG8gdGhpcy4NCltiXVdpbm5pbmdSb29rWy9iXSBGb3IgdGhlIHBpY3R1cmUuDQpbYl1TcGlrZVsvYl0gRm9yIHRoZSBoYXRzLCBoZWFkIGFuZCB0ZXh0dXJlcy4=</description>
+      <image_url>https://steamuserimages-a.akamaihd.net/ugc/955210546397733977/A0293C4D6AD86A37CFCB8EC18071FCB3E773D76B/</image_url>
+      <download_url>https://steamusercontent-a.akamaihd.net/ugc/955210546397733770/C0A22FDAC654A2067C761E5C322986CFBCC3A158/</download_url>
+      <filename>1531283572_229351499.gma</filename>
+      <file_size>2577446</file_size>
+    </mod>
+    <mod id="1443096823">
+      <name>gm_goldencity_day</name>
+      <description>SGVyZSdzIGEgbWFwIHRoYXQncyBoZWF2aWx5IGluc3BpcmVkIGJ5IGdtX2JpZ2NpdHkuIEkndmUgYmVlbiB3YW50aW5nIHRvIG1ha2UgYSBjaXR5IG1hcCBsaWtlIHRoaXMgZm9yIGEgZGVjYWRlLCBhbmQgSSd2ZSBmaW5hbGx5IGdvdHRlbiBhcm91bmQgaW50byBkb2luZyBqdXN0IHRoYXQuIEkgcHJvYmFibHkgY291bGQgaGF2ZSBnb3R0ZW4gdGhpcyBvdXQgb2YgdGhlIHdheSBhIHdoaWxlIGFnbywgYnV0IGJldHRlciBsYXRlIHRoYW4gbmV2ZXIsIEkgc3VwcG9zZS4NCg0KRmVhdHVyZXM6DQoNCi0gQSBkb3dudG93biBhcmVhIHBsdXMgYSBoaWdocmlzZSBhcmVhDQotIEEgc3Vua2VuIGhpZ2h3YXkgd2l0aCBhIGNvdXBsZSBvZiB0dW5uZWxzIGNvbm5lY3RpbmcgdG8gdGhlIG90aGVyIHJvYWRzDQotIDE0IGJ1aWxkaW5ncyB3aXRoIGludGVyaW9ycy4gVGhlcmUgYXJlIHNvbWUgZXh0ZXJpb3Igb3BlbiBkb29ycyB0aGF0IHlvdSBjYW4gd2FsayBpbnRvIHRoYXQgdGVsZXBvcnQgeW91IGludG8gdGhlIGludGVyaW9yLiBUbyBnbyBiYWNrIG91dHNpZGUsIHByZXNzIEUgb24gb25lIG9mIHRoZSBlbGV2YXRvciBkb29ycyBvciB3aGF0ZXZlciBraW5kIG9mIGRvb3IgeW91IHRlbGVwb3J0ZWQgaW4gZnJvbnQgb2YuDQotIEFuIEFJIE5vZGVncmFwaA0KLSBIRFINCi0gQSBzaW5nbGUgc291bmRzY2FwZSB0aHJvdWdob3V0IHRoZSBtYXAuIFRoZSByZWFzb24gaXQncyBqdXN0IG9uZSBpcyBiZWNhdXNlIEknbSBub3QgZ3JlYXQgYXQgc291bmRzY2FwZXMuIEknbGwgcHJvYmFibHkgd29yayBvbiB0aGF0IGxhdGVyIGFzIHdlbGwuDQotIEEgc2luZ2xlIGN1YmVtYXAgdGhhdCBhY3R1YWxseSB3b3JrcyAoYXQgbGVhc3Qgb24gbXkgZW5kLCB0aG91Z2ggSSBtYWRlIHN1cmUgaXQgd2Fzbid0IGp1c3QgdGhlIGxlZnRvdmVyIGJzcCB0aGF0IGhhZCB0aGF0KSB1bmxpa2UgdGhlIG9uZXMgaW4gdGhlIHByZXZpb3VzIG1hcCBJIHVwbG9hZGVkDQotIFR3byBjdXN0b20gbW9kZWxzIChBIHRyZWUgYW5kIGEgYmFza2V0YmFsbCBob29wKSB1c2VkIGluIHRoZSBtYXAgdGhhdCB5b3UgY2FuIHVzZSB5b3Vyc2VsZg0KLSBBIGNvdXBsZSBvZiBzZWNyZXRzDQoNCkNyZWRpdHM6DQoNCkRvY3RvciBGbG91bmRlciBCb3gsIGZvciB0aGUgYmFza2V0YmFsbCBob29wIG1vZGVsDQpCbHVlYmVycnlfUGllLCBmb3IgY29taW5nIHVwIHdpdGggdGhlIGlsbHVtaW5hdGVkIHdpbmRvdyB0ZWNobmlxdWUgKG5pZ2h0IHZlcnNpb24pDQpLaW5nUG9tbWUsIGZvciBleHBhbmRpbmcgb24gdGhhdCB0ZWNobmlxdWUgKG5pZ2h0IHZlcnNpb24pDQpic2hhZG93LCBmb3IgdGhlIGludmlzaWJsZSByYWQgbGlnaHQgdGVjaG5pcXVlIHVzZWQgZm9yIHRoZSBzdHJlZXRsaWdodHMgKG5pZ2h0IHZlcnNpb24pDQpKYWtvYmkgTydCcmllbiwgZm9yIGhlbHBpbmcgbWUgb3V0IHdpdGggYSBiaXQgb2Ygb3B0aW1pemF0aW9uIChUaG91Z2ggSSBkaWRuJ3QgZG8gYSBncmVhdCBqb2Igd2l0aCBpdCBvbiB0aGlzIHVwZGF0ZS4gSSdsbCBwcm9iYWJseSB3b3JrIG9uIGl0IHNvbWUgbW9yZSBvbiB0aGUgbmV4dCB1cGRhdGUpDQpWYWx2ZSBhbmQgQ0dUZXh0dXJlcywgZm9yIHRoZSBzb3VyY2UgbWF0ZXJpYWwgdXNlZCBmb3IgdGhlIGN1c3RvbSB0ZXh0dXJlcw0KRXZlcnlvbmUgd2hvIGdhdmUgZmVlZGJhY2sgb24gdGhlIG1hcCBpbiB0aGUgd29yay1pbi1wcm9ncmVzcyB0aHJlYWQNCg0KWW91IHdvbid0IG5lZWQgQ291bnRlciBTdHJpa2U6IFNvdXJjZSBvciBMZWZ0IDQgRGVhZCBmb3IgdGhlIHRleHR1cmVzIG9uIHRoaXMgbWFwIHRvIHdvcmssIGZvciB0aG9zZSBvZiB5b3Ugd2hvIGRvbid0IGhhdmUgZWl0aGVyIGdhbWUuIFRoZXJlIGlzIGFsc28gYSBuaWdodCB2ZXJzaW9uIG9mIHRoaXMgbWFwIHdoaWNoIGlzIHRoZSBvcmlnaW5hbCwgaWYgeW91IHdhbnQgdG8gY2hlY2sgdGhhdCBvdXQuDQoNCkFsc28sIEkganVzdCBub3RpY2VkIHRoYXQgdGhlcmUncyBhIGJ1ZyBvbiB0aGlzIG1hcCB3aGVyZSBzbWFsbCBmbGlja2VyaW5nIGJsYWNrIHRyaWFuZ2xlcyB3aWxsIGFwcGVhciBpbiB0aGUgY29ybmVycyBvZiB0aGUgc2t5Ym94IGlmIHlvdSBsb29rIGF0IGFueSBvZiB0aG9zZSBjb3JuZXJzLiBJIGhhdmUgbm8gaWRlYSBob3cgdG8gZml4IHRoaXMsIHRob3VnaCBpdCdzIG5vdCB0b28gbm90aWNhYmxlLiBJJ20gdGhpbmtpbmcgaXQgaGFzIHNvbWV0aGluZyB0byBkbyB3aXRoIHRoZSByZW5kZXIgZGlzdGFuY2UsIHdoaWNoIHdvdWxkbid0IHJlYWxseSBtYWtlIGFueSBzZW5zZSBzaW5jZSB0aGUgc2t5Ym94IGlzbid0IHN1cHBvc2VkIHRvIGhhdmUgdGhhdCBpc3N1ZS4=</description>
+      <image_url>https://steamuserimages-a.akamaihd.net/ugc/943951991654869773/338A0338BA966AF835CEB2B3B5A800487A1BACE1/</image_url>
+      <download_url>https://steamusercontent-a.akamaihd.net/ugc/943951991654867861/F167313D927ECA5D4AFAEFD76644F598B9A55AC1/</download_url>
+      <filename>1531788260_1094686331.gma</filename>
+      <file_size>25824223</file_size>
+    </mod>
+  <mod id="1905577153">
+  <name>Viper Playermodel+NPCs [Suddent Attack 2]</name>
+  <description>SSdtIG5vdCBzdXJlIHdoeSB0aGVyZSdzIG5vIHBsYXllcm1vZGVsIG9mIGhlciwgSSd2ZSBmb3VuZCBvdGhlciBQTXMgZnJvbSB0aGlzIGdhbWUgaGVyZSBidXQgbm90IFZpcGVyIGZvciBzb21lIHJlYXNvbiwgc28gSSBoYWQgdG8gZG8gdGhlIGRpcnR5IHdvcmsgbXlzZWxmIGZvciBoZXIuDQoNCkkgZG9uJ3QgZXZlbiBrbm93IHdoYXQgdGhlIGhlbGwgdGhpcyBnYW1lIGlzIGJ1dCBhIGZyaWVuZCBzaG93ZWQgaXQgdG8gbWUgYW5kIHRoaXMgZ2lybCBhcHBhcmVudGx5IGtpY2tzIGFzcy4gU28gaGVyZSBzaGUgaXMuDQoNCkhlciBuYW1lJ3MsIFZpcGVyIEkgZ3Vlc3MuIFN0aWxsIG5vdCBhcyBnb29kIGFzIGEgMjAwNiBEb2RnZSBWaXBlciBidXQgaGV5LCBJJ20gbm90IGNvbXBsYWluaW5nLg0KDQpTb21lIHBlcmtzOg0KDQotUmVtb3ZhYmxlIGVhcnBpZWNlDQoNCi1SZW1vdmFibGUgZ3JlbmFkZXMNCg0KLVJlbW92YWJsZSBzaGFkZXMNCg0KLVJlbW92YWJsZSBmaWJyZXdpcmUgdGhpbmcNCg0KLVJlbW92YWJsZSBwb3VjaGVzDQoNCi1SZW1vdmFibGUgYW1tbyBwYWNrDQoNCi1SZW1vdmFibGUga25pZmUNCg0KLUN1c3RvbSBhcm1zDQoNCi1IYWlyIHBoeXNpY3MNCg0KLUJyZWFzdCBwaHlzaWNzDQoNCi1TdW5nbGFzc2VzIHJlZmxlY3Rpb25zL3RyYW5zcGFyZW5jeQ0KDQotU2hhZGVycw0KDQotRnJpZW5kbHkgYW5kIEhvc3RpbGUgTlBDcyB1bmRlciAiU3VkZGVuIEF0dGFjayBOUENzIg0KDQpUaGF0J3MgaXQuIFNoZSB3YXMgYSByZWFsIHBhaW4gdG8gZG8sIG1pbmQgeW91LiBXaGF0ZXZlciwgaXQgd2FzIHdvcnRoIGl0Lg==</description>
+  <image_url>https://steamuserimages-a.akamaihd.net/ugc/775110033168451199/68A0F274F5E8BC3F130954BEB1C14D5A3501CB27/</image_url>
+  <download_url>https://steamusercontent-a.akamaihd.net/ugc/775110033172678876/E1FF753945A8B0E4990A8A144D1F4452611B6EF4/</download_url>
+  <filename>1572872672_1371336199.gma</filename>
+  <file_size>4436489</file_size>
+</mod>
+</mods>
+  <config>
+    <regex>(.*\n?)*</regex>
+    <mods_backreference_index>0</mods_backreference_index>
+    <variable/>
+    <place_after/>
+    <mod_string>%first_file%</mod_string>
+    <string_separator>\n</string_separator>
+    <filepath>mods/mods.txt</filepath>
+  </config>
+  <post_install>cd "%mods_full_path%/steamapps/workshop/content/4000/%workshop_mod_id%"&#xD;
+cp -f %first_file% myfile.gma&#xD;
+7z x myfile.gma -aoa &gt; /dev/null 2&gt;&amp;1&#xD;
+cp -f myfile content.gma&#xD;
+rm -f myfile.gma myfile&#xD;
+"%mods_full_path%/../bin/gmad_linux" content.gma &gt; /dev/null 2&gt;&amp;1&#xD;
+rm -f "content.gma"&#xD;
+cd content&#xD;
+zip -r "%mods_full_path%/steamapps/workshop/content/4000/%first_file%.zip" * &gt; /dev/null 2&gt;&amp;1&#xD;
+cd ../..&#xD;
+rm -Rf "%mods_full_path%/steamapps/workshop/content/4000/%workshop_mod_id%"&#xD;
+unzip -Z1 "%first_file%.zip" &gt; "%first_file%.list"&#xD;
+tac "%first_file%.list" &gt; "%first_file%.listinv"&#xD;
+cp -f "%first_file%.listinv" "%first_file%.list"&#xD;
+rm "%first_file%.listinv"&#xD;
+unzip -o "%first_file%.zip" -d "%mods_full_path%/../garrysmod" &gt; /dev/null 2&gt;&amp;1&#xD;
+rm -f "%first_file%.zip"&#xD;
+&#xD;
+if [ -f "%mods_full_path%/steamapps/workshop/content/4000/%first_file%.list" ];then&#xD;
+    cd "%mods_full_path%/../garrysmod"&#xD;
+    luaFile="%mods_full_path%/../garrysmod/lua/autorun/server/resources.lua"&#xD;
+    while read p; do&#xD;
+        if [ -f "$p" ] &amp;&amp; [ ! -d "$p" ]; then&#xD;
+            filename=$(basename -- "$p")&#xD;
+            extension="${filename##*.}"&#xD;
+            if [ "$extension" != "bsp" ] &amp;&amp; [ "$extension" != "png" ]; then&#xD;
+                newstring="resource.AddSingleFile(\"$p\")"&#xD;
+                if ! grep -Fxq "$newstring" "$luaFile"; then&#xD;
+                    echo "$newstring" &gt;&gt; "$luaFile"&#xD;
+                fi                &#xD;
+            fi&#xD;
+        fi&#xD;
+    done &lt;"%mods_full_path%/steamapps/workshop/content/4000/%first_file%.list"&#xD;
+    printf "\nContents of %first_file% successfully installed!"&#xD;
+else&#xD;
+    printf "\nFile listing not found, try it again after reinstalling the mod."&#xD;
+fi&#xD;
+&#xD;
+</post_install>
+  <uninstall>if [ -f "%mods_full_path%/steamapps/workshop/content/4000/%mod_string%.list" ];then&#xD;
+    cd "%mods_full_path%/../garrysmod"&#xD;
+    luaFile="%mods_full_path%/../garrysmod/lua/autorun/server/resources.lua"&#xD;
+    while read p; do&#xD;
+        if [ -d "$p" ]; then&#xD;
+            if [ -z "$(ls -A "$p")" ]; then&#xD;
+                rm -vRf "$p"&#xD;
+            fi&#xD;
+        else&#xD;
+            if [ -f "$p" ]; then&#xD;
+                rm -vf "$p"&#xD;
+                filestring="resource.AddSingleFile(\"$p\")"&#xD;
+                if grep -Fxq "$filestring" "$luaFile"; then&#xD;
+                    escaped_filestring=$(sed -e 's/[]\/$*.^[]/\\&amp;/g' &lt;&lt;&lt; $filestring)&#xD;
+                    sed -i "/$escaped_filestring/d" "$luaFile"&#xD;
+                fi              &#xD;
+            fi&#xD;
+        fi&#xD;
+    done &lt;"%mods_full_path%/steamapps/workshop/content/4000/%mod_string%.list"&#xD;
+    printf "\nContents of %mod_string% successfully uninstalled!"&#xD;
+else&#xD;
+    printf "\nFile listing not found, try it again after reinstalling the mod."&#xD;
+fi</uninstall>
+</workshop_settings>

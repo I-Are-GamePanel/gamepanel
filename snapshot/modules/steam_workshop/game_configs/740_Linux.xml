@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<workshop_settings>
+  <workshop_id>730</workshop_id>
+  <download_method>steamapi</download_method>
+  <anonymous_login>1</anonymous_login>
+  <mods_path>mods</mods_path>
+  <mods>
+    <mod id="1433404064">
+      <name>Mirage [Compatibility Version 1.36.3.8]</name>
+      <description>QW4gb2xkZXIgdmVyc2lvbiBvZiBvZmZpY2lhbCBtYXAgYnkgVmFsdmUgZm9yIGRlbW8gcGxheWJhY2sgY29tcGF0aWJpbGl0eS4gVGhpcyBtYXAgd2FzIHByZXZpb3VzbHkgdXNlZCBpbiBPZmZpY2lhbCBNYXRjaG1ha2luZyBpbiBDUzpHTy4gSXQgY291bGQgYmUgcGxheWVkIGluIERlYXRobWF0Y2gsIENsYXNzaWMgQ2FzdWFsLCBhbmQgQ2xhc3NpYyBDb21wZXRpdGl2ZS4=</description>
+      <image_url>https://steamuserimages-a.akamaihd.net/ugc/387665671598503104/9BC8E9D876916173C915233460D559231FF4E4E3/</image_url>
+      <download_url>https://steamusercontent-a.akamaihd.net/ugc/945077059916661709/A20ADA8668F0BB0EE12F61314137BE71EFDFF6C3/</download_url>
+      <filename>de_mirage.bsp</filename>
+      <file_size>17429043</file_size>
+    </mod>
+    <mod id="1440818854">
+      <name>cs_noffice [office in nuke-style]</name>
+      <description>YSBzbWFsbCBmdW5tYXANCg0KZW5qb3kgYW5kIGhhdmUgZnVuIDotKQ==</description>
+      <image_url>https://steamuserimages-a.akamaihd.net/ugc/964217986228487212/CF7FB6AFE894AF59908CDA64AD5E8F852D39AE1E/</image_url>
+      <download_url>https://steamusercontent-a.akamaihd.net/ugc/964217986228482922/A3EB0675317A2395DC96870AFE3EDB9608616787/</download_url>
+      <filename>cs_noffice.bsp</filename>
+      <file_size>72639068</file_size>
+    </mod>
+    <mod id="1414531578">
+      <name>de_cornerwork</name>
+      <description>RGVfY29ybmVyd29yayBmcm9tIENTTzIsIG1hZGUgYnkgTmV4b24=</description>
+      <image_url>https://steamuserimages-a.akamaihd.net/ugc/938320142839248719/DE42CB9345A53EC8B4BBE5381D8AD55407FD88D1/</image_url>
+      <download_url>https://steamusercontent-a.akamaihd.net/ugc/938321006101014631/2F2EF3472A0FC4B10D1AD559FC516B742AF43C15/</download_url>
+      <filename>de_cornerwork.bsp</filename>
+      <file_size>87872150</file_size>
+    </mod>
+  <mod id="2060357514">
+  <name>Resort [HIDE AND SEEK]</name>
+  <description>W2ltZ11odHRwczovL2kuaW1ndXIuY29tL0drdzdtd20uZ2lmWy9pbWddIA0KDQpZb3VUdWJlIGh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL2NoYW5uZWwvVUNCY3NIcThydWg4RkZOQk1zVmU2T1RRDQoNClZLIGh0dHBzOi8vdmsuY29tL3RydWZ5eXQNCg0K0JzQvtC5INGB0LXRgNCy0LXRgCDQv9C+INC80LDQvdGM0Y/QutGDDQo0Ni4xNzQuNTQuMzE6ODEyMw0KDQozZCBza3lib3gg0YHQtNC10LvQsNC7IFt1cmw9aHR0cHM6Ly9zdGVhbWNvbW11bml0eS5jb20vaWQva2VhbTE2L11bYl1rRWFtWy9iXVsvdXJsXQ==</description>
+  <image_url>https://steamuserimages-a.akamaihd.net/ugc/1020570974160862657/0613453455C0E467EBA4AB2AF1318C12777091EB/</image_url>
+  <download_url>https://steamusercontent-a.akamaihd.net/ugc/1020570974160858631/DCA3FC961F15394CAFD580BC67B19C6D01E89CAA/</download_url>
+  <filename>forserver1.bsp</filename>
+  <file_size>116175062</file_size>
+</mod>
+</mods>
+  <config>
+    <regex>(.*\n?)*</regex>
+    <mods_backreference_index>0</mods_backreference_index>
+    <variable/>
+    <place_after/>
+    <mod_string>%first_file%</mod_string>
+    <string_separator>\n</string_separator>
+    <filepath>mods/modlist.txt</filepath>
+  </config>
+  <post_install>printf "\nRunning post installation for mod %workshop_mod_id%"&#xD;
+printf "\nInstalling Map %first_file%\n"&#xD;
+unzip -o "%mods_full_path%/steamapps/workshop/content/730/%workshop_mod_id%/%first_file%" -d "%mods_full_path%/../csgo/maps"&#xD;
+printf "\nCleaning up"&#xD;
+rm -Rf "%mods_full_path%/steamapps/workshop/content/730/%workshop_mod_id%"&#xD;
+map=%first_file%&#xD;
+map=${map%.bsp}&#xD;
+maplist_file="%mods_full_path%/../csgo/maplist.txt"&#xD;
+maplist_content=$(cat "$maplist_file")&#xD;
+if [ ! -z "${maplist_content##*$map*}" ];then&#xD;
+    printf "\nAdding Map to maplist.txt"&#xD;
+    echo $map &gt;&gt; "$maplist_file"&#xD;
+else&#xD;
+    printf "\nMap already in maplist.txt"&#xD;
+fi&#xD;
+printf "\nInstallation for map %first_file% completed!"&#xD;
+</post_install>
+  <uninstall>map=%mod_string%&#xD;
+if [ -f "%mods_full_path%/../csgo/maps/$map" ];then&#xD;
+    rm -f $map&#xD;
+fi&#xD;
+map=${map%.bsp}&#xD;
+maplist_file="%mods_full_path%/../csgo/maplist.txt"&#xD;
+sed -i "/^$map$/d" $maplist_file&#xD;
+</uninstall>
+</workshop_settings>
